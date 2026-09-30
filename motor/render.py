@@ -31,7 +31,13 @@ def words(txt, base_delay, step=0.09, cls="w"):
     return " ".join(out), base_delay + i * step
 
 pontos = rot["pontos"][:3]
-D_HOOK, D_PT, D_CTA = 4.6, 5.2, 4.4
+narr = rot.get("narracao") or {}
+def _dur(txt, base):
+    w = len(str(txt or "").split())
+    return round(min(8.5, max(base, w / 2.5 + 0.9)), 2) if w else base
+N_HOOK = narr.get("hook", ""); N_PTS = (narr.get("pontos") or ["", "", ""])[:3]; N_CTA = narr.get("cta", "")
+D_HOOK = _dur(N_HOOK, 4.6); D_CTA = _dur(N_CTA, 4.4)
+D_PTS = [_dur(N_PTS[i] if i < len(N_PTS) else "", 5.2) for i in range(len(pontos))]
 scenes, t = [], 0.0
 
 # Cena 1: gancho
@@ -45,6 +51,7 @@ t += D_HOOK
 # Cenas 2-4: pontos
 for n, p in enumerate(pontos, 1):
     tt, _ = words(p["titulo"], t + 0.45, 0.08)
+    D_PT = D_PTS[n - 1]
     scenes.append((t, D_PT, f'''
  <div class="num" style="--d:{t+0.05:.2f}s">0{n}</div>
  <div class="ring" style="--d:{t+0.1:.2f}s"></div>
@@ -140,14 +147,20 @@ with sync_playwright() as pw:
     br.close()
 ff.stdin.close(); ff.wait()
 
-# Trilha: pad ambiente + pulso grave 120bpm + whoosh nas trocas de cena (gerada, sem direitos autorais)
-cuts = [s for s, _, _ in scenes[1:]]
-whoosh = "+".join(f"0.35*exp(-((t-{c:.2f})*6)^2)*(random(0)*2-1)" for c in cuts) or "0"
-expr = (f"0.10*sin(2*PI*110*t)*(0.6+0.4*sin(2*PI*0.25*t))+0.07*sin(2*PI*164.81*t)+0.05*sin(2*PI*220*t)*(0.5+0.5*sin(2*PI*0.5*t))"
-        f"+0.45*sin(2*PI*52*t)*exp(-14*mod(t,0.5))+{whoosh}")
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp_v, "-f", "lavfi", "-t", f"{TOTAL:.2f}",
-                "-i", f"aevalsrc='{expr}':s=44100",
-                "-af", f"lowpass=f=3500,afade=t=in:d=0.6,afade=t=out:st={TOTAL-1.2:.2f}:d=1.2,volume=0.8",
-                "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", OUT], check=True)
+# Trilha propria (gerada por codigo) + ficha de cenas para a narracao (n8n)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from trilha import gerar
+cuts = [st for st, _, _ in scenes[1:]]
+wav = OUT + ".wav"
+gerar(TOTAL, cuts, wav, seed=abs(hash(rot.get("hook", ""))) % 1000)
+alvo = "-20" if narr else "-15"  # com narracao a musica fica mais baixa
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp_v, "-i", wav,
+                "-af", f"loudnorm=I={alvo}:TP=-1.5:LRA=11", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                "-ar", "44100", "-shortest", "-movflags", "+faststart", OUT], check=True)
+os.remove(wav)
+textos = [N_HOOK] + [N_PTS[i] if i < len(N_PTS) else "" for i in range(len(pontos))] + [N_CTA]
+ficha = {"duracao": round(TOTAL, 2), "cenas": [{"inicio": round(st, 2), "duracao": d, "narracao": textos[i]}
+         for i, (st, d, _) in enumerate(scenes)]}
+json.dump(ficha, open(OUT + ".cenas.json", "w"), ensure_ascii=False, indent=1)
 os.remove(tmp_v)
 print(json.dumps({"ok": True, "arquivo": OUT, "duracao_s": round(TOTAL, 1), "frames": nframes}))
