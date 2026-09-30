@@ -1,11 +1,38 @@
 {
  "data": "2026-09-30",
  "video": "2026-09-30.mp4",
- "titulo_youtube": "ChatGPT agora trabalha sozinho: o que são os Dots #shorts",
- "legenda_post": "Sua IA agora pode continuar trabalhando depois que você fecha o chat 🤖\nA OpenAI apresentou os Dots no DevDay: agentes dentro do ChatGPT que seguem a tarefa por conta própria, com computador e navegador na nuvem.\nPor enquanto, os Dots estão liberados nos planos Pro e Business Premium, fora da Europa, Suíça e Reino Unido.\nNo plano grátis já chegam o Codex CLI atualizado, a revisão de código, plugins e perfis compartilháveis. Vale abrir o ChatGPT e testar hoje.\n\n👇 Todo dia uma ferramenta nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\nComenta IA que eu te mando o link no direct\nSalva esse vídeo 🔖\n\n#issoedica #IA #InteligenciaArtificial #ChatGPT #OpenAI #Dots #AgentesDeIA #DevDay #Automacao #FerramentasDeIA",
- "tema": "OpenAI Dots agente DevDay",
+ "titulo_youtube": "Claude Sonnet 5.5 chegou de graça: teste hoje #shorts",
+ "legenda_post": "Você não precisa pagar para usar uma das IAs mais rápidas do momento 🚀\nA Anthropic lançou o Claude Sonnet 5.5, mais de 30% mais rápido que o Sonnet 5 e com custo até 30% menor por tarefa.\nEle já é o modelo padrão do plano gratuito e do Pro no claude.ai, sem precisar trocar nada.\nComo usar: entre no claude.ai, faça login e mande uma tarefa real, como resumir um texto, montar um roteiro ou organizar sua semana.\n\n👇 Todo dia uma ferramenta nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\nComenta IA que eu te mando o link no direct\nSalva esse vídeo 🔖\n\n#issoedica #IA #InteligenciaArtificial #Claude #ClaudeSonnet #Anthropic #IAGratis #FerramentasDeIA #ProdutividadeComIA",
+ "tema": "Claude Sonnet 5.5 grátis",
  "fontes": [
-  "https://openai.com/index/devday-2026-recap/",
-  "https://www.business-standard.com/technology/tech-news/openai-devday-2026-dots-gpt-6-1-sol-codex-developer-tools-126093000396_1.html"
+  "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+  "https://www.notebookcheck.net/Claude-Sonnet-5-5-is-available-on-the-free-plan-unlike-Opus-5-5.1411941.0.html"
+ ],
+ "cenas": [
+  {
+   "inicio": 0.0,
+   "duracao": 6.9,
+   "narracao": "Um modelo novo de inteligência artificial acabou de chegar, e você pode usar de graça."
+  },
+  {
+   "inicio": 6.9,
+   "duracao": 8.5,
+   "narracao": "Primeiro: o Claude Sonnet 5.5 é mais de trinta por cento mais rápido que o anterior e gasta menos por tarefa."
+  },
+  {
+   "inicio": 15.4,
+   "duracao": 7.3,
+   "narracao": "Segundo: ele já vem como modelo padrão no plano gratuito, então você nem precisa trocar nada."
+  },
+  {
+   "inicio": 22.7,
+   "duracao": 8.1,
+   "narracao": "Terceiro: abra o site do Claude, faça login e mande uma tarefa real do seu dia para testar."
+  },
+  {
+   "inicio": 30.8,
+   "duracao": 6.1,
+   "narracao": "Quer o passo a passo? Comenta IA que eu te mando o link."
+  }
  ]
 }
