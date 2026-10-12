@@ -1,0 +1,11 @@
+{
+ "data": "2026-10-12",
+ "video": "2026-10-12.mp4",
+ "titulo_youtube": "Anthropic audita seu código de graça com IA #shorts",
+ "legenda_post": "Dá pra pedir pro Claude revisar a segurança do seu projeto sem pagar nada 🔍\nA Anthropic abriu o OSS Scanner: um serviço gratuito que faz varreduras recorrentes de vulnerabilidades em projetos open source usando o Claude Mythos.\nPra entrar, o mantenedor abre um pull request no repositório anthropics/oss-scanner com um arquivo project.yaml.\nAtenção: os relatórios saem direto da IA, sem revisão humana. Confira cada alerta antes de corrigir.\n\n👇 Todo dia uma ferramenta nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\nComenta IA que eu te mando o link no direct\nSalva esse vídeo 🔖\n\n#issoedica #IA #InteligenciaArtificial #Anthropic #Claude #OpenSource #SegurancaDigital #Programacao #FerramentasIA #Tecnologia",
+ "tema": "Anthropic OSS Scanner grátis",
+ "fontes": [
+  "https://betanews.com/article/anthropic-oss-scanner-free-mythos-bug-scans/",
+  "https://www.techloy.com/anthropic-oss-scanner-free-ai-vulnerability-scans/"
+ ]
+}
