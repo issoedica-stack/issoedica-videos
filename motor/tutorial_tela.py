@@ -27,11 +27,95 @@ FR_DIR = OUT_MP4 + "_frames"
 shutil.rmtree(FR_DIR, ignore_errors=True)
 os.makedirs(FR_DIR)
 
+FM = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
 _font_cache = {}
-def font(s):
-    if s not in _font_cache:
-        _font_cache[s] = ImageFont.truetype(FB, s)
-    return _font_cache[s]
+def font(s, mono=False):
+    k = (s, mono)
+    if k not in _font_cache:
+        _font_cache[k] = ImageFont.truetype(FM if mono else FB, s)
+    return _font_cache[k]
+
+# fundo dos blocos de motion graphics: grade sutil + brilho roxo
+MBG = Image.new("RGB", (W, H), (8, 9, 14)); _d = ImageDraw.Draw(MBG)
+for _x in range(0, W, 60): _d.line([(_x, 0), (_x, H)], fill=(16, 18, 26))
+for _y in range(0, H, 60): _d.line([(0, _y), (W, _y)], fill=(16, 18, 26))
+_g = Image.new("L", (W, H), 0); ImageDraw.Draw(_g).ellipse([W/2-520, 500, W/2+520, 1500], fill=70)
+MBG = Image.composite(Image.new("RGB", (W, H), (40, 30, 90)), MBG, _g.filter(ImageFilter.GaussianBlur(200))).convert("RGBA")
+MUT = (120, 126, 150); CY = (0, 224, 198); RED = (255, 70, 70)
+
+def eout(p):
+    p = min(max(p, 0), 1); return 1 - (1 - p) ** 3
+def seg(t, a, b): return min(max((t - a) / (b - a), 0), 1)
+
+def scaled_text(canvas, txt, cy, size, fill, k, a=1.0):
+    if k <= 0.01 or a <= 0: return
+    f = font(size); tmp = Image.new("RGBA", (W, int(size * 1.6)), (0, 0, 0, 0)); d = ImageDraw.Draw(tmp)
+    w = d.textlength(txt, font=f); d.text(((W - w) / 2, size * 0.2), txt, font=f, fill=tuple(fill) + (int(255 * a),))
+    sz = (max(1, int(tmp.width * k)), max(1, int(tmp.height * k)))
+    canvas.alpha_composite(tmp.resize(sz, Image.BICUBIC), (int(W / 2 - sz[0] / 2), int(cy - sz[1] / 2)))
+
+def motion_kinetic(s, lt):
+    """Frases que entram com impacto (slam). lines: [texto, t0, cor, tamanho, (riscar)]"""
+    c = MBG.copy(); d = ImageDraw.Draw(c)
+    n = len(s["lines"]); y0 = 960 - (n - 1) * 90
+    for i, ln in enumerate(s["lines"]):
+        txt, t0, col, sz = ln[0], ln[1], tuple(ln[2]), ln[3]
+        p = seg(lt, t0, t0 + 0.22)
+        if p <= 0: continue
+        out = seg(lt, s["d"] - 0.3, s["d"])
+        scaled_text(c, txt, y0 + i * 180, sz, col, (1.6 - 0.6 * eout(p)) * (1 - 0.3 * out), a=p * (1 - out))
+        if len(ln) > 4 and ln[4]:
+            q = seg(lt, t0 + 0.4, t0 + 0.7)
+            if q > 0:
+                w = d.textlength(txt, font=font(sz))
+                d.line([(W/2 - w/2 - 20, y0 + i*180), (W/2 - w/2 - 20 + (w + 40) * eout(q), y0 + i*180)], fill=RED + (int(255*(1-out)),), width=14)
+    return c
+
+def motion_prompt(s, lt):
+    """Terminal com o prompt sendo digitado."""
+    c = MBG.copy(); d = ImageDraw.Draw(c)
+    p = seg(lt, 0, 0.3); out = seg(lt, s["d"] - 0.25, s["d"]); A = p * (1 - out)
+    x0, y0, x1, y1 = 70, 560 + int(60 * (1 - eout(p))), W - 70, 1380
+    d.rounded_rectangle([x0, y0, x1, y1], 30, fill=(14, 16, 24, int(245*A)), outline=(60, 64, 90, int(255*A)), width=3)
+    for j, col in enumerate([(255, 95, 86), (255, 189, 46), (39, 201, 63)]):
+        d.ellipse([x0 + 36 + j*40, y0 + 34, x0 + 60 + j*40, y0 + 58], fill=col + (int(255*A),))
+    d.text((x0 + 170, y0 + 30), s.get("app", "prompt"), font=font(30, True), fill=MUT + (int(255*A),))
+    txt = s["text"]; per = (s["d"] * 0.7) / len(txt)
+    n = int(max(0, lt - 0.35) / per); shown = txt[:min(n, len(txt))]
+    lines, cur, f = [], "", font(42, True)
+    for w in shown.split(" "):
+        tst = (cur + " " + w).strip()
+        if d.textlength(tst, font=f) <= x1 - x0 - 100: cur = tst
+        else: lines.append(cur); cur = w
+    lines.append(cur)
+    for i, ln in enumerate(lines):
+        d.text((x0 + 50, y0 + 120 + i * 62), ln, font=f, fill=CY + (int(255*A),))
+    if n <= len(txt) and int(lt * 3) % 2 == 0:
+        lx = x0 + 50 + d.textlength(lines[-1], font=f)
+        d.text((lx, y0 + 120 + (len(lines)-1) * 62), "_", font=f, fill=CY + (int(255*A),))
+    if s.get("tap") and lt > s["d"] * 0.82:
+        q = seg(lt, s["d"] * 0.82, s["d"])
+        bx, by = x1 - 120, y1 - 100
+        d.rounded_rectangle([bx - 70, by - 40, bx + 70, by + 40], 40, fill=YEL + (int(255*A),))
+        d.text((bx - 40, by - 26), "OK", font=font(44), fill=(10, 10, 10, int(255*A)))
+        r = 30 + 50 * q
+        d.ellipse([bx - r, by - r, bx + r, by + r], outline=(255, 255, 255, int(255*(1-q))), width=7)
+    return c
+
+def motion_compare(s, lt):
+    c = MBG.copy(); d = ImageDraw.Draw(c)
+    out = seg(lt, s["d"] - 0.3, s["d"]); A = 1 - out
+    p1 = seg(lt, 0.1, 0.35)
+    if p1 > 0:
+        f = font(56); w0 = d.textlength(s["a_label"], font=f); d.text((W/2 - w0/2, 600), s["a_label"], font=f, fill=MUT + (int(255*p1*A),))
+        f = font(140); w = d.textlength(s["a"], font=f); d.text((W/2 - w/2, 680), s["a"], font=f, fill=(245, 246, 250, int(255*p1*A)))
+        q = seg(lt, 0.6, 0.9)
+        if q > 0: d.line([(W/2 - w/2 - 20, 785), (W/2 - w/2 - 20 + (w + 40) * eout(q), 785)], fill=RED + (int(255*A),), width=16)
+    p2 = seg(lt, 1.2, 1.45)
+    if p2 > 0:
+        f = font(56); w0 = d.textlength(s["b_label"], font=f); d.text((W/2 - w0/2, 1000), s["b_label"], font=f, fill=MUT + (int(255*p2*A),))
+        scaled_text(c, s["b"], 1160, 140, YEL, back(p2), a=A)
+    return c
 
 def ease(p):
     p = min(max(p, 0), 1)
@@ -68,6 +152,11 @@ TOTAL = t
 
 # ---------- camada da tela ----------
 def screen_layer(s, lt, gt):
+    kind = s.get("type")
+    if kind == "kinetic": return motion_kinetic(s, lt)
+    if kind == "prompt": return motion_prompt(s, lt)
+    if kind == "compare": return motion_compare(s, lt)
+    if kind == "cta": return MBG.copy()
     p = min(max(lt / s["d"], 0), 1)
     imgs = [load(n, s.get("blur")) for n in s["imgs"]]
     img = imgs[min(int(p * len(imgs) * 1.15), len(imgs) - 1)]
@@ -205,7 +294,7 @@ def scene_frame(si, lt, gt):
     if lt > tr:
         if s.get("stamp"):
             stamp(c, s["stamp"], lt - tr)
-        elif s.get("cta"):
+        elif s.get("cta") or s.get("type") == "cta":
             cta(c, lt - tr)
         elif s.get("cap"):
             caption_words(c, s, lt - tr)
@@ -224,6 +313,11 @@ def whip(a, b, q):
 
 # ---------- render ----------
 sfx = []
+THUMPS = []
+for i, s_ in enumerate(SC):
+    if s_.get("type") == "kinetic":
+        THUMPS += [starts[i] + ln[1] for ln in s_["lines"]]
+    if s_.get("type") == "cta": THUMPS.append(starts[i] + TR + 0.35)
 nf = int(TOTAL * FPS)
 for fi in range(nf):
     gt = fi / FPS
@@ -234,9 +328,13 @@ for fi in range(nf):
         base = whip(scene_frame(si - 1, SC[si - 1]["d"] + lt, gt), base, lt / TR)
     if s.get("flash") and lt < 0.15:
         base.alpha_composite(Image.new("RGBA", (W, H), (255, 255, 255, int(170 * (1 - lt / 0.15)))))
-    if not s.get("cta"):
+    if not s.get("cta") and s.get("type") not in ("kinetic", "compare", "cta") and not s.get("nohook"):
         hook(base, gt)
     chrome(base, gt)
+    sh = max([max(0, 1 - (gt - x) / 0.25) for x in THUMPS if gt >= x] + [0])
+    if sh > 0:
+        arr = np.asarray(base)
+        base = Image.fromarray(np.roll(np.roll(arr, int(random.uniform(-18, 18) * sh), 1), int(random.uniform(-18, 18) * sh), 0))
     base.convert("RGB").save(f"{FR_DIR}/{fi:05d}.jpg", quality=92)
 
 # ---------- efeitos sonoros ----------
@@ -245,12 +343,23 @@ for i, s in enumerate(SC):
     st = starts[i]
     if i > 0: sfx.append((st, "whoosh"))
     if s.get("cap") or s.get("cta") or s.get("stamp"): sfx.append((st + (TR if i else 0), "pop"))
-    if len(s["imgs"]) > 1:
+    if len(s.get("imgs", [])) > 1:
         tt = st + 0.3
         while tt < st + s["d"] * 0.78:
             sfx.append((tt, "key")); tt += random.uniform(0.07, 0.15)
     if s.get("tap"): sfx.append((st + s["d"] * 0.8, "click"))
     if s.get("hl"): sfx.append((st + 0.35, "swipe"))
+    if s.get("type") == "kinetic":
+        for ln in s["lines"]:
+            sfx.append((st + ln[1], "thump"))
+            if len(ln) > 4 and ln[4]: sfx.append((st + ln[1] + 0.4, "swipe"))
+    if s.get("type") == "prompt":
+        tt = st + 0.35; end = st + 0.35 + s["d"] * 0.7
+        while tt < end: sfx.append((tt, "key")); tt += random.uniform(0.05, 0.11)
+        if s.get("tap"): sfx.append((st + s["d"] * 0.82, "click"))
+    if s.get("type") == "compare": sfx += [(st + 0.1, "thump"), (st + 1.2, "thump")]
+    if s.get("type") == "cta": sfx.append((st + TR + 0.35, "thump"))
+    if s.get("ding"): sfx.append((st + s["ding"], "ding"))
 sr = 44100
 track = np.zeros(int((TOTAL + 1) * sr), np.float32)
 def add(t0, sig):
@@ -267,6 +376,11 @@ for t0, kind in sfx:
         x = np.linspace(0, 0.03, int(0.03 * sr)); add(t0, 0.18 * rng.normal(0, 1, len(x)) * np.exp(-x * 220))
     elif kind == "click":
         x = np.linspace(0, 0.06, int(0.06 * sr)); add(t0, 0.4 * np.sin(2 * np.pi * 1800 * x) * np.exp(-x * 90))
+    elif kind == "thump":
+        x = np.linspace(0, 0.35, int(0.35 * sr)); f = 110 * np.exp(-x * 9) + 45
+        add(t0, 0.8 * np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-x * 9) + 0.22 * rng.normal(0, 1, len(x)) * np.exp(-x * 60))
+    elif kind == "ding":
+        x = np.linspace(0, 0.8, int(0.8 * sr)); add(t0, 0.3 * (np.sin(2 * np.pi * 1320 * x) + 0.5 * np.sin(2 * np.pi * 1980 * x)) * np.exp(-x * 5))
     elif kind == "swipe":
         x = np.linspace(0, 1, int(0.3 * sr)); add(t0, 0.12 * np.sin(2 * np.pi * np.cumsum(400 + 900 * x) / sr) * np.sin(np.pi * x))
 wav = OUT_MP4 + ".sfx.wav"
