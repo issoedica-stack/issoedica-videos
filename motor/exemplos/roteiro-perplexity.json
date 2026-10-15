@@ -1,0 +1,15 @@
+{
+ "titulo": "Perplexity: preços e reclamações dos concorrentes",
+ "hook": [["Descobri","quanto","meus"],["concorrentes","cobram"],["em","30","segundos"]],
+ "hook_hl": ["30","segundos"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\npronto no direct"},
+ "scenes": [
+  {"d":1.5,"imgs":["screenshot-1791974356966-5.jpg"],"blur":[[341,380,470,700],[0,330,235,460]],"b0":[330,280,1060,700],"b1":[380,330,1010,650],"stamp":"O RESULTADO:"},
+  {"d":2.2,"imgs":["screenshot-1791974286075-0.jpg"],"blur":[[0,330,235,460]],"b0":[250,0,1500,812],"b1":[520,200,1220,470],"cap":"1. Abre o Perplexity","sub":"(é grátis)","hl":[553,324,1183,441],"flash":true},
+  {"d":4.0,"imgs":["screenshot-1791974318588-1.png","screenshot-1791974318588-2.png","screenshot-1791974318588-3.png"],"b0":[0,0,840,305],"b1":[20,110,830,300],"cap":"2. Cola esse prompt","sub":"(te mando ele pronto)","tap":[782,272]},
+  {"d":1.6,"imgs":["screenshot-1791974356966-4.jpg"],"blur":[[0,330,235,460]],"b0":[330,60,1060,812],"b1":[330,60,1060,600],"cap":"3. Envia e espera 5s"},
+  {"d":4.2,"imgs":["screenshot-1791974356966-5.jpg"],"blur":[[341,380,470,700],[0,330,235,460]],"b0":[330,80,1060,520],"b1":[330,280,1060,700],"cap":"Preço, elogios e reclamações","sub":"de cada concorrente","hl":[470,345,1049,495]},
+  {"d":4.2,"imgs":["screenshot-1791974380136-6.jpg"],"blur":[[375,600,1048,712],[0,330,235,460]],"b0":[330,90,1060,560],"b1":[330,330,1060,500],"cap":"E ainda mostra a brecha","sub":"pra você lucrar","hl":[338,345,1000,432]},
+  {"d":3.6,"imgs":["screenshot-1791974380136-6.jpg"],"blur":[[375,600,1048,712],[0,330,235,460]],"b0":[330,330,1060,500],"dim":true,"cta":true,"flash":true}
+ ]
+}
