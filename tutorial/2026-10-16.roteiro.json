@@ -1,0 +1,17 @@
+{
+ "titulo": "Híbrido: tela real + motion graphics (Perplexity concorrentes)",
+ "hook": [["Descobri","quanto","meus"],["concorrentes","cobram"],["em","30","segundos"]],
+ "hook_hl": ["30","segundos"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\npronto no direct"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Seu concorrente",0.1,[245,246,250],110],["cobra quanto?",0.75,[245,246,250],110],["Descubra em 30s",1.45,[255,212,0],118]]},
+  {"d":1.5,"imgs":["screenshot-1791974356966-5.jpg"],"blur":[[341,380,470,700],[0,330,235,460]],"b0":[330,280,1060,700],"b1":[380,330,1010,650],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.2,"imgs":["screenshot-1791974286075-0.jpg"],"blur":[[0,330,235,460]],"b0":[250,0,1500,812],"b1":[520,200,1220,470],"cap":"1. Abre o Perplexity","sub":"(é grátis)","hl":[553,324,1183,441]},
+  {"type":"prompt","d":4.4,"app":"perplexity.ai","text":"Liste 5 barbearias em Natal-RN: quanto cobram pelo corte, o que os clientes mais elogiam e mais reclamam. Monte uma tabela e diga qual brecha eu posso explorar.","tap":true,"cap":"2. Cola esse prompt","sub":"(te mando ele pronto)"},
+  {"d":1.5,"imgs":["screenshot-1791974356966-4.jpg"],"blur":[[0,330,235,460]],"b0":[330,60,1060,812],"b1":[330,60,1060,600],"cap":"3. Envia e espera 5s"},
+  {"d":4.0,"imgs":["screenshot-1791974356966-5.jpg"],"blur":[[341,380,470,700],[0,330,235,460]],"b0":[330,80,1060,520],"b1":[330,280,1060,700],"cap":"Preço, elogios e reclamações","sub":"de cada concorrente","hl":[470,345,1049,495]},
+  {"d":4.0,"imgs":["screenshot-1791974380136-6.jpg"],"blur":[[375,600,1048,712],[0,330,235,460]],"b0":[330,90,1060,560],"b1":[330,330,1060,500],"cap":"E ainda mostra a brecha","sub":"pra você lucrar","hl":[338,345,1000,432],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Pesquisa de mercado:","a":"R$ 2.000","b_label":"Com IA:","b":"R$ 0"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
