@@ -1,0 +1,352 @@
+{
+  "nn": "12",
+  "slug": "Ed-12-Crie-e-Venda-Seu-Primeiro-Produto-Digital-com-IA",
+  "titulo": "Crie e Venda Seu Primeiro Produto Digital com IA",
+  "titulo_capa": [
+    "Crie e Venda",
+    "Seu Primeiro",
+    "Produto Digital",
+    "com IA"
+  ],
+  "subtitulo": "Do conhecimento que você já tem até as 10 primeiras vendas, em 7 dias e sem anúncio",
+  "selo_capa": "9 prompts prontos + plano de 7 dias + modelos para copiar",
+  "cta_capa": "Seu conhecimento vale dinheiro. A IA faz o trabalho pesado.",
+  "mesano": "outubro/2026",
+  "ferramenta_principal": {
+    "nome": "Tess AI",
+    "link": "https://bit.ly/ie-ed12-tess",
+    "porque": "Todos os prompts deste guia funcionam no ChatGPT, Claude ou Gemini grátis. Se você quer as melhores IAs do mundo num lugar só, em português, para escrever o produto, criar a capa e montar a página de venda sem trocar de site, é a Tess AI que eu uso."
+  },
+  "intro": [
+    "Você sabe alguma coisa que outras pessoas pagariam para aprender. Pode ser uma receita que todo mundo elogia, um jeito de organizar a casa, um atalho do seu trabalho, um método de vendas que funciona ou uma habilidade que você domina há anos sem perceber que ela vale dinheiro.",
+    "Um produto digital (um guia em PDF, um checklist, uma planilha, um pack de modelos ou um mini curso) transforma esse conhecimento em algo que você cria uma vez e vende muitas vezes. Não tem estoque, não tem frete e não depende do seu horário.",
+    "O que travava a maioria das pessoas era a parte chata: escolher a ideia, escrever, dar nome, montar a página de venda, saber o que postar. É exatamente aí que a IA entra. Neste guia você vai usar 7 prompts prontos, na ordem certa, para sair da ideia até as primeiras vendas.",
+    "Uma regra antes de começar: a IA faz o rascunho, você coloca a experiência. Produto que vende é produto com a sua história, os seus exemplos e o seu jeito de explicar. A IA te dá velocidade. Quem dá o valor é você."
+  ],
+  "como_usar": [
+    "Leia um capítulo por vez e execute antes de passar para o próximo. Cada capítulo termina com um checklist.",
+    "Mantenha todos os prompts na mesma conversa da IA. Ela vai lembrando do seu contexto e as respostas ficam cada vez melhores.",
+    "Troque tudo que estiver entre [colchetes] pelas suas informações reais. Quanto mais específico, melhor o resultado.",
+    "No final do guia tem um plano de 7 dias e modelos prontos para copiar. Se estiver com pouco tempo, comece por eles."
+  ],
+  "contexto": {
+    "texto": "A IA só cria um produto que vende quando conhece você e quem vai comprar. Cole este contexto uma única vez, no começo da conversa, e todas as respostas vão sair sob medida.",
+    "passos": [
+      "Abra uma IA: ChatGPT, Claude, Gemini (grátis) ou a Tess AI.",
+      "Cole o contexto base abaixo antes de qualquer outro prompt e preencha os colchetes com calma. Essa é a parte mais importante do guia.",
+      "Mantenha tudo na mesma conversa, do prompt 1 ao bônus."
+    ],
+    "prompt": "Você é meu consultor de produtos digitais. Guarde este contexto:\n- O que eu sei fazer bem: [ex: cozinhar marmitas fit, organizar finanças, vender no WhatsApp, usar o Canva]\n- Minha experiência com isso: [ex: faço há 5 anos, já ensinei amigos, uso no trabalho]\n- Onde eu tenho público hoje: [ex: Instagram com 800 seguidores, grupos de WhatsApp, clientes antigos]\n- Quanto tempo eu tenho por semana: [ex: 4 horas]\n- Meu objetivo: [ex: fazer R$ 1.000 extras por mês]\nConfirme que entendeu e aguarde meu próximo pedido."
+  },
+  "persona": "Para deixar tudo concreto, vamos acompanhar um exemplo ilustrativo ao longo do guia: a Marina, confeiteira que vende bolos de pote no bairro há 4 anos, tem 1.200 seguidores no Instagram e duas listas de transmissão no WhatsApp. Ela tem 5 horas por semana e quer um dinheiro extra que não dependa de ficar na cozinha.",
+  "capitulos": [
+    {
+      "titulo": "Descubra a ideia de produto certa",
+      "porque": [
+        "O erro mais comum é criar o produto que você quer, e não o que as pessoas procuram. A pergunta certa não é \"o que eu sei?\", é \"que problema eu resolvo melhor do que a maioria?\".",
+        "A IA cruza o que você sabe com problemas reais que alguém pagaria para resolver, e ainda te mostra quais ideias são rápidas de criar. Isso economiza semanas de tentativa e erro."
+      ],
+      "passos": [
+        "Rode o prompt abaixo na mesma conversa do contexto base.",
+        "Das 10 ideias, risque as que você não teria vontade de explicar por horas. Se você não gosta do assunto, não vai divulgar.",
+        "Fique com 2 finalistas: uma que te anima e uma que a IA marcou como mais fácil de vender.",
+        "Pergunte a 5 pessoas do seu público qual das duas elas comprariam. Não pergunte se é boa: pergunte qual comprariam."
+      ],
+      "prompt": "Com base no meu contexto, me sugira 10 ideias de produtos digitais simples que eu consigo criar em até 7 dias (guia em PDF, checklist, planilha, pack de modelos ou mini curso em vídeo). Para cada ideia diga: qual problema resolve, quem compraria, um preço sugerido e a dificuldade de criar (fácil, média, difícil). No final, me indique as 3 com maior chance de vender rápido e explique por quê.",
+      "exemplo": "A Marina recebeu ideias como \"Guia de precificação de doces caseiros\", \"10 receitas de bolo de pote que vendem\" e \"Planilha de custos para confeiteiras\". Ela perguntou para 5 clientes e 3 colegas confeiteiras. As colegas escolheram o guia de precificação: todas admitiram que cobravam no chute. Público definido: confeiteiras iniciantes, não clientes finais.",
+      "erros": [
+        "Escolher um tema amplo demais (\"tudo sobre confeitaria\"). Produto que vende resolve um problema específico.",
+        "Perguntar a amigos \"você compraria?\". Todo mundo diz sim por educação. Pergunte qual de duas opções a pessoa escolheria.",
+        "Esperar a ideia perfeita. A primeira versão é para validar, não para ser a obra da sua vida."
+      ],
+      "checklist": [
+        "Rodei o contexto base e o prompt de ideias",
+        "Escolhi 2 finalistas",
+        "Perguntei a pelo menos 5 pessoas do público qual comprariam",
+        "Sei em uma frase: qual problema, para quem"
+      ],
+      "prompt_extra_titulo": "Prompt avançado: pesquise a concorrência",
+      "prompt_extra": "Pesquise que produtos digitais já são vendidos sobre [tema] para [público] no Brasil (Hotmart, Kiwify, Instagram). Liste o que eles prometem, a faixa de preço e o que os compradores reclamam nos comentários. Depois me diga: qual brecha eu posso ocupar com o meu produto para ser diferente e mais útil?"
+    },
+    {
+      "titulo": "Valide antes de criar",
+      "porque": [
+        "Criar um produto que ninguém compra é o jeito mais caro de aprender. Validar é perguntar ao mercado antes de investir horas. Alguns \"eu quero\" sinceros já mostram que vale a pena seguir.",
+        "Bônus da validação: as pessoas que respondem viram sua primeira lista de compradores. Quando o produto ficar pronto, você não começa do zero."
+      ],
+      "passos": [
+        "Rode o prompt e escolha a enquete de stories ou a mensagem de WhatsApp (ou as duas).",
+        "Publique e mande para quem tem o problema. Responda cada pessoa individualmente.",
+        "Anote os nomes de quem disse \"eu quero\" numa lista. Eles vão receber a oferta primeiro.",
+        "Regra de decisão: 10 pessoas interessadas, siga em frente. Menos que isso, ajuste a promessa e teste de novo em 48 horas."
+      ],
+      "prompt": "Quero validar a ideia [ideia escolhida] antes de criar. Escreva: 1) uma enquete de 3 stories para o Instagram que descubra se meu público tem esse problema, sem parecer que estou vendendo; 2) uma mensagem curta de WhatsApp para eu mandar a 20 contatos pedindo opinião sincera; 3) 5 perguntas que eu devo fazer para entender o que a pessoa realmente precisa. Me diga também qual resultado mínimo mostra que vale a pena criar o produto.",
+      "exemplo": "A Marina mandou a mensagem para 2 grupos de confeiteiras de que participa e fez a enquete \"Você sabe quanto lucra em cada doce?\". Em 2 dias, 14 pessoas responderam \"não tenho certeza\" e 11 pediram para ser avisadas quando o guia saísse. Validado.",
+      "erros": [
+        "Validar só com quem te ama. Mãe e melhor amiga não contam como mercado.",
+        "Pular a lista de interessados. É ela que garante as primeiras vendas no dia do lançamento.",
+        "Interpretar silêncio como rejeição. Às vezes a pergunta é que estava confusa. Reescreva e teste de novo."
+      ],
+      "checklist": [
+        "Publiquei a enquete ou mandei a mensagem",
+        "Tenho uma lista com nomes de interessados",
+        "Bati a meta de 10 interessados (ou ajustei e testei de novo)",
+        "Anotei as palavras exatas que as pessoas usaram para descrever o problema"
+      ],
+      "prompt_extra_titulo": "Prompt avançado: leia as respostas por você",
+      "prompt_extra": "Vou colar abaixo as respostas que recebi na validação. Analise e me diga: 1) quantas pessoas realmente têm o problema; 2) as 5 frases que mais se repetem, com as palavras exatas delas; 3) o que elas esperam receber; 4) se eu devo seguir, ajustar a ideia ou trocar de ideia, e por quê.\n[cole aqui as respostas]"
+    },
+    {
+      "titulo": "Escreva o conteúdo do produto",
+      "porque": [
+        "Com a ideia validada, a IA monta a estrutura completa e escreve o rascunho de cada parte. Seu papel é revisar e colocar a sua experiência, que é o que faz o produto valer o preço.",
+        "Use as palavras que as pessoas usaram na validação. Se elas disseram \"cobro no chute\", o seu produto fala \"pare de cobrar no chute\". Isso conecta na hora."
+      ],
+      "passos": [
+        "Peça primeiro só o sumário. Leia, corte o que é enrolação e aprove.",
+        "Peça um capítulo por vez. Nunca o produto inteiro de uma vez: a qualidade cai.",
+        "Em cada marcação [MINHA EXPERIÊNCIA], escreva uma história real, um número seu ou um erro que você cometeu.",
+        "Ao final, peça para a IA revisar tudo procurando partes confusas ou repetidas.",
+        "Monte o arquivo no Canva (modelo de ebook gratuito) ou no Google Docs e exporte em PDF."
+      ],
+      "prompt": "Crie a estrutura completa do produto [nome provisório], um [formato: guia em PDF, checklist, planilha] para [público]. Ele precisa levar a pessoa do problema [problema] até o resultado [resultado]. Monte um sumário com 5 a 8 partes, com um objetivo claro em cada uma. Depois de eu aprovar, escreva a parte 1 em linguagem simples, com passos práticos e um exemplo. Deixe marcado com [MINHA EXPERIÊNCIA] os pontos onde eu devo colocar uma história ou dica minha.",
+      "prompt_extra_titulo": "Prompt de revisão (use no final)",
+      "prompt_extra": "Revise o conteúdo completo do meu produto como se você fosse um comprador exigente que pagou por ele. Aponte: 1) partes confusas ou vagas; 2) trechos repetidos; 3) onde falta um exemplo prático; 4) qualquer promessa que pareça exagerada. Depois me entregue a versão corrigida, mantendo o meu tom.",
+      "exemplo": "O guia da Marina ficou com 6 partes: calcular custo real, contar o tempo como custo, margem de lucro, preço por canal (encomenda, delivery, feira), como subir preço sem perder cliente e uma tabela pronta. Na parte 4 ela contou que perdia dinheiro no delivery por não somar a taxa do app. Foi o trecho que mais gerou comentários depois.",
+      "erros": [
+        "Publicar o texto da IA sem revisar. O comprador percebe texto genérico e pede reembolso.",
+        "Encher de páginas para parecer grande. Valor é resolver o problema, não volume. Mas um bom produto tem exemplos, modelos e checklists, não só teoria.",
+        "Esquecer do visual. Um PDF limpo, com títulos claros e espaço em branco, parece (e é) mais profissional."
+      ],
+      "checklist": [
+        "Sumário aprovado",
+        "Todos os capítulos escritos e revisados",
+        "Coloquei minha experiência em cada [MINHA EXPERIÊNCIA]",
+        "Rodei o prompt de revisão",
+        "Tenho o PDF final"
+      ]
+    },
+    {
+      "titulo": "Crie um nome e uma promessa que vendem",
+      "porque": [
+        "As pessoas não compram \"um PDF\". Elas compram o resultado que ele entrega. Um bom nome e uma promessa clara fazem metade do trabalho de venda antes de você dizer qualquer coisa.",
+        "A fórmula que funciona: ajudar [público] a [resultado] sem [dificuldade ou medo]. Se a pessoa lê e pensa \"isso é pra mim\", você acertou."
+      ],
+      "passos": [
+        "Rode o prompt e leia as 10 opções em voz alta. Nome bom é fácil de falar e de lembrar.",
+        "Escolha 3 favoritos e faça uma enquete no stories: \"qual desses você abriria primeiro?\".",
+        "Use a promessa vencedora na capa, na página de venda e na bio.",
+        "Crie a capa no Canva com o título grande e legível até no celular, em tamanho miniatura."
+      ],
+      "prompt": "Meu produto ajuda [público] a [resultado] sem [principal dificuldade ou medo]. Crie 10 opções de nome curto e fácil de lembrar e, para cada nome, uma promessa de uma linha focada no resultado. Evite exageros e promessas impossíveis. Depois escreva o texto da capa (título, subtítulo e uma frase de apoio) usando a opção que você considera mais forte, explicando por que ela vende mais.",
+      "exemplo": "Entre as opções, a Marina ficou com \"Doce com Lucro\" e a promessa \"Descubra o preço certo de cada doce e pare de trabalhar de graça\". Na enquete, venceu com 71% dos votos contra \"Guia de Precificação para Confeiteiras\".",
+      "erros": [
+        "Nome criativo demais que ninguém entende do que se trata.",
+        "Prometer resultado que você não pode garantir (\"fature 10 mil no primeiro mês\"). Além de antiético, gera reembolso e pode bloquear sua conta na plataforma.",
+        "Capa com letra pequena. Na vitrine do celular ela aparece do tamanho de um selo."
+      ],
+      "checklist": [
+        "Nome escolhido (testado em enquete)",
+        "Promessa de uma linha pronta",
+        "Capa criada e testada em tamanho pequeno"
+      ],
+      "prompt_extra_titulo": "Prompt avançado: briefing da capa",
+      "prompt_extra": "Crie o briefing da capa do meu produto [nome] para eu montar no Canva: formato vertical, título [título], subtítulo [subtítulo]. Sugira 2 paletas de cores que combinem com [público], o estilo de imagem ou ilustração, a hierarquia do texto e 3 erros que deixam a capa com cara de amadora. Escreva também um prompt para gerar a imagem de fundo numa IA de imagem."
+    },
+    {
+      "titulo": "Defina o preço e monte a página de venda",
+      "porque": [
+        "Preço baixo demais passa a ideia de que o produto não vale nada. Preço alto demais trava a primeira venda. A IA te ajuda a achar o ponto certo com base no que o produto entrega e no que o seu público costuma pagar.",
+        "A página de venda é o seu vendedor 24 horas. Ela precisa responder, em ordem: o que é, para quem é, o que a pessoa recebe, por que confiar e como comprar."
+      ],
+      "passos": [
+        "Rode o prompt para definir preço de lançamento e preço normal.",
+        "Crie o produto numa plataforma gratuita como Hotmart ou Kiwify. Elas cuidam de pagamento, entrega do PDF e emissão de acesso, e só cobram uma taxa quando você vende.",
+        "Cole o texto da página gerado pela IA e revise com as palavras do seu público.",
+        "Faça uma compra de teste para ver a experiência do comprador do começo ao fim.",
+        "Quer um site próprio com seu domínio (ex: seunome.com.br) para juntar todos os seus produtos? Isso já é passo 2, não precisa para começar."
+      ],
+      "ferramenta_contexto": {
+        "nome": "Hostinger",
+        "link": "https://bit.ly/ie-ed12-hostinger",
+        "texto": "Quando quiser o seu próprio site e domínio, a Hostinger tem criador de sites com IA e é onde eu indico começar."
+      },
+      "prompt": "Meu produto é [nome], um [formato] que entrega [resultado] para [público]. Me sugira um preço de lançamento e um preço normal, explicando o raciocínio. Depois escreva um texto de página de venda com: título forte, para quem é e para quem não é, o que a pessoa vai receber, 3 benefícios principais, 5 perguntas frequentes com respostas e uma chamada final para comprar. Use linguagem simples e direta, sem promessas exageradas.",
+      "exemplo": "A IA sugeriu R$ 27 de lançamento e R$ 37 normal para o \"Doce com Lucro\", porque o guia vinha com uma planilha pronta. A Marina criou o produto na Hotmart em uma tarde e colocou na página uma seção \"para quem não é\": quem já tem confeitaria grande com contador. Isso aumentou a confiança de quem estava começando.",
+      "erros": [
+        "Esconder o preço ou o que a pessoa recebe. Clareza vende mais que mistério.",
+        "Página sem a seção de perguntas frequentes. Cada dúvida sem resposta é uma venda perdida.",
+        "Não testar a compra. Link quebrado no dia do lançamento é desastre garantido."
+      ],
+      "checklist": [
+        "Preço de lançamento e preço normal definidos",
+        "Produto criado na plataforma",
+        "Página de venda publicada e revisada",
+        "Compra de teste feita"
+      ]
+    },
+    {
+      "titulo": "Faça suas primeiras 10 vendas",
+      "porque": [
+        "Suas primeiras vendas vêm de quem já te conhece. Não precisa de anúncio. Precisa de um plano simples de divulgação por 7 dias e coragem de oferecer.",
+        "As 10 primeiras vendas valem mais que o dinheiro: elas trazem depoimentos, mostram as objeções reais e provam que o produto funciona. Com isso, as próximas 100 ficam muito mais fáceis."
+      ],
+      "passos": [
+        "Rode o prompt do plano de 7 dias.",
+        "Dia 1: mande a mensagem para a lista de interessados da validação, com o preço de lançamento.",
+        "Dias 2 a 6: siga o roteiro de stories e posts. Mostre bastidor, prova e dúvidas respondidas.",
+        "Dia 7: encerre o preço de lançamento com prazo real. Prazo de verdade gera decisão.",
+        "Anote cada objeção que aparecer e use as respostas prontas. Depois, melhore a página com elas.",
+        "Transforme partes do produto em vídeos curtos para o Reels e o TikTok. Um vídeo de 30 segundos com uma dica do guia atrai quem ainda não te conhece."
+      ],
+      "ferramenta_contexto": {
+        "nome": "OpusClip",
+        "link": "https://bit.ly/4yZkIoc",
+        "texto": "Gravou um vídeo longo explicando seu produto? O OpusClip corta automaticamente os melhores trechos em vídeos curtos com legenda para divulgar."
+      },
+      "prompt": "Crie um plano de lançamento de 7 dias para eu fazer as primeiras 10 vendas de [nome do produto] usando só [onde tenho público: Instagram, WhatsApp, clientes antigos], sem anúncios. Para cada dia diga o que postar ou enviar e escreva o texto pronto. Inclua uma mensagem para as pessoas que participaram da validação, um story com prova ou bastidor e uma oferta de lançamento com prazo. No final, me dê respostas prontas para as 3 objeções mais comuns: \"tá caro\", \"vou pensar\" e \"será que funciona pra mim\".",
+      "exemplo": "No primeiro dia, a Marina mandou mensagem para as 11 interessadas da validação e 6 compraram. Nos stories, mostrou a própria planilha antes e depois de recalcular os preços. Fechou a semana com 14 vendas. A objeção mais comum foi \"não sou boa com planilha\", e ela adicionou um vídeo curto explicando como preencher.",
+      "erros": [
+        "Postar uma vez e sumir. A maioria das pessoas precisa ver a oferta várias vezes antes de comprar.",
+        "Ter vergonha de vender. Se o produto resolve um problema real, oferecer é ajudar.",
+        "Não pedir depoimento. Peça no dia seguinte à compra, enquanto a pessoa está animada."
+      ],
+      "checklist": [
+        "Plano de 7 dias pronto",
+        "Mensagem enviada para a lista de interessados",
+        "Respostas para objeções salvas",
+        "Pedi depoimento para cada comprador"
+      ],
+      "prompt_extra_titulo": "Prompt avançado: 10 ideias de conteúdo que vendem",
+      "prompt_extra": "Com base no conteúdo do meu produto [nome], crie 10 ideias de posts e vídeos curtos que entregam uma dica real de graça e terminam convidando para o produto sem parecer propaganda. Para cada ideia: gancho dos 3 primeiros segundos, a dica, e a frase final de chamada."
+    }
+  ],
+  "bonus": {
+    "titulo": "Bônus: transforme seu produto em renda que se repete",
+    "texto": [
+      "Quem comprou uma vez é quem tem mais chance de comprar de novo. Conseguir um cliente novo dá muito mais trabalho do que vender de novo para quem já confia em você.",
+      "Com um segundo passo pronto, cada cliente vale muito mais: um complemento barato logo depois da compra, uma versão completa com acompanhamento e, o melhor de todos, algo mensal."
+    ],
+    "prompt": "Já vendi [quantidade] unidades de [nome do produto]. Me ajude a aumentar o faturamento com quem já comprou. Sugira: 1) um complemento barato para oferecer logo depois da compra; 2) uma versão mais completa ou com acompanhamento, com preço maior; 3) uma mensagem para pedir depoimentos aos compradores; 4) uma forma de transformar isso em algo mensal (atualizações, grupo ou novos modelos todo mês). Para cada ideia, diga o primeiro passo que eu posso dar esta semana.",
+    "extra": "Ideia extra: grave uma versão em áudio do seu guia para quem prefere ouvir no carro ou na academia. Com o ElevenLabs você transforma o texto em narração natural em português, com a sua voz clonada ou com vozes prontas, e pode vender como versão premium.",
+    "extra_link": "https://bit.ly/4i0pf23",
+    "extra_nome": "ElevenLabs"
+  },
+  "modelos": [
+    {
+      "titulo": "Modelo 1: Estrutura de página de venda (preencha e cole)",
+      "texto": "TÍTULO: [Resultado que a pessoa quer] sem [o que ela teme]\nSUBTÍTULO: O [formato] que mostra passo a passo como [resultado] mesmo que [objeção principal].\n\nPARA QUEM É:\n- [perfil 1]\n- [perfil 2]\n- [perfil 3]\n\nPARA QUEM NÃO É:\n- [perfil que não vai aproveitar]\n\nO QUE VOCÊ RECEBE:\n- [entregável 1] (valor percebido)\n- [entregável 2]\n- Bônus: [bônus]\n\nQUEM SOU EU: [2 linhas com sua experiência real]\n\nPERGUNTAS FREQUENTES:\n1. Como recebo? Na hora, por e-mail, logo após o pagamento.\n2. Serve para iniciantes? [resposta]\n3. E se eu não gostar? Você tem 7 dias de garantia.\n4. [dúvida real do seu público]\n5. [dúvida real do seu público]\n\nCHAMADA FINAL: [Preço] por tempo limitado. [Botão: Quero o meu agora]"
+    },
+    {
+      "titulo": "Modelo 2: Mensagem de lançamento para a lista de interessados",
+      "texto": "Oi, [nome]! Lembra que você me disse que [problema que a pessoa contou]?\n\nFicou pronto o [nome do produto]: [promessa em uma linha].\n\nComo você me ajudou na pesquisa, separei um valor especial só para quem participou: [preço de lançamento] até [data].\n\nAqui o link: [link]\n\nQualquer dúvida, me chama aqui mesmo."
+    },
+    {
+      "titulo": "Modelo 3: Pedido de depoimento (mande 1 dia depois da compra)",
+      "texto": "Oi, [nome]! Conseguiu dar uma olhada no [produto]?\n\nTe peço um favor rápido: me conta em 2 ou 3 linhas o que você achou e o que já conseguiu aplicar. Pode ser por áudio também.\n\nSua opinião me ajuda a melhorar o material e a mostrar para outras pessoas que funciona. Obrigado demais!"
+    },
+    {
+      "titulo": "Modelo 4: Controle simples de vendas (copie para uma planilha)",
+      "tabela": [
+        [
+          "Data",
+          "Nome",
+          "Canal (Insta, WhatsApp, indicação)",
+          "Valor",
+          "Pediu depoimento?",
+          "Objeção que apareceu"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "plano7": [
+    [
+      "Dia 1",
+      "Contexto base + ideias (cap. 1). Pergunte a 5 pessoas qual comprariam."
+    ],
+    [
+      "Dia 2",
+      "Validação (cap. 2). Enquete nos stories e mensagem para 20 contatos."
+    ],
+    [
+      "Dia 3",
+      "Sumário + metade do conteúdo (cap. 3)."
+    ],
+    [
+      "Dia 4",
+      "Resto do conteúdo, revisão e PDF final."
+    ],
+    [
+      "Dia 5",
+      "Nome, promessa e capa (cap. 4). Preço e página de venda (cap. 5)."
+    ],
+    [
+      "Dia 6",
+      "Compra de teste. Mensagem para a lista de interessados (cap. 6)."
+    ],
+    [
+      "Dia 7",
+      "Stories com bastidor e prova. Encerramento do preço de lançamento."
+    ]
+  ],
+  "checklist_final": [
+    "Sei qual problema resolvo e para quem",
+    "Tenho pelo menos 10 interessados validados",
+    "Produto escrito, revisado e com a minha experiência",
+    "Nome, promessa e capa prontos",
+    "Página de venda publicada e testada",
+    "Plano de 7 dias em execução",
+    "Pedindo depoimento a cada comprador",
+    "Próximo passo de recorrência pensado (bônus)"
+  ],
+  "faq": [
+    [
+      "Preciso ter CNPJ para começar a vender?",
+      "Para testar e fazer as primeiras vendas, plataformas como Hotmart e Kiwify permitem cadastro como pessoa física. Quando as vendas ganharem volume, converse com um contador sobre abrir um MEI ou empresa e pagar menos imposto."
+    ],
+    [
+      "Posso vender só pelo WhatsApp com Pix?",
+      "Pode, e é um jeito rápido de validar. O ponto fraco é que você precisa entregar cada PDF na mão e não tem garantia nem afiliados. Quando passar de poucas vendas por semana, vale migrar para uma plataforma."
+    ],
+    [
+      "É permitido vender um material escrito com ajuda da IA?",
+      "Sim, desde que o conteúdo seja revisado por você, sem copiar material de outras pessoas, e sem promessas falsas. Coloque sua experiência: é isso que torna o produto seu e evita textos genéricos."
+    ],
+    [
+      "Quanto as plataformas cobram?",
+      "Elas cobram uma taxa por venda (percentual mais um valor fixo) e nada por mês no plano de entrada. Os valores mudam: confira a tabela atual da plataforma antes de definir o preço, principalmente em produtos baratos, em que a taxa fixa pesa mais."
+    ],
+    [
+      "E se ninguém comprar?",
+      "Volte para a validação. Na maioria das vezes o problema é a promessa (pouco clara) ou o público (gente que não tem o problema). Ajuste uma coisa por vez e teste de novo com a sua lista."
+    ],
+    [
+      "Quanto tempo leva do zero à primeira venda?",
+      "Seguindo o plano de 7 dias com 1 a 2 horas por dia, dá para lançar em uma semana. Com uma lista de interessados da validação, as primeiras vendas costumam vir já no dia do lançamento."
+    ]
+  ]
+}
