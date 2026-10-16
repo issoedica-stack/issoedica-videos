@@ -31,7 +31,7 @@ FERRAMENTAS = [
 
 CSS = r"""
 @page { size: A4; margin: 22mm 18mm 20mm 18mm; }
-:root{--navy:#0b1030;--blue:#1d2a8a;--purple:#6b2bd9;--acc:#7c5cff;--yellow:#ffd23f;--ink:#1a1d2e;--mut:#5b6075;--line:#e6e7f0;--soft:#f4f2ff}
+:root{--navy:#071526;--blue:#0b63d6;--purple:#0b63d6;--acc:#0ea5d9;--yellow:#22d3ee;--ink:#1a1d2e;--mut:#5b6075;--line:#e6e7f0;--soft:#eef7fc}
 *{box-sizing:border-box}
 body{font-family:'Inter',sans-serif;color:var(--ink);font-size:11.6pt;line-height:1.66;margin:0}
 h1,h2,h3{font-family:'Poppins',sans-serif;line-height:1.2;margin:0}
@@ -40,14 +40,14 @@ p{margin:0 0 9pt}
 .kicker{font-family:'Poppins';font-weight:700;font-size:9pt;letter-spacing:.14em;color:var(--purple);text-transform:uppercase;margin-bottom:6pt}
 h1.sec{font-size:24pt;font-weight:800;color:var(--navy);margin-bottom:14pt}
 h2{font-size:14.5pt;font-weight:700;color:var(--navy);margin:16pt 0 7pt}
-.chap-open{background:linear-gradient(135deg,#0b1030 0%,#1d2a8a 55%,#6b2bd9 100%);color:#fff;border-radius:14pt;padding:26pt 24pt;margin-bottom:16pt;position:relative;overflow:hidden}
+.chap-open{background:linear-gradient(135deg,#04070c 0%,#0a2340 55%,#0b63d6 100%);color:#fff;border-radius:14pt;padding:26pt 24pt;margin-bottom:16pt;position:relative;overflow:hidden}
 .chap-open .num{font-family:'Poppins';font-weight:800;font-size:54pt;line-height:1;color:rgba(255,255,255,.18);position:absolute;right:18pt;top:10pt}
 .chap-open .lab{font-family:'Poppins';font-weight:700;font-size:9pt;letter-spacing:.16em;color:var(--yellow)}
 .chap-open h1{font-size:22pt;font-weight:800;margin-top:6pt;max-width:80%}
 ol.steps{counter-reset:s;list-style:none;padding:0;margin:0 0 8pt}
 ol.steps li{counter-increment:s;position:relative;padding-left:28pt;margin-bottom:7pt}
 ol.steps li:before{content:counter(s);position:absolute;left:0;top:1pt;width:19pt;height:19pt;border-radius:50%;background:var(--acc);color:#fff;font-family:'Poppins';font-weight:700;font-size:9pt;text-align:center;line-height:19pt}
-.prompt{background:#0f1430;border-radius:10pt;padding:12pt 14pt 13pt;margin:10pt 0 12pt;page-break-inside:avoid}
+.prompt{background:#06111d;border-radius:10pt;padding:12pt 14pt 13pt;margin:10pt 0 12pt;page-break-inside:avoid}
 .prompt .pl{font-family:'Poppins';font-weight:700;font-size:8.5pt;letter-spacing:.12em;color:var(--yellow);margin-bottom:6pt}
 .prompt pre{white-space:pre-wrap;font-family:'JetBrains Mono','DejaVu Sans Mono',monospace;font-size:9.4pt;line-height:1.55;color:#e9ebff;margin:0}
 .box{border-radius:10pt;padding:11pt 14pt;margin:10pt 0;page-break-inside:avoid}
@@ -60,7 +60,7 @@ ol.steps li:before{content:counter(s);position:absolute;left:0;top:1pt;width:19p
 .tool{background:#fffbea;border:1.2pt solid #f5d76e}
 .tool .bt{color:#8a6a00}
 .tool a,.cta a,.next a{color:var(--purple);font-weight:600;text-decoration:none}
-.check{border:1.2pt dashed #c9c3ff;background:#fbfaff}
+.check{border:1.2pt dashed #a5dff2;background:#f6fbfe}
 .check .bt{color:var(--navy)}
 .check ul,.cl ul{list-style:none;padding:0;margin:0}
 .check li,.cl li{padding-left:20pt;position:relative;margin-bottom:4pt}
@@ -77,10 +77,10 @@ th{background:var(--soft);font-family:'Poppins';font-weight:600;color:var(--navy
 .toolcard .tn{font-family:'Poppins';font-weight:700;color:var(--navy);width:88pt;flex:none}
 .toolcard .td{flex:1;font-size:10.2pt}
 .toolcard .tl{font-size:9pt;color:var(--purple);word-break:break-all}
-.cta{background:linear-gradient(135deg,#0b1030,#1d2a8a 60%,#6b2bd9);color:#fff;border-radius:14pt;padding:18pt 20pt;margin:12pt 0;page-break-inside:avoid}
+.cta{background:linear-gradient(135deg,#04070c,#0a2340 60%,#0b63d6);color:#fff;border-radius:14pt;padding:18pt 20pt;margin:12pt 0;page-break-inside:avoid}
 .cta h3{font-size:15pt;font-weight:800;margin-bottom:6pt}
 .cta p{color:#dfe2ff}
-.cta .btn{display:inline-block;background:var(--yellow);color:#151a3a;font-family:'Poppins';font-weight:800;font-size:10.5pt;border-radius:30pt;padding:7pt 16pt;margin-top:4pt;text-decoration:none}
+.cta .btn{display:inline-block;background:var(--yellow);color:#04121c;font-family:'Poppins';font-weight:800;font-size:10.5pt;border-radius:30pt;padding:7pt 16pt;margin-top:4pt;text-decoration:none}
 .next{border:1.2pt solid var(--line);border-radius:12pt;padding:12pt 15pt;margin-bottom:9pt;page-break-inside:avoid}
 .next .tag{font-family:'Poppins';font-weight:700;font-size:8.5pt;letter-spacing:.12em;color:var(--purple)}
 .next h3{font-size:12.5pt;color:var(--navy);margin:3pt 0 4pt}
@@ -91,25 +91,20 @@ th{background:var(--soft);font-family:'Poppins';font-weight:600;color:var(--navy
 COVER_CSS = r"""
 @page{size:A4;margin:0}
 *{box-sizing:border-box}html,body{margin:0}
-.cv{width:210mm;height:297mm;position:relative;overflow:hidden;background:radial-gradient(120% 80% at 85% 10%,#6b2bd9 0%,rgba(107,43,217,0) 55%),radial-gradient(90% 70% at 0% 100%,#1d2a8a 0%,rgba(29,42,138,0) 60%),#0b1030;color:#fff;font-family:'Poppins',sans-serif}
-.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:14mm 14mm}
-.orb{position:absolute;border-radius:50%;filter:blur(2px)}
-.o1{width:150mm;height:150mm;right:-55mm;top:58mm;border:1.2mm solid rgba(124,92,255,.35)}
-.o2{width:95mm;height:95mm;right:-22mm;top:86mm;border:.8mm solid rgba(255,210,63,.35)}
-.o3{width:40mm;height:40mm;right:24mm;top:118mm;background:radial-gradient(circle,#ffd23f 0%,#ff9f1c 70%);box-shadow:0 0 30mm rgba(255,210,63,.55)}
-.logo{position:absolute;left:18mm;top:18mm;display:flex;align-items:center;gap:3mm}
-.pill{border:.6mm solid #7c5cff;background:rgba(255,255,255,.07);border-radius:20mm;padding:2.6mm 6mm;font-weight:800;letter-spacing:.06em;font-size:13pt}
-.pill b{color:#ffd23f}
-.handle{font-weight:600;font-size:10pt;color:#b9bdf0}
-.vol{position:absolute;right:18mm;top:20mm;font-weight:700;font-size:9pt;letter-spacing:.2em;color:#ffd23f;text-align:right}
-.title{position:absolute;left:18mm;top:66mm;width:150mm}
-.title .k{font-weight:700;letter-spacing:.2em;font-size:10pt;color:#b9bdf0;margin-bottom:5mm}
-.title h1{margin:0;font-weight:800;font-size:44pt;line-height:1.02;letter-spacing:-.01em}
-.title h1 .hl{color:#ffd23f}
-.sub{position:absolute;left:18mm;top:178mm;width:122mm;font-family:'Inter';font-size:13.5pt;line-height:1.45;color:#e3e5ff}
-.selo{position:absolute;left:18mm;top:212mm;display:inline-block;background:#ffd23f;color:#141938;font-weight:800;font-size:11pt;border-radius:4mm;padding:3.4mm 5mm;max-width:150mm}
-.cta{position:absolute;left:18mm;bottom:30mm;width:170mm;font-weight:600;font-size:12pt;color:#fff;border-left:1.2mm solid #7c5cff;padding-left:4mm}
-.foot{position:absolute;left:18mm;right:18mm;bottom:13mm;display:flex;justify-content:space-between;font-size:8.5pt;letter-spacing:.14em;color:#8f94c9;font-weight:600}
+.cv{width:210mm;height:297mm;position:relative;overflow:hidden;background:radial-gradient(90% 55% at 80% 30%,rgba(11,99,214,.35) 0%,rgba(11,99,214,0) 70%),radial-gradient(70% 40% at 10% 95%,rgba(34,211,238,.18) 0%,rgba(34,211,238,0) 70%),#04070c;color:#fff;font-family:'Poppins',sans-serif}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(34,211,238,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.07) 1px,transparent 1px);background-size:12mm 12mm;-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.9),rgba(0,0,0,.35))}
+.logo{position:absolute;left:18mm;top:16mm;display:flex;align-items:center;gap:4mm}
+.logo img{width:24mm;height:24mm;mix-blend-mode:lighten}
+.logo .h{font-weight:700;font-size:11pt;color:#9fe8ff;letter-spacing:.04em}
+.vol{position:absolute;right:18mm;top:22mm;font-weight:700;font-size:9pt;letter-spacing:.2em;color:#22d3ee;text-align:right}
+.chip{position:absolute;left:18mm;top:62mm;display:inline-flex;align-items:center;gap:2mm;background:rgba(255,255,255,.08);border:.3mm solid rgba(255,255,255,.18);border-radius:10mm;padding:1.6mm 4.5mm;font-weight:600;font-size:10pt;color:#e8f6ff}
+.title{position:absolute;left:18mm;top:76mm;width:176mm}
+.title h1{margin:0;font-weight:800;font-size:50pt;line-height:1.02;letter-spacing:-.015em}
+.title h1 .hl{color:#22d3ee;text-shadow:0 0 18px rgba(34,211,238,.55),0 0 42px rgba(34,211,238,.35)}
+.sub{position:absolute;left:18mm;top:190mm;width:140mm;font-family:'Inter';font-size:14pt;line-height:1.45;color:#d7e3f4}
+.selo{position:absolute;left:18mm;top:222mm;display:inline-block;background:#22d3ee;color:#04121c;font-weight:800;font-size:10.5pt;letter-spacing:.06em;text-transform:uppercase;border-radius:2.5mm;padding:3mm 5mm;box-shadow:0 0 22px rgba(34,211,238,.6);max-width:174mm}
+.cta{position:absolute;left:18mm;bottom:28mm;width:174mm;font-weight:600;font-size:12pt;color:#fff;border-left:1.2mm solid #22d3ee;padding-left:4mm}
+.foot{position:absolute;left:18mm;right:18mm;bottom:12mm;display:flex;justify-content:space-between;font-size:8.5pt;letter-spacing:.14em;color:#6f87a6;font-weight:600}
 """
 
 FONTS = "<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;600&display=swap' rel='stylesheet'>"
@@ -129,14 +124,16 @@ def link_or_kw(url, kw):
     return f"chame <b>@issoedica</b> no Instagram e mande a palavra <b>{kw}</b>"
 
 
-def cover_html(s):
+def cover_html(s, logo_uri=""):
     lines = s["titulo_capa"]
     h = "<br>".join(E(l) for l in lines[:-1]) + f"<br><span class='hl'>{E(lines[-1])}</span>"
+    logo = f"<img src='{logo_uri}'>" if logo_uri else ""
     return f"""<!doctype html><html><head><meta charset='utf-8'>{FONTS}<style>{COVER_CSS}</style></head><body>
-<div class='cv'><div class='grid'></div><div class='orb o1'></div><div class='orb o2'></div><div class='orb o3'></div>
-<div class='logo'><div class='pill'>ISSO <b>É</b> DICA</div><div class='handle'>@issoedica</div></div>
+<div class='cv'><div class='grid'></div>
+<div class='logo'>{logo}<div class='h'>@issoedica</div></div>
 <div class='vol'>COLEÇÃO IA NA PRÁTICA<br>VOL. {E(s['nn'])}</div>
-<div class='title'><div class='k'>GUIA PRÁTICO</div><h1>{h}</h1></div>
+<div class='chip'>eBook · Guia prático</div>
+<div class='title'><h1>{h}</h1></div>
 <div class='sub'>{E(s['subtitulo'])}</div>
 <div class='selo'>{E(s['selo_capa'])}</div>
 <div class='cta'>{E(s['cta_capa'])}</div>
@@ -227,7 +224,10 @@ async def render(spec_path, outdir, links_path=None):
         L.update({k: v for k, v in json.load(open(links_path, encoding="utf-8")).items() if v})
     out = Path(outdir); out.mkdir(parents=True, exist_ok=True)
     slug = s["slug"]
-    chtml = cover_html(s); bhtml, footer = body_html(s, L)
+    import base64
+    lp = Path(__file__).with_name("logo.png")
+    luri = "data:image/png;base64," + base64.b64encode(lp.read_bytes()).decode() if lp.exists() else ""
+    chtml = cover_html(s, luri); bhtml, footer = body_html(s, L)
     (out / f"{slug}-capa.html").write_text(chtml, encoding="utf-8")
     (out / f"{slug}-miolo.html").write_text(bhtml, encoding="utf-8")
     async with async_playwright() as p:
