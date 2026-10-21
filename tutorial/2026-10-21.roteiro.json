@@ -1,0 +1,15 @@
+{
+ "titulo": "Gemini Notebook: slides com revisão antes de gerar (motion, sem captura)",
+ "hook": [["Apresentação","pronta","com"],["revisão","antes","de","gerar"]],
+ "hook_hl": ["revisão"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\nda apresentação no direct"},
+ "scenes": [
+  {"type":"kinetic","d":2.8,"lines":[["Slide pela",0.1,[245,246,250],110],["madrugada?",0.7,[245,246,250],110],["Nunca mais.",1.4,[255,212,0],118]]},
+  {"type":"kinetic","d":2.6,"lines":[["Seu PDF virou",0.1,[245,246,250],96],["apresentação",0.6,[255,212,0],104],["em minutos",1.1,[245,246,250],96]],"stamp":"O RESULTADO:","flash":true},
+  {"type":"kinetic","d":3.0,"lines":[["Gemini",0.1,[245,246,250],110],["Notebook",0.5,[255,212,0],118]],"cap":"1. Sobe seu PDF ou link","sub":"(é grátis)"},
+  {"type":"prompt","d":5.0,"app":"Gemini Notebook","text":"Crie uma apresentação de 8 slides com base nas minhas fontes para vender meu serviço a um cliente novo. Comece com a dor dele, mostre a solução, 3 provas e termine com a oferta.","tap":true,"cap":"2. Pede no chat","sub":"(te mando o prompt)"},
+  {"type":"kinetic","d":3.6,"lines":[["Revise o roteiro",0.1,[245,246,250],92],["antes de gerar",0.6,[245,246,250],92],["Clique em Prosseguir",1.2,[255,212,0],84]],"cap":"3. Ajusta e gera","sub":"(novo botão Revisar)"},
+  {"type":"compare","d":2.8,"a_label":"Fazer na mão:","a":"3 horas","b_label":"Com o Notebook:","b":"10 min"},
+  {"type":"cta","d":3.8,"flash":true}
+ ]
+}

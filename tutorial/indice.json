@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-10-21",
+  "ferramenta": "Gemini Notebook",
+  "palavra_chave": "PROMPT",
+  "link": "https://notebooklm.google.com",
+  "botao": "Abrir Notebook",
+  "mensagem_dm": "Aqui está o prompt do vídeo, é só colar no chat do Gemini Notebook (grátis):\n\nCrie uma apresentação de 8 slides com base nas minhas fontes para vender meu serviço a um cliente novo. Comece com a dor dele, mostre a solução, 3 provas e termine com a oferta.\n\nPasso a passo:\n1. Abre o Gemini Notebook e cria um caderno\n2. Sobe seu PDF, site ou apresentação antiga como fonte\n3. Cola o prompt no chat\n4. Liga o botão Revisar, ajusta o roteiro e clica em Prosseguir\n\nLink: https://notebooklm.google.com",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-10-16",
   "ferramenta": "Perplexity",
   "palavra_chave": "PROMPT",
