@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-10-23",
+  "ferramenta": "Gemini",
+  "palavra_chave": "PROMPT",
+  "link": "https://gemini.google.com",
+  "botao": "Abrir Gemini",
+  "mensagem_dm": "Aqui está o prompt do atendente do vídeo (Gemini grátis):\n\nVocê é meu atendente. Quando eu colar a mensagem de um cliente, responda em até 4 linhas, simpático e direto, quebre a objeção e termine com uma pergunta que leve ao fechamento. Meu negócio: [seu negócio e preço].\n\nPasso a passo:\n1. Abre o Gemini e clica em Personalizar > Habilidades > Criar\n2. Cola o prompt acima como instrução da habilidade (ou cola direto no chat)\n3. Sempre que um cliente disser \"tá caro\", cola a mensagem dele e pronto\n\nLink: https://gemini.google.com",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-10-21",
   "ferramenta": "Gemini Notebook",
   "palavra_chave": "PROMPT",

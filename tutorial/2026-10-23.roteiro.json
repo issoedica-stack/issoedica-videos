@@ -1,0 +1,16 @@
+{
+ "titulo": "Gemini Personalizar: habilidade que responde cliente que acha caro",
+ "hook": [["Responde","o","cliente"],["que","diz","tá","caro"]],
+ "hook_hl": ["tá","caro"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\ndo atendente no direct"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Cliente disse",0.1,[245,246,250],110],["\"tá caro\"?",0.75,[245,246,250],110],["Responde em 10s",1.45,[255,212,0],112]]},
+  {"d":1.6,"imgs":["screenshot-1792780647955-4.jpg"],"blur":[[0,230,283,760]],"b0":[520,250,1270,420],"b1":[540,270,1250,400],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.8,"imgs":["screenshot-1792780604473-1.jpg"],"blur":[[0,230,283,760]],"b0":[0,0,1300,700],"b1":[460,0,1260,480],"cap":"1. Personalizar > Habilidades","sub":"(novo no Gemini, grátis)","hl":[1136,120,1224,159]},
+  {"type":"prompt","d":4.4,"app":"gemini.google.com","text":"Você é meu atendente. Quando eu colar a mensagem de um cliente, responda em até 4 linhas, simpático e direto, quebre a objeção e termine com uma pergunta que leve ao fechamento.","tap":true,"cap":"2. Cola esse prompt","sub":"(te mando ele pronto)"},
+  {"d":2.2,"imgs":["screenshot-1792780647955-3.jpg"],"blur":[[0,230,283,760]],"b0":[420,200,1380,700],"b1":[540,340,1260,560],"cap":"3. Cola a fala do cliente","hl":[574,377,1220,544],"tap":[1189,514]},
+  {"d":4.0,"imgs":["screenshot-1792780647955-4.jpg"],"blur":[[0,230,283,760]],"b0":[520,60,1270,450],"b1":[520,250,1270,420],"cap":"Resposta pronta","sub":"que quebra a objeção","hl":[540,282,1252,380],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Pensar na resposta:","a":"20 min","b_label":"Com o Gemini:","b":"10 s"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
