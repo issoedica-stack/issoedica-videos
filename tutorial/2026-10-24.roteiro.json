@@ -1,0 +1,279 @@
+{
+ "titulo": "ElevenLabs Instant Soundtracks: trilha e efeitos sonoros sincronizados com o vídeo",
+ "hook": [
+  [
+   "Trilha",
+   "sob",
+   "medida"
+  ],
+  [
+   "pro",
+   "seu",
+   "Reels"
+  ]
+ ],
+ "hook_hl": [
+  "sob",
+  "medida"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "LINK",
+  "pos": "que eu te mando o link\ne o passo a passo no direct"
+ },
+ "scenes": [
+  {
+   "type": "kinetic",
+   "d": 2.7,
+   "lines": [
+    [
+     "Vídeo sem música",
+     0.1,
+     [
+      245,
+      246,
+      250
+     ],
+     96
+    ],
+    [
+     "ninguém assiste",
+     0.75,
+     [
+      245,
+      246,
+      250
+     ],
+     96
+    ],
+    [
+     "Trilha em 1 min",
+     1.45,
+     [
+      255,
+      212,
+      0
+     ],
+     100
+    ]
+   ]
+  },
+  {
+   "d": 1.6,
+   "imgs": [
+    "screenshot-1792842590034-5.jpg"
+   ],
+   "blur": [
+    [
+     1480,
+     40,
+     1536,
+     90
+    ]
+   ],
+   "b0": [
+    270,
+    500,
+    800,
+    745
+   ],
+   "b1": [
+    280,
+    540,
+    760,
+    745
+   ],
+   "stamp": "O RESULTADO:",
+   "flash": true
+  },
+  {
+   "d": 2.4,
+   "imgs": [
+    "screenshot-1792842497884-0.jpg"
+   ],
+   "blur": [
+    [
+     1480,
+     40,
+     1536,
+     90
+    ]
+   ],
+   "b0": [
+    256,
+    40,
+    1536,
+    770
+   ],
+   "b1": [
+    520,
+    240,
+    1250,
+    580
+   ],
+   "cap": "1. Música > Vídeo",
+   "sub": "(novo no ElevenLabs)",
+   "hl": [
+    583,
+    332,
+    662,
+    366
+   ]
+  },
+  {
+   "d": 2.0,
+   "imgs": [
+    "screenshot-1792842512275-1.jpg"
+   ],
+   "blur": [
+    [
+     1480,
+     40,
+     1536,
+     90
+    ]
+   ],
+   "b0": [
+    520,
+    240,
+    1250,
+    580
+   ],
+   "b1": [
+    540,
+    360,
+    1240,
+    450
+   ],
+   "cap": "2. Sobe seu vídeo",
+   "hl": [
+    550,
+    380,
+    1230,
+    435
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 3.6,
+   "app": "elevenlabs.io",
+   "text": "Trilha animada e moderna para Reels, batida forte nas viradas de cena",
+   "tap": true,
+   "cap": "3. Descreve o clima",
+   "sub": "(te mando ideias prontas)"
+  },
+  {
+   "d": 1.6,
+   "imgs": [
+    "screenshot-1792842526784-3.jpg"
+   ],
+   "blur": [
+    [
+     1480,
+     40,
+     1536,
+     90
+    ]
+   ],
+   "b0": [
+    540,
+    380,
+    1240,
+    560
+   ],
+   "b1": [
+    560,
+    420,
+    1240,
+    560
+   ],
+   "cap": "e clica em gerar",
+   "tap": [
+    1209,
+    537
+   ]
+  },
+  {
+   "d": 3.4,
+   "imgs": [
+    "screenshot-1792842560801-4.jpg"
+   ],
+   "blur": [
+    [
+     1480,
+     40,
+     1536,
+     90
+    ]
+   ],
+   "b0": [
+    256,
+    460,
+    1100,
+    750
+   ],
+   "b1": [
+    280,
+    520,
+    780,
+    700
+   ],
+   "cap": "Música dividida por cena",
+   "sub": "no ritmo do seu vídeo",
+   "hl": [
+    298,
+    603,
+    718,
+    682
+   ]
+  },
+  {
+   "d": 3.0,
+   "imgs": [
+    "screenshot-1792842590034-5.jpg"
+   ],
+   "blur": [
+    [
+     1480,
+     40,
+     1536,
+     90
+    ]
+   ],
+   "b0": [
+    280,
+    520,
+    780,
+    745
+   ],
+   "b1": [
+    270,
+    600,
+    760,
+    745
+   ],
+   "cap": "+ efeitos sonoros",
+   "sub": "no tempo certo",
+   "hl": [
+    298,
+    682,
+    702,
+    736
+   ],
+   "ding": 0.9
+  },
+  {
+   "type": "compare",
+   "d": 2.6,
+   "a_label": "Caçar música livre:",
+   "a": "30 min",
+   "b_label": "Com ElevenLabs:",
+   "b": "1 min"
+  },
+  {
+   "type": "cta",
+   "d": 3.6,
+   "flash": true
+  }
+ ]
+}
