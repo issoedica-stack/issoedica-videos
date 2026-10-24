@@ -1,0 +1,390 @@
+{
+ "nn": "13",
+ "slug": "Ed-13-Planilhas-com-IA-Sem-Decorar-Nenhuma-Formula",
+ "titulo": "Planilhas com IA Sem Decorar Nenhuma Fórmula",
+ "titulo_capa": [
+  "Planilhas",
+  "com IA Sem",
+  "Decorar Nenhuma",
+  "Fórmula"
+ ],
+ "subtitulo": "Excel e Google Planilhas no piloto automático: fórmulas, limpeza de dados, análises, gráficos e automações pedindo em português",
+ "selo_capa": "13 prompts prontos + plano de 7 dias + modelos para copiar",
+ "cta_capa": "Pare de travar na planilha. Você descreve o que precisa, a IA escreve a fórmula.",
+ "mesano": "outubro/2026",
+ "ferramenta_principal": {
+  "nome": "Tess AI",
+  "link": "https://bit.ly/47CuhNC",
+  "porque": "Todos os prompts deste guia funcionam no ChatGPT, Claude ou Gemini grátis. Se você quer as melhores IAs num lugar só, em português, para enviar a planilha, pedir fórmulas, gerar análises e scripts sem trocar de site, é a Tess AI que eu uso."
+ },
+ "intro": [
+  "Planilha é a ferramenta mais usada do mundo do trabalho e, ao mesmo tempo, a que mais trava as pessoas. Quase todo mundo sabe fazer uma SOMA. Pouca gente sabe cruzar duas tabelas, separar nome e sobrenome em mil linhas ou montar um painel que mostra as vendas do mês em um olhar.",
+  "Por muito tempo a solução era decorar fórmulas, assistir horas de aula ou depender daquele colega que \"manja de Excel\". Isso mudou. Hoje você descreve em português o que quer e a IA escreve a fórmula, explica cada parte e ainda corrige quando dá erro.",
+  "Isso vale para quem trabalha em escritório, para quem tem um pequeno negócio e controla vendas, estoque e caixa, e para quem quer se destacar no emprego. Quem domina planilhas resolve em 10 minutos o que os outros levam a tarde inteira, e isso aparece na avaliação, na promoção e no bolso.",
+  "Neste guia você vai aprender a usar a IA como sua especialista em planilhas: escrever fórmulas, limpar dados bagunçados, tirar conclusões, criar gráficos, montar planilhas prontas do zero e automatizar tarefas repetitivas. Tudo com prompts prontos, na ordem certa.",
+  "Uma regra antes de começar: a IA erra. Às vezes ela inventa uma função, troca uma coluna ou usa vírgula onde o seu Excel usa ponto e vírgula. Por isso você vai aprender também a testar cada resultado. A IA te dá velocidade. Quem confere e decide é você."
+ ],
+ "como_usar": [
+  "Leia um capítulo por vez e teste na sua própria planilha antes de passar para o próximo. Cada capítulo termina com um checklist.",
+  "Mantenha todos os prompts na mesma conversa da IA. Ela vai lembrando da estrutura da sua planilha e as respostas ficam cada vez mais certeiras.",
+  "Troque tudo que estiver entre [colchetes] pelas suas informações reais: nomes das colunas, letras, quantidade de linhas e o que você quer descobrir.",
+  "Nunca cole dados sensíveis (CPF, salários, dados bancários de clientes) numa IA. Use nomes fictícios ou só os cabeçalhos com 3 linhas de exemplo.",
+  "No final do guia tem modelos prontos de planilhas e um plano de 7 dias. Se estiver com pouco tempo, comece por eles."
+ ],
+ "contexto": {
+  "texto": "A IA só acerta a fórmula quando sabe exatamente como é a sua planilha. Sem isso ela chuta nomes de coluna e você perde tempo corrigindo. Cole este contexto uma única vez, no começo da conversa, e todas as respostas vão sair prontas para colar.",
+  "passos": [
+   "Abra uma IA: ChatGPT, Claude, Gemini (grátis) ou a Tess AI.",
+   "Abra a sua planilha e anote: o programa que você usa, o nome de cada coluna com a letra dela, em que linha começam os dados e até onde vão.",
+   "Cole o contexto base abaixo e preencha os colchetes. Se puder, cole também 3 linhas de exemplo com dados fictícios.",
+   "Mantenha tudo na mesma conversa, do capítulo 1 ao bônus."
+  ],
+  "prompt": "Você é um especialista em planilhas que explica de forma simples para iniciantes. Guarde este contexto:\n- Programa que eu uso: [Excel em português / Google Planilhas / Excel em inglês]\n- Separador das fórmulas no meu computador: [ponto e vírgula ; ou vírgula ,] (se não souber, escreva \"não sei\")\n- Para que serve minha planilha: [ex: controle de vendas da loja, relatório mensal do setor, fluxo de caixa]\n- Colunas: [ex: A = Data, B = Cliente, C = Produto, D = Quantidade, E = Valor unitário, F = Vendedor]\n- Os dados começam na linha [2] e vão até mais ou menos a linha [500]\n- Meu nível: [só sei SOMA / sei o básico / intermediário]\nSempre que me passar uma fórmula: escreva pronta para colar, diga em qual célula colocar, explique cada parte em uma linha e me diga como testar se está certa. Confirme que entendeu e aguarde meu próximo pedido."
+ },
+ "persona": "Para deixar tudo concreto, vamos acompanhar um exemplo ilustrativo ao longo do guia: o Rafael, assistente administrativo numa distribuidora de material de construção. Toda segunda ele passa a manhã inteira montando o relatório de vendas da semana no Excel, copiando e colando de três abas diferentes. Ele sabe usar SOMA e filtro, e só. Quer recuperar esse tempo e ser visto pelo gerente como alguém que resolve.",
+ "capitulos": [
+  {
+   "titulo": "Escreva qualquer fórmula falando em português",
+   "porque": [
+    "A maior barreira das planilhas não é a lógica, é a sintaxe. Você sabe exatamente o que quer (\"somar as vendas do João em março\"), só não sabe como escrever isso na linguagem do Excel. A IA faz essa tradução na hora.",
+    "Fórmulas como PROCV, PROCX, SE, SOMASES, CONT.SES e SEERRO resolvem a maior parte dos problemas do dia a dia. Você não precisa decorar nenhuma delas. Precisa saber pedir e saber testar.",
+    "Um detalhe que derruba muita gente: no Excel em português os argumentos são separados por ponto e vírgula (;), e no Excel em inglês por vírgula (,). Os nomes das funções também mudam (PROCV vira VLOOKUP). Por isso o contexto base pede essa informação."
+   ],
+   "passos": [
+    "Escreva o que você quer como se estivesse explicando para um colega: o que calcular, quais colunas usar e qual condição aplicar.",
+    "Rode o prompt abaixo trocando os colchetes. Peça sempre a fórmula pronta para colar e a explicação.",
+    "Cole a fórmula na célula indicada e confira o resultado com uma conta que você consegue fazer de cabeça ou com um filtro.",
+    "Se der erro (#N/D, #VALOR!, #NOME?), copie a mensagem exata e a fórmula de volta para a IA e peça a correção.",
+    "Quando funcionar, peça a versão que já trata erros com SEERRO, para a planilha não ficar cheia de mensagens feias."
+   ],
+   "prompt": "Quero uma fórmula que faça o seguinte: [descreva em português, ex: some a coluna E (valor) apenas das linhas em que a coluna F (vendedor) for \"João\" e a coluna A (data) estiver em março de 2026]. Coloque o resultado na célula [H2]. Me dê: 1) a fórmula pronta para colar no meu programa; 2) a explicação de cada parte em uma linha; 3) um jeito simples de eu conferir se o resultado está certo; 4) uma versão alternativa mais simples, se existir.",
+   "prompt_extra_titulo": "Prompt extra: corrija uma fórmula que deu erro",
+   "prompt_extra": "Esta fórmula está dando erro: [cole a fórmula]. A mensagem que aparece é: [#N/D, #VALOR!, #NOME?, #REF! ou o resultado errado]. As colunas envolvidas são [descreva]. Me explique em linguagem simples o que causou o erro, me dê a fórmula corrigida pronta para colar e me diga como evitar esse erro nas próximas vezes.",
+   "exemplo": "O Rafael precisava buscar o preço de cada produto numa aba chamada \"Tabela de Preços\" e trazer para a aba de vendas. Ele descreveu isso à IA e recebeu um PROCX com SEERRO, que devolve \"não cadastrado\" quando o produto não existe na tabela. Na primeira tentativa a IA usou vírgula. O Excel dele reclamou, ele colou o erro de volta e a IA trocou para ponto e vírgula. Em 5 minutos estava resolvido algo que ele fazia na mão, linha por linha.",
+   "erros": [
+    "Pedir de forma vaga (\"faz uma fórmula de soma\"). Quanto mais detalhes de colunas e condições, mais certeira a resposta.",
+    "Colar a fórmula e confiar sem testar. Sempre confira 2 ou 3 resultados na mão ou com filtro.",
+    "Ignorar a versão do programa. Funções como PROCX, FILTRO e ÚNICO não existem em versões antigas do Excel. Se não funcionar, avise a versão e peça uma alternativa."
+   ],
+   "checklist": [
+    "Colei o contexto base com as colunas da minha planilha",
+    "Pedi e testei pelo menos uma fórmula nova",
+    "Sei pedir a correção colando o erro exato",
+    "Uso SEERRO para esconder erros nas planilhas que outras pessoas veem"
+   ]
+  },
+  {
+   "titulo": "Limpe e organize dados bagunçados",
+   "porque": [
+    "Na vida real os dados chegam sujos: nomes com espaços sobrando, letras maiúsculas e minúsculas misturadas, datas que o Excel entende como texto, nome e sobrenome na mesma célula, clientes duplicados. Qualquer fórmula ou gráfico feito em cima disso sai errado.",
+    "Limpar dados é a tarefa mais chata e mais demorada de quem trabalha com planilhas. É também onde a IA mais economiza tempo: ela te diz a fórmula ou o recurso certo para cada tipo de sujeira e a ordem para aplicar."
+   ],
+   "passos": [
+    "Faça uma cópia da aba antes de qualquer limpeza. Nunca limpe os dados originais.",
+    "Copie o cabeçalho e 5 linhas de exemplo, troque dados pessoais por fictícios e cole no prompt abaixo.",
+    "Peça para a IA listar todos os problemas que ela encontra e o passo a passo para resolver cada um.",
+    "Aplique uma limpeza por vez numa coluna auxiliar, confira, e só depois substitua a coluna original usando Colar Especial > Valores.",
+    "Use o recurso Remover Duplicatas (Excel: guia Dados) ou o equivalente do Google Planilhas só depois de padronizar os textos."
+   ],
+   "prompt": "Estas são as primeiras linhas da minha planilha (dados fictícios):\n[cole o cabeçalho e 5 linhas]\nIdentifique todos os problemas de organização que você encontrar (espaços sobrando, maiúsculas e minúsculas, datas como texto, informações juntas na mesma célula, números como texto, duplicados). Para cada problema me dê: a fórmula ou o recurso do programa para corrigir, em qual coluna auxiliar aplicar e a ordem certa de fazer a limpeza.",
+   "prompt_extra_titulo": "Prompt extra: separe ou junte informações",
+   "prompt_extra": "Na coluna [B] eu tenho [ex: nome completo / endereço completo / código e descrição do produto juntos], no formato [cole 3 exemplos fictícios]. Quero separar em colunas diferentes: [ex: primeiro nome, sobrenome]. Me dê duas formas de fazer: uma com fórmula e uma com o recurso Texto para Colunas ou Preenchimento Relâmpago (Excel) ou Dividir texto em colunas (Google Planilhas). Diga qual é a melhor para o meu caso.",
+   "exemplo": "A base de clientes da distribuidora tinha \"MARIA SILVA \", \"maria silva\" e \"Maria Silva\" como se fossem três pessoas diferentes. A IA sugeriu a ordem: ARRUMAR para tirar espaços, PRI.MAIÚSCULA para padronizar, e só então Remover Duplicatas. O Rafael descobriu que a base de 1.800 clientes tinha, na verdade, cerca de 1.500. Os relatórios de \"clientes ativos\" estavam inflados havia meses.",
+   "erros": [
+    "Limpar direto na coluna original e perder os dados. Sempre trabalhe numa cópia ou coluna auxiliar.",
+    "Remover duplicatas antes de padronizar o texto. \"Maria\" e \"maria \" não são reconhecidas como iguais.",
+    "Colar dados reais de clientes na IA. Use dados fictícios: a IA só precisa ver o formato, não as pessoas."
+   ],
+   "checklist": [
+    "Fiz uma cópia da aba antes de limpar",
+    "Pedi à IA o diagnóstico com dados fictícios",
+    "Padronizei textos, datas e números",
+    "Removi duplicatas só depois de padronizar"
+   ]
+  },
+  {
+   "titulo": "Faça perguntas aos seus dados e tire conclusões",
+   "porque": [
+    "Uma planilha cheia de números não diz nada sozinha. O valor está nas respostas: qual produto mais vende, qual cliente sumiu, qual mês caiu e por quê, qual vendedor está acima da meta. É isso que o seu chefe ou o seu negócio querem saber.",
+    "A IA te ajuda de dois jeitos. Primeiro, transformando perguntas de negócio em fórmulas e tabelas dinâmicas. Segundo, quando você envia o arquivo (em IAs que aceitam anexos), lendo os dados e apontando padrões que você não tinha visto. Nos dois casos, você confere os números antes de apresentar."
+   ],
+   "passos": [
+    "Escreva as 3 a 5 perguntas que você ou seu chefe mais querem responder com essa planilha.",
+    "Rode o prompt abaixo para transformar cada pergunta em uma fórmula ou tabela dinâmica.",
+    "Monte a tabela dinâmica: selecione os dados, guia Inserir > Tabela Dinâmica (no Google Planilhas: Inserir > Tabela dinâmica) e siga a orientação da IA sobre o que colocar em Linhas, Colunas e Valores.",
+    "Se a sua IA aceita arquivos e os dados não são sensíveis, envie a planilha e use o prompt extra para pedir uma análise.",
+    "Confira os números principais com um filtro simples antes de levar qualquer conclusão para frente."
+   ],
+   "prompt": "Minha planilha tem as colunas [liste]. Quero responder estas perguntas:\n1) [ex: quais os 5 produtos que mais faturaram no trimestre?]\n2) [ex: qual vendedor teve a maior queda de um mês para o outro?]\n3) [ex: quais clientes compraram em julho e não voltaram em agosto e setembro?]\nPara cada pergunta, me diga a melhor forma de responder (fórmula ou tabela dinâmica), me passe a fórmula pronta ou o passo a passo da tabela dinâmica (o que vai em Linhas, Colunas, Valores e Filtros) e como apresentar o resultado de forma clara.",
+   "prompt_extra_titulo": "Prompt extra: análise do arquivo enviado",
+   "prompt_extra": "Estou enviando minha planilha [descreva o que ela contém]. Analise os dados e me entregue: 1) os 5 números mais importantes do período; 2) 3 padrões ou tendências que chamam atenção; 3) 2 possíveis problemas ou anomalias que eu deveria investigar; 4) 3 perguntas que eu deveria fazer a seguir. Mostre como você calculou cada número para eu conferir na planilha. Não invente dados que não estão no arquivo.",
+   "exemplo": "O gerente sempre perguntava \"quem são os clientes que pararam de comprar?\" e o Rafael não sabia responder. Com a IA ele montou uma tabela dinâmica por cliente e mês, e uma fórmula com CONT.SES que marca \"inativo\" quem não compra há 60 dias. Apareceram 43 clientes nessa situação. O gerente passou a lista para os vendedores ligarem. Foi a primeira vez que o relatório do Rafael virou ação.",
+   "erros": [
+    "Levar uma conclusão da IA para o chefe sem conferir. A IA pode errar contas em arquivos grandes. Confira sempre os números principais.",
+    "Fazer perguntas vagas (\"analisa minha planilha\"). Perguntas de negócio específicas geram respostas úteis.",
+    "Mostrar números sem contexto. Diga sempre comparado com o quê: mês anterior, meta ou mesmo período do ano passado."
+   ],
+   "checklist": [
+    "Escrevi as perguntas de negócio da minha planilha",
+    "Montei pelo menos uma tabela dinâmica com ajuda da IA",
+    "Conferi os números principais com filtro",
+    "Tenho 1 conclusão clara para apresentar"
+   ]
+  },
+  {
+   "titulo": "Crie gráficos e um painel que impressionam",
+   "porque": [
+    "Ninguém lê uma tabela de 500 linhas numa reunião. Um bom gráfico mostra em 5 segundos o que a tabela leva 5 minutos para explicar. Um painel (dashboard) com 3 ou 4 gráficos e alguns números grandes no topo é o tipo de entrega que faz o gestor lembrar do seu nome.",
+    "O problema é que a maioria das pessoas escolhe o gráfico errado (pizza com 12 fatias, por exemplo) ou deixa tudo poluído. A IA te diz qual gráfico usar para cada pergunta e como deixar limpo e profissional."
+   ],
+   "passos": [
+    "Defina a mensagem principal de cada gráfico em uma frase. Exemplo: \"as vendas caíram em agosto e voltaram em setembro\".",
+    "Rode o prompt abaixo para saber qual tipo de gráfico usar e como preparar os dados (geralmente a partir da tabela dinâmica do capítulo 3).",
+    "Crie o gráfico, depois tire o excesso: linhas de grade, legendas desnecessárias e cores demais. Destaque só o que importa.",
+    "Monte uma aba \"Painel\" com os números-chave no topo (total do mês, comparação com o mês anterior, meta) e os gráficos abaixo.",
+    "Use segmentação de dados (Excel) ou controles de filtro (Google Planilhas) para o painel mudar por mês, vendedor ou região."
+   ],
+   "prompt": "Quero montar um painel na minha planilha para mostrar [ex: o desempenho de vendas do mês para o gerente]. Meus dados têm [liste as colunas]. Me diga: 1) quais 4 números-chave colocar no topo e a fórmula de cada um; 2) quais 3 ou 4 gráficos usar, qual tipo (coluna, linha, barra, etc.) e por quê; 3) como organizar os dados de origem de cada gráfico; 4) dicas de layout e cores para ficar limpo e profissional; 5) como deixar o painel filtrável por [mês / vendedor / região].",
+   "prompt_extra_titulo": "Prompt extra: escreva o resumo do painel",
+   "prompt_extra": "Os números do painel deste mês são: [cole os números-chave e os principais destaques]. Escreva um resumo executivo de no máximo 6 linhas para eu mandar junto com o painel por e-mail ou WhatsApp: o que aconteceu, o principal destaque positivo, o principal ponto de atenção e uma sugestão de ação. Tom profissional e direto, sem exageros.",
+   "exemplo": "O relatório do Rafael era uma tabela enorme colada no corpo do e-mail. Com a IA ele montou uma aba Painel com 4 números no topo (faturamento, número de pedidos, ticket médio e variação contra o mês anterior), um gráfico de linha da evolução semanal, um de barras com o ranking de vendedores e uma segmentação por região. Na reunião seguinte o gerente pediu para ele apresentar o painel para a diretoria.",
+   "erros": [
+    "Usar gráfico de pizza com muitas categorias. Acima de 4 ou 5 fatias, prefira barras.",
+    "Colocar todos os gráficos possíveis. Um painel bom responde poucas perguntas importantes.",
+    "Montar o painel em cima de dados que mudam de lugar. Use tabelas formatadas (Ctrl+Alt+T no Excel) para os gráficos atualizarem sozinhos."
+   ],
+   "checklist": [
+    "Cada gráfico tem uma mensagem clara em uma frase",
+    "Criei uma aba Painel com números-chave no topo",
+    "Limpei o visual: poucas cores, sem poluição",
+    "O painel atualiza quando entram dados novos"
+   ]
+  },
+  {
+   "titulo": "Monte planilhas prontas do zero em minutos",
+   "porque": [
+    "Muita gente não usa planilha porque não sabe por onde começar a estrutura. Quais colunas criar? Onde vão as fórmulas? Como evitar que alguém digite errado? A IA desenha a planilha inteira para você, com abas, colunas, fórmulas e validações.",
+    "Isso serve para o trabalho (controle de demandas, acompanhamento de metas, orçamento do setor) e para o seu negócio (controle de vendas, estoque, fluxo de caixa, agenda de clientes). Uma planilha bem estruturada vale mais do que dez planilhas improvisadas."
+   ],
+   "passos": [
+    "Descreva para que a planilha vai servir, quem vai preencher e que perguntas ela precisa responder.",
+    "Rode o prompt abaixo. Peça a estrutura completa antes de criar qualquer coisa.",
+    "Crie as abas e colunas exatamente como a IA sugeriu e cole as fórmulas na primeira linha de dados.",
+    "Adicione as validações de dados (listas suspensas) para evitar erros de digitação: Excel em Dados > Validação de Dados, Google Planilhas em Dados > Validação de dados.",
+    "Preencha 5 linhas de teste com dados inventados e confira se todos os totais e alertas funcionam antes de usar de verdade."
+   ],
+   "prompt": "Quero criar do zero uma planilha de [ex: controle de estoque da minha loja / acompanhamento de metas do meu setor / fluxo de caixa mensal]. Quem vai preencher: [eu / minha equipe de 3 pessoas]. Ela precisa responder: [ex: o que está acabando, quanto tenho em estoque em reais, o que mais sai]. Me entregue: 1) as abas que devo criar e para que serve cada uma; 2) as colunas de cada aba, com o tipo de dado; 3) as fórmulas prontas para cada coluna calculada; 4) as validações de dados e listas suspensas; 5) uma formatação condicional para destacar alertas (ex: estoque baixo em vermelho).",
+   "exemplo": "Além do relatório, o Rafael controlava os pedidos pendentes de entrega num caderno. Pediu à IA uma planilha de controle de entregas: aba Pedidos (com lista suspensa de status), aba Clientes, e uma coluna com fórmula que calcula os dias em atraso e fica vermelha quando passa de 3. Em uma hora a planilha estava rodando, e a equipe de logística começou a usar também.",
+   "erros": [
+    "Começar a digitar dados antes de pensar na estrutura. Peça a estrutura primeiro.",
+    "Deixar campos de texto livre onde deveria ter lista suspensa. Cada pessoa escreve de um jeito e os relatórios quebram.",
+    "Misturar dados e cálculos na mesma área. Deixe uma aba para dados brutos e outra para resumos e painéis."
+   ],
+   "checklist": [
+    "Pedi a estrutura completa antes de criar",
+    "Criei abas, colunas e fórmulas conforme a orientação",
+    "Coloquei listas suspensas nos campos repetitivos",
+    "Testei com 5 linhas fictícias antes de usar"
+   ]
+  },
+  {
+   "titulo": "Automatize o que você faz toda semana",
+   "porque": [
+    "Se você faz a mesma sequência de cliques toda semana (copiar dados de uma aba para outra, formatar, filtrar, gerar um resumo, mandar por e-mail), essa tarefa pode ser automatizada. No Excel isso se faz com macros (linguagem VBA). No Google Planilhas, com o Apps Script.",
+    "Antes da IA, isso exigia saber programar. Agora você descreve a tarefa em português e a IA escreve o código, explica como colar e como rodar. Você não precisa entender cada linha, mas precisa testar numa cópia e saber o que o código faz."
+   ],
+   "passos": [
+    "Anote, passo a passo, a tarefa repetitiva exatamente como você faz hoje: de onde copia, para onde cola, o que formata, o que filtra.",
+    "Rode o prompt abaixo com essa descrição. Peça o código comentado em português e as instruções de instalação.",
+    "Faça uma cópia do arquivo e teste o código na cópia. No Excel, salve como .xlsm (pasta de trabalho habilitada para macro).",
+    "Se der erro, copie a mensagem e a linha destacada de volta para a IA e peça a correção.",
+    "Quando estiver funcionando, peça para a IA adicionar um botão na planilha para rodar a automação com um clique."
+   ],
+   "prompt": "Toda [semana / dia] eu faço esta tarefa na minha planilha no [Excel / Google Planilhas]:\n1) [ex: copio as vendas da aba \"Base\" que são da semana atual]\n2) [ex: colo na aba \"Relatório\" e ordeno por valor]\n3) [ex: somo o total por vendedor]\n4) [ex: formato como tabela e salvo em PDF]\nEscreva uma automação (macro VBA no Excel ou Apps Script no Google Planilhas) que faça tudo isso. Comente cada parte do código em português, me explique passo a passo como instalar e rodar, e me diga o que fazer se aparecer um erro. Não apague nem altere os dados da aba original.",
+   "prompt_extra_titulo": "Prompt extra: entenda um código antes de rodar",
+   "prompt_extra": "Recebi este código para minha planilha: [cole o código]. Antes de rodar, me explique em linguagem simples o que ele faz, passo a passo. Ele apaga, altera ou envia algum dado para fora da planilha? Existe algum risco? Se sim, me dê uma versão mais segura.",
+   "exemplo": "O relatório de segunda do Rafael tinha 11 passos manuais. Ele descreveu cada um para a IA e recebeu uma macro comentada. Testou numa cópia, deu erro no passo de ordenação, colou a mensagem de volta e recebeu a versão corrigida. Hoje ele clica num botão e o relatório fica pronto em menos de um minuto. A manhã de segunda virou tempo para analisar os números em vez de copiar e colar.",
+   "erros": [
+    "Rodar código direto no arquivo original. Sempre teste numa cópia.",
+    "Rodar código que você recebeu sem saber o que faz. Use o prompt extra para pedir a explicação antes.",
+    "Automatizar um processo bagunçado. Primeiro organize a planilha (capítulos 2 e 5), depois automatize."
+   ],
+   "checklist": [
+    "Listei passo a passo uma tarefa repetitiva",
+    "Gerei a automação com a IA e testei numa cópia",
+    "Sei corrigir erros colando a mensagem de volta",
+    "Adicionei um botão para rodar com um clique"
+   ]
+  }
+ ],
+ "bonus": {
+  "titulo": "Bônus: transforme essa habilidade em reconhecimento e renda",
+  "texto": [
+   "Saber planilhas com IA é uma das habilidades mais fáceis de transformar em valor. No emprego, ela vira tempo livre, entregas melhores e argumento concreto para pedir aumento ou promoção. Fora dele, vira serviço: muitos pequenos negócios precisam de uma planilha de estoque, de caixa ou de vendas bem feita e não sabem fazer.",
+   "O segredo é mostrar o resultado e não a ferramenta. Ninguém paga por \"uma macro\". Pagam por \"o relatório que levava 4 horas agora leva 1 minuto\" ou por \"agora eu sei quanto lucro de verdade\"."
+  ],
+  "prompt": "Aprendi a usar IA para fazer fórmulas, limpar dados, criar painéis e automatizar planilhas. Me ajude a transformar isso em valor. 1) No meu trabalho como [cargo]: liste 5 entregas que eu posso fazer para meu gestor perceber essa habilidade e escreva como eu apresento o tempo economizado numa conversa de avaliação. 2) Como serviço extra: sugira 3 pacotes de planilhas prontas ou personalizadas para pequenos negócios do tipo [ex: lojas, salões, prestadores de serviço], com o que entregar em cada um e uma faixa de preço realista. 3) Escreva uma mensagem curta para oferecer o primeiro pacote a conhecidos que têm negócio."
+ },
+ "modelos": [
+  {
+   "titulo": "Modelo 1: O pedido de fórmula perfeito (preencha e cole)",
+   "texto": "PROGRAMA: [Excel português / Google Planilhas]\nSEPARADOR: [; ou ,]\nONDE ESTÃO OS DADOS: aba [nome], linhas [2] a [500]\nCOLUNAS: A = [ ], B = [ ], C = [ ], D = [ ], E = [ ]\n\nO QUE EU QUERO: [descreva o resultado em português]\nCONDIÇÕES: [ex: só do vendedor X, só do mês Y, só acima de R$ 100]\nONDE COLOCAR O RESULTADO: célula [ ]\nSE NÃO ENCONTRAR: mostrar [0 / vazio / \"não encontrado\"]\n\nME ENTREGUE: fórmula pronta para colar + explicação de cada parte + como testar."
+  },
+  {
+   "titulo": "Modelo 2: Estrutura de controle de vendas (copie os cabeçalhos)",
+   "tabela": [
+    [
+     "Data",
+     "Cliente",
+     "Produto",
+     "Qtd",
+     "Valor unit.",
+     "Total (=Qtd*Valor)",
+     "Vendedor (lista)",
+     "Status (lista)"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "titulo": "Modelo 3: Fluxo de caixa mensal simples (copie os cabeçalhos)",
+   "tabela": [
+    [
+     "Data",
+     "Descrição",
+     "Categoria (lista)",
+     "Entrada",
+     "Saída",
+     "Saldo (=saldo anterior + entrada - saída)",
+     "Forma de pagamento"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "titulo": "Modelo 4: E-mail ou mensagem do relatório semanal",
+   "texto": "Assunto: Resumo de [área] | semana [dd/mm a dd/mm]\n\nOlá, [nome]!\n\nSegue o painel atualizado da semana. Os destaques:\n\n- Resultado: [número principal] ([+ ou - X%] contra a semana anterior)\n- Destaque positivo: [o que foi bem e por quê]\n- Ponto de atenção: [o que caiu ou preocupa]\n- Sugestão: [uma ação concreta para a próxima semana]\n\nO painel completo está em [link ou anexo] e pode ser filtrado por [mês / vendedor / região].\n\nQualquer dúvida, fico à disposição.\n[Seu nome]"
+  }
+ ],
+ "faq": [
+  [
+   "Preciso pagar alguma IA para usar este guia?",
+   "Não. Todos os prompts funcionam nas versões gratuitas do ChatGPT, Claude e Gemini. Versões pagas costumam aceitar arquivos maiores e errar menos em análises longas, mas para pedir fórmulas e estruturas as gratuitas resolvem muito bem."
+  ],
+  [
+   "Funciona no Google Planilhas ou só no Excel?",
+   "Funciona nos dois. A maioria das fórmulas tem o mesmo nome em português nos dois programas. Basta dizer no contexto base qual você usa. Para automações, o Excel usa macros (VBA) e o Google Planilhas usa Apps Script, e a IA escreve os dois."
+  ],
+  [
+   "E o Copilot do Excel e o Gemini do Google Planilhas?",
+   "São assistentes de IA dentro dos próprios programas, disponíveis em alguns planos pagos do Microsoft 365 e do Google Workspace. Se você tem acesso, ótimo: os mesmos pedidos deste guia funcionam lá. Se não tem, uma IA gratuita em outra aba faz o mesmo trabalho, só com o passo extra de copiar e colar."
+  ],
+  [
+   "É seguro enviar minha planilha para a IA?",
+   "Depende dos dados. Nunca envie informações pessoais ou confidenciais (CPF, salários, dados bancários, dados de clientes) sem autorização da empresa. Na maioria dos casos você só precisa mostrar os cabeçalhos e algumas linhas com dados fictícios. Confira também a política de dados da sua empresa sobre o uso de IA."
+  ],
+  [
+   "A fórmula da IA deu erro. O que eu faço?",
+   "Copie a fórmula e a mensagem de erro exata e cole de volta na mesma conversa. Os erros mais comuns são separador (vírgula no lugar de ponto e vírgula), nome da função em inglês, colunas trocadas e função que não existe na sua versão do programa. Em uma ou duas rodadas costuma resolver."
+  ],
+  [
+   "Isso substitui um curso de Excel?",
+   "Para resolver os problemas do dia a dia, a IA resolve a maior parte. Mas entender o básico (referências de célula, como funciona o PROCV, o que é uma tabela dinâmica) faz você pedir melhor e perceber quando a IA errou. Use as explicações que a IA dá em cada fórmula como sua aula prática."
+  ]
+ ],
+ "plano7": [
+  [
+   "Dia 1",
+   "Contexto base com as colunas da sua planilha. Peça e teste 3 fórmulas que você vive precisando (cap. 1)."
+  ],
+  [
+   "Dia 2",
+   "Faça uma cópia da sua base e limpe com ajuda da IA: espaços, maiúsculas, datas e duplicados (cap. 2)."
+  ],
+  [
+   "Dia 3",
+   "Escreva 3 perguntas de negócio e responda com tabela dinâmica e fórmulas (cap. 3)."
+  ],
+  [
+   "Dia 4",
+   "Monte a aba Painel com 4 números-chave e 3 gráficos limpos (cap. 4)."
+  ],
+  [
+   "Dia 5",
+   "Crie do zero uma planilha que faz falta no seu trabalho ou negócio, com listas suspensas e alertas (cap. 5)."
+  ],
+  [
+   "Dia 6",
+   "Escolha a tarefa mais repetitiva da semana e automatize numa cópia do arquivo (cap. 6)."
+  ],
+  [
+   "Dia 7",
+   "Envie o primeiro relatório com o Modelo 4 e use o bônus para planejar como mostrar esse resultado."
+  ]
+ ],
+ "checklist_final": [
+  "Tenho o contexto base da minha planilha salvo para reutilizar",
+  "Sei pedir, testar e corrigir fórmulas com a IA",
+  "Minha base de dados está limpa e sem duplicados",
+  "Respondi pelo menos 3 perguntas de negócio com os dados",
+  "Tenho uma aba Painel atualizável",
+  "Criei uma planilha nova do zero com validações",
+  "Automatizei uma tarefa repetitiva testando numa cópia",
+  "Nunca colo dados sensíveis na IA"
+ ]
+}
