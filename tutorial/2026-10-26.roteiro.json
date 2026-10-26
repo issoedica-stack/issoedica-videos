@@ -1,0 +1,17 @@
+{
+ "titulo": "Higgsfield Fábrica de Conteúdo: Reels sem rosto a partir de um tema",
+ "hook": [["Reels","sem","aparecer"],["a","IA","faz","tudo"]],
+ "hook_hl": ["IA","faz","tudo"],
+ "cta": {"pre":"Comenta","kw":"LINK","pos":"que eu te mando o link\ne 5 temas prontos no direct"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Sem gravar",0.1,[245,246,250],104],["sem editar",0.75,[245,246,250],104],["Reels pronto",1.45,[255,212,0],112]]},
+  {"d":1.8,"imgs":["cf5.jpg"],"b0":[0,95,1510,812],"b1":[300,100,1200,610],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.4,"imgs":["cf0.jpg"],"b0":[0,0,1510,812],"b1":[380,0,1130,420],"cap":"1. Abre a Fábrica de Conteúdo","sub":"(novo no Higgsfield)","hl":[505,4,702,32]},
+  {"d":3.2,"imgs":["cf1.jpg","cf2.jpg","cf3.jpg"],"b0":[400,320,1080,500],"b1":[440,340,1050,490],"cap":"2. Escreve o tema do vídeo","sub":"(te mando 5 temas prontos)","hl":[578,392,905,446]},
+  {"d":2.2,"imgs":["cf3.jpg"],"b0":[440,340,1050,490],"b1":[600,360,1050,490],"cap":"3. Escolhe a duração e gera","tap":[970,423],"hl":[616,446,824,470]},
+  {"d":3.4,"imgs":["cf4.jpg"],"b0":[0,95,1510,620],"b1":[560,95,930,610],"cap":"Roteiro, cenas, voz e edição","sub":"vídeo de 15s até 5 min","hl":[607,102,888,603]},
+  {"d":3.0,"imgs":["cf5.jpg"],"b0":[300,95,1200,620],"b1":[560,400,930,610],"cap":"Copia um estilo que viralizou","sub":"e usa como referência","hl":[614,556,881,596],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Gravar e editar:","a":"3 horas","b_label":"Com IA:","b":"minutos"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
