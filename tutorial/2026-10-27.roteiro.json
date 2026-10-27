@@ -1,0 +1,17 @@
+{
+ "titulo": "Gemini Notebook direto no chat: notebook com 10 posts criado por um comando",
+ "hook": [["1","comando","e","o","Gemini"],["monta","seu","plano","de","posts"]],
+ "hook_hl": ["plano","de","posts"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\npronto no direct"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Sem ideia",0.1,[245,246,250],110],["do que postar?",0.75,[245,246,250],110],["1 comando resolve",1.45,[255,212,0],108]]},
+  {"d":1.6,"imgs":["screenshot-1793134655385-17.jpg"],"blur":[[0,355,283,812]],"b0":[470,300,1040,515],"b1":[485,310,1025,500],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.6,"imgs":["screenshot-1793134257959-1.jpg"],"blur":[[0,320,283,812]],"b0":[300,0,1510,812],"b1":[560,330,1230,530],"cap":"1. Digita @Gemini Notebook","sub":"(novo no Gemini)","hl":[588,478,1206,512]},
+  {"type":"prompt","d":4.4,"app":"gemini.google.com","text":"@Gemini Notebook cria um notebook chamado \"Plano de Conteúdo da Minha Loja\" e salva nele uma nota com 10 ideias de posts para uma loja de roupas femininas, com gancho e legenda curta para cada um.","tap":true,"cap":"2. Cola esse prompt","sub":"(te mando ele pronto)"},
+  {"d":2.0,"imgs":["screenshot-1793134459345-9.jpg"],"blur":[[0,320,283,812]],"b0":[500,40,1300,330],"b1":[530,230,1100,310],"cap":"3. Envia e espera","hl":[540,252,870,290]},
+  {"d":2.6,"imgs":["screenshot-1793134628728-13.jpg"],"blur":[[0,355,283,812]],"b0":[0,0,1300,600],"b1":[530,230,1260,360],"cap":"Notebook criado sozinho","hl":[540,296,1250,350]},
+  {"d":3.6,"imgs":["screenshot-1793134655385-17.jpg","screenshot-1793134655385-19.jpg"],"blur":[[0,355,283,812]],"b0":[470,300,1040,515],"b1":[485,310,1025,500],"cap":"10 posts com gancho","sub":"e legenda pronta","hl":[492,405,1018,480],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Planejar 10 posts:","a":"2 horas","b_label":"Com o Gemini:","b":"3 min"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}

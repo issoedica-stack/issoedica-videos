@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-10-27",
+  "ferramenta": "Gemini Notebook",
+  "palavra_chave": "PROMPT",
+  "link": "https://gemini.google.com/app",
+  "botao": "Abrir o Gemini",
+  "mensagem_dm": "Aqui está o prompt do vídeo (Gemini Notebook direto no chat do Gemini, novidade desta semana):\n\n1. Abre o Gemini e digita @Gemini Notebook (escolhe a opção que aparece em Conectores)\n2. Cola o prompt abaixo, trocando o que está entre colchetes:\n\n@Gemini Notebook cria um notebook chamado \"Plano de Conteúdo da [NOME DA SUA LOJA]\" e salva nele uma nota com 10 ideias de posts para [SEU NEGÓCIO], com gancho e legenda curta para cada um.\n\n3. Envia e espera 1 a 3 minutos. O notebook aparece na barra lateral, com as 10 ideias salvas como fonte\n\nBônus: depois, dentro do notebook, peça \"transforma a ideia 1 num roteiro de Reels de 20 segundos\".\n\nGemini: https://gemini.google.com/app",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-10-26",
   "ferramenta": "Higgsfield",
   "palavra_chave": "LINK",
