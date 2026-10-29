@@ -1,0 +1,18 @@
+{
+ "titulo": "Claude + LGPD: lista de sites que expõem seus dados e pedido de exclusão pronto",
+ "hook": [["Apague","seus","dados"],["dos","sites","que","expõem","você"]],
+ "hook_hl": ["Apague","seus","dados"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\n+ o modelo do pedido"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Pouca gente sabe",0.1,[245,246,250],96],["que a lei te deixa",0.75,[245,246,250],96],["apagar seus dados",1.45,[255,212,0],100]]},
+  {"d":1.7,"imgs":["screenshot-1793313872242-14.jpg"],"blur":[[0,240,227,795]],"b0":[585,20,1120,520],"b1":[590,60,1120,420],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.4,"imgs":["screenshot-1793313634211-0.jpg"],"blur":[[0,240,227,795]],"b0":[227,0,1512,795],"b1":[560,280,1180,470],"cap":"1. Abre o Claude","sub":"(conta grátis serve)","hl":[612,357,1126,435]},
+  {"type":"prompt","d":4.6,"app":"claude.ai","text":"Liste os sites no Brasil que mais expõem CPF, telefone e endereço, com o canal de privacidade de cada um. Depois escreva um pedido de exclusão com base no art. 18 da LGPD, pronto para eu colar.","tap":true,"cap":"2. Cola esse prompt","sub":"(te mando ele pronto)"},
+  {"d":2.2,"imgs":["screenshot-1793313724947-8.jpg"],"blur":[[0,240,227,795]],"b0":[560,40,1180,300],"b1":[570,170,1170,285],"cap":"3. Envia e ele pesquisa","hl":[580,192,1085,276]},
+  {"d":2.8,"imgs":["screenshot-1793313843988-10.jpg"],"blur":[[0,240,227,795],[600,150,1115,200],[600,388,1115,472]],"b0":[575,40,1120,330],"b1":[575,230,1120,390],"cap":"Lista de quem expõe você","sub":"e o canal de cada um","hl":[580,252,800,272]},
+  {"d":2.8,"imgs":["screenshot-1793313872241-12.jpg"],"blur":[[0,240,227,795]],"b0":[570,30,1125,330],"b1":[575,115,1120,270],"cap":"+ truque do Google","sub":"te tira das buscas","hl":[580,126,1115,232],"ding":0.9},
+  {"d":3.4,"imgs":["screenshot-1793313872242-14.jpg"],"blur":[[0,240,227,795]],"b0":[585,20,1120,520],"b1":[590,100,1120,350],"cap":"Pedido LGPD pronto","sub":"é só colar e enviar","hl":[605,138,1118,202]},
+  {"type":"compare","d":2.6,"a_label":"Pesquisar e redigir:","a":"3 horas","b_label":"Com o Claude:","b":"2 min"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
