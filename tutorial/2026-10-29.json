@@ -1,0 +1,57 @@
+{
+ "data": "2026-10-29",
+ "video": "2026-10-29.mp4",
+ "ferramenta": "Claude",
+ "palavra_chave": "PROMPT",
+ "link": "https://claude.ai",
+ "botao": "Abrir o Claude",
+ "oferta": "Raio-X",
+ "pauta_origem": {
+  "autor": "@santiagopedrozae",
+  "link": "https://www.instagram.com/reel/De20DBCStAn/",
+  "views": 703301
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Pouca gente sabe que a lei te deixa apagar seus dados da internet."
+  },
+  {
+   "inicio": 2.7,
+   "texto": "Olha o resultado: pedido de exclusão pronto, com base na LGPD."
+  },
+  {
+   "inicio": 4.4,
+   "texto": "Primeiro, abre o Claude. A conta grátis serve."
+  },
+  {
+   "inicio": 6.8,
+   "texto": "Depois, cola o comando que eu vou te passar."
+  },
+  {
+   "inicio": 11.4,
+   "texto": "Envia, e ele pesquisa sozinho."
+  },
+  {
+   "inicio": 13.6,
+   "texto": "Ele lista quem expõe seus dados."
+  },
+  {
+   "inicio": 16.4,
+   "texto": "E ainda ensina a sumir do Google."
+  },
+  {
+   "inicio": 19.2,
+   "texto": "O pedido vem pronto: é só colar e enviar."
+  },
+  {
+   "inicio": 25.2,
+   "texto": "Quer o comando? Comenta PROMPT que eu te mando no direct. E segue o Isso É Dica, que amanhã tem outro truque."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt do vídeo (funciona na conta grátis do Claude):\n\nQuero remover meus dados pessoais dos sites que exibem tudo sobre mim. Liste os 8 tipos de site no Brasil que mais expõem CPF, telefone e endereço (consulta de pessoas, listas telefônicas, birôs de crédito, empresas de marketing), com o canal de privacidade de cada um. Depois escreva um pedido de exclusão com base no art. 18 da LGPD, pronto para eu colar, com espaços para [MEU NOME] e [MEU E-MAIL].\n\nDepois: cole os links das páginas onde seus dados aparecem e envie o pedido para o e-mail do encarregado (DPO). Bônus: no Google, use \"Resultados sobre você\" para tirar seus dados das buscas.\n\nClaude: https://claude.ai\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Seu CPF, telefone e endereço estão em sites que você nem conhece. Dá pra mandar apagar 🔒\nCom 1 prompt o Claude lista quem expõe seus dados, mostra o canal de privacidade de cada um e escreve o pedido de exclusão com base na LGPD.\nServe pra você, pra sua família e pra proteger o cadastro de clientes do seu negócio.\n💬 Comenta PROMPT que eu te mando o prompt + o modelo do pedido no direct\n\n#issoedica #claude #lgpd #privacidade #inteligenciaartificial",
+ "titulo_youtube": "Apague seus dados da internet com o Claude e a LGPD #shorts",
+ "descricao_youtube": "Como usar o Claude (conta grátis) para descobrir quais sites expõem seus dados pessoais e gerar um pedido de exclusão com base no art. 18 da LGPD.\n\nPasso a passo:\n1. Abra o Claude\n2. Cole o prompt abaixo\n3. Envie e aguarde a pesquisa\n\nPrompt:\nQuero remover meus dados pessoais dos sites que exibem tudo sobre mim. Liste os 8 tipos de site no Brasil que mais expõem CPF, telefone e endereço (consulta de pessoas, listas telefônicas, birôs de crédito, empresas de marketing), com o canal de privacidade de cada um. Depois escreva um pedido de exclusão com base no art. 18 da LGPD, pronto para eu colar, com espaços para [MEU NOME] e [MEU E-MAIL].\n\n🔗 Claude: https://claude.ai\n👇 Grupo VIP gratuito (1 ferramenta de IA por dia): https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n🚀 Quer aplicar IA no seu negócio? https://bit.ly/mentoria-issoedica\n\n#issoedica #claude #lgpd #privacidade #ia #shorts",
+ "legenda_facebook": "Como apagar seus dados pessoais da internet com o Claude e a LGPD 👇\n\nUm prompt faz o Claude listar os sites que expõem CPF, telefone e endereço, mostrar o canal de privacidade de cada um e escrever o pedido de exclusão pronto pra enviar. Funciona na conta grátis.\n\n👉 Siga a página Isso É Dica para receber 1 truque de IA por dia\n🔁 Compartilhe com quem precisa proteger os dados\n💬 Comente \"IA\" que a gente te ajuda\n👇 Grupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\n#issoedica #claude #lgpd #privacidade"
+}

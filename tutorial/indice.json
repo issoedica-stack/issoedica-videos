@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-10-29",
+  "ferramenta": "Claude",
+  "palavra_chave": "PROMPT",
+  "link": "https://claude.ai",
+  "botao": "Abrir o Claude",
+  "mensagem_dm": "Aqui está o prompt do vídeo (funciona na conta grátis do Claude):\n\nQuero remover meus dados pessoais dos sites que exibem tudo sobre mim. Liste os 8 tipos de site no Brasil que mais expõem CPF, telefone e endereço (consulta de pessoas, listas telefônicas, birôs de crédito, empresas de marketing), com o canal de privacidade de cada um. Depois escreva um pedido de exclusão com base no art. 18 da LGPD, pronto para eu colar, com espaços para [MEU NOME] e [MEU E-MAIL].\n\nDepois: cole os links das páginas onde seus dados aparecem e envie o pedido para o e-mail do encarregado (DPO). Bônus: no Google, use \"Resultados sobre você\" para tirar seus dados das buscas.\n\nClaude: https://claude.ai\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-10-27",
   "ferramenta": "Gemini Notebook",
   "palavra_chave": "PROMPT",
