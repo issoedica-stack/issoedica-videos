@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-10-30",
+  "ferramenta": "ChatGPT",
+  "palavra_chave": "PROMPT",
+  "link": "https://chatgpt.com",
+  "botao": "Abrir o ChatGPT",
+  "mensagem_dm": "Aqui está o comando dos atalhos (funciona na conta grátis do ChatGPT). Cole no início da conversa:\n\nAtive estes atalhos para esta conversa:\n/quizme [tema] = me faz 5 perguntas de múltipla escolha, uma por vez, espera minha resposta, corrige e explica.\n/explica [tema] = explica como se eu tivesse 12 anos, com 1 exemplo do dia a dia.\n/resumo [texto] = 5 tópicos e 1 frase para decorar.\nResponda só: Atalhos ativados.\n\nDepois é só usar: /quizme preço de serviço, /explica fluxo de caixa, /resumo + cole um texto.\n\nChatGPT: https://chatgpt.com\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-10-29",
   "ferramenta": "Claude",
   "palavra_chave": "PROMPT",

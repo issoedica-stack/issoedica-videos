@@ -1,0 +1,261 @@
+{
+ "titulo": "ChatGPT: atalhos /quizme, /explica e /resumo criados por você",
+ "hook": [
+  [
+   "3",
+   "atalhos",
+   "que",
+   "viram"
+  ],
+  [
+   "o",
+   "ChatGPT",
+   "em",
+   "professor"
+  ]
+ ],
+ "hook_hl": [
+  "professor"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "PROMPT",
+  "pos": "que eu te mando o comando\ndos atalhos no direct"
+ },
+ "scenes": [
+  {
+   "type": "kinetic",
+   "d": 2.7,
+   "lines": [
+    [
+     "Pouca gente sabe",
+     0.1,
+     [
+      245,
+      246,
+      250
+     ],
+     96
+    ],
+    [
+     "que o ChatGPT",
+     0.75,
+     [
+      245,
+      246,
+      250
+     ],
+     96
+    ],
+    [
+     "aceita atalhos",
+     1.45,
+     [
+      255,
+      212,
+      0
+     ],
+     104
+    ]
+   ]
+  },
+  {
+   "d": 1.8,
+   "imgs": [
+    "screenshot-1793355429498-11.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    400,
+    60,
+    1200,
+    520
+   ],
+   "b1": [
+    410,
+    70,
+    1100,
+    380
+   ],
+   "stamp": "O RESULTADO:",
+   "flash": true
+  },
+  {
+   "d": 2.4,
+   "imgs": [
+    "screenshot-1793355347615-0.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ],
+    [
+     640,
+     210,
+     985,
+     252
+    ]
+   ],
+   "b0": [
+    340,
+    0,
+    1280,
+    665
+   ],
+   "b1": [
+    420,
+    250,
+    1200,
+    360
+   ],
+   "cap": "1. Abre o ChatGPT",
+   "sub": "(conta grátis serve)",
+   "hl": [
+    427,
+    280,
+    1195,
+    332
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 4.8,
+   "app": "chatgpt.com",
+   "text": "Ative estes atalhos: /quizme [tema] = 5 perguntas, uma por vez, e corrige. /explica [tema] = explica fácil, com exemplo. /resumo [texto] = 5 tópicos e 1 frase para decorar.",
+   "tap": true,
+   "cap": "2. Cola esse comando",
+   "sub": "(te mando ele pronto)"
+  },
+  {
+   "d": 2.4,
+   "imgs": [
+    "screenshot-1793355399338-5.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    340,
+    200,
+    1280,
+    665
+   ],
+   "b1": [
+    420,
+    560,
+    1200,
+    660
+   ],
+   "cap": "3. Digita /quizme + tema",
+   "hl": [
+    427,
+    592,
+    1000,
+    640
+   ]
+  },
+  {
+   "d": 2.8,
+   "imgs": [
+    "screenshot-1793355406107-7.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ],
+    [
+     420,
+     405,
+     1200,
+     575
+    ]
+   ],
+   "b0": [
+    400,
+    40,
+    1210,
+    400
+   ],
+   "b1": [
+    410,
+    90,
+    1200,
+    360
+   ],
+   "cap": "Vira um quiz de verdade",
+   "sub": "com alternativas",
+   "hl": [
+    428,
+    148,
+    1194,
+    300
+   ]
+  },
+  {
+   "d": 3.2,
+   "imgs": [
+    "screenshot-1793355429498-11.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    400,
+    60,
+    1200,
+    520
+   ],
+   "b1": [
+    410,
+    280,
+    1200,
+    390
+   ],
+   "cap": "Corrige e explica",
+   "sub": "cada resposta",
+   "hl": [
+    420,
+    322,
+    1160,
+    378
+   ],
+   "ding": 0.9
+  },
+  {
+   "type": "compare",
+   "d": 2.6,
+   "a_label": "Aula particular:",
+   "a": "R$ 80/h",
+   "b_label": "Com o ChatGPT:",
+   "b": "R$ 0"
+  },
+  {
+   "type": "cta",
+   "d": 3.6,
+   "flash": true
+  }
+ ]
+}
