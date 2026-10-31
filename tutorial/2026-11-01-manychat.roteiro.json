@@ -1,0 +1,14 @@
+{"titulo":"Manychat: responder comentários com link no direct automaticamente",
+"hook":[["Responde","todo","comentário"],["sem","abrir","o","direct"]],
+"hook_hl":["sem","abrir"],
+"cta":{"pre":"Comenta","kw":"AUTOMAÇÃO","pos":"que eu te mando o link\ncom o 1º mês grátis\nSegue o @issoedica"},
+"scenes":[
+{"type":"kinetic","d":2.7,"lines":[["Pouca gente usa isso",0.1,[245,246,250],90],["o direct responde",0.75,[245,246,250],90],["sozinho",1.45,[255,212,0],96]]},
+{"d":2.4,"imgs":["screenshot-1793455465150-7.jpg"],"b0":[760,140,1100,440],"b1":[790,180,1070,420],"stamp":"O RESULTADO:","flash":true},
+{"d":2.8,"imgs":["screenshot-1793455409009-0.jpg"],"blur":[[215,0,1280,50],[0,70,215,115]],"b0":[215,50,1280,665],"b1":[240,380,920,560],"cap":"1. Abre o Manychat","sub":"modelo: links por DM","hl":[255,430,567,530]},
+{"d":2.6,"imgs":["screenshot-1793455426210-2.jpg"],"blur":[[215,0,1280,50],[250,190,555,290],[780,270,1075,665],[0,70,215,115]],"b0":[215,50,600,560],"b1":[230,60,580,340],"cap":"2. Escolhe o post"},
+{"d":2.6,"imgs":["screenshot-1793455457879-4.jpg","screenshot-1793455457880-5.jpg"],"blur":[[215,0,1280,50]],"b0":[215,240,600,460],"b1":[230,250,580,420],"cap":"3. Define a palavra","sub":"ex.: AUTOMAÇÃO","hl":[251,346,540,381]},
+{"d":2.6,"imgs":["screenshot-1793455465150-7.jpg"],"blur":[[215,0,1280,50]],"b0":[215,250,1280,620],"b1":[230,280,1080,500],"cap":"Escreve a mensagem","sub":"com o seu link","hl":[251,336,540,480],"ding":0.9},
+{"type":"compare","d":2.6,"a_label":"Respondendo na mão:","a":"horas por dia","b_label":"Com o Manychat:","b":"0 minutos"},
+{"type":"cta","d":3.6,"flash":true}
+]}
