@@ -1,0 +1,279 @@
+{
+ "titulo": "Gemini Criar música: jingle da sua loja com letra, voz e capa",
+ "hook": [
+  [
+   "Jingle",
+   "da",
+   "sua",
+   "loja"
+  ],
+  [
+   "em",
+   "30",
+   "segundos"
+  ]
+ ],
+ "hook_hl": [
+  "30",
+  "segundos"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "PROMPT",
+  "pos": "que eu te mando o prompt\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "kinetic",
+   "d": 2.7,
+   "lines": [
+    [
+     "Pouca gente sabe",
+     0.1,
+     [
+      245,
+      246,
+      250
+     ],
+     90
+    ],
+    [
+     "que o Gemini cria",
+     0.75,
+     [
+      245,
+      246,
+      250
+     ],
+     90
+    ],
+    [
+     "o jingle da sua loja",
+     1.45,
+     [
+      255,
+      212,
+      0
+     ],
+     76
+    ]
+   ]
+  },
+  {
+   "d": 2.2,
+   "imgs": [
+    "screenshot-1793442017953-10.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     260,
+     288,
+     612
+    ]
+   ],
+   "b0": [
+    420,
+    0,
+    860,
+    390
+   ],
+   "b1": [
+    440,
+    10,
+    840,
+    380
+   ],
+   "stamp": "O RESULTADO:",
+   "flash": true
+  },
+  {
+   "d": 2.6,
+   "imgs": [
+    "screenshot-1793441902131-1.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     260,
+     288,
+     612
+    ]
+   ],
+   "b0": [
+    288,
+    0,
+    1280,
+    665
+   ],
+   "b1": [
+    460,
+    340,
+    1000,
+    610
+   ],
+   "cap": "1. Abre o Gemini",
+   "sub": "Mais ferramentas > Criar música",
+   "hl": [
+    720,
+    398,
+    990,
+    432
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 4.8,
+   "app": "gemini.google.com",
+   "text": "Jingle de 30 segundos para a Padaria Pão Quente, em português, voz feminina animada, ritmo forró pop, refrão fácil de lembrar: pão quentinho toda hora, pede pelo WhatsApp",
+   "tap": true,
+   "cap": "2. Descreve a sua loja",
+   "sub": "(te mando o prompt pronto)"
+  },
+  {
+   "d": 2.2,
+   "imgs": [
+    "screenshot-1793441932528-3.jpg",
+    "screenshot-1793441932528-4.jpg",
+    "screenshot-1793441932529-5.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     260,
+     288,
+     612
+    ]
+   ],
+   "b0": [
+    440,
+    400,
+    1130,
+    620
+   ],
+   "b1": [
+    450,
+    420,
+    1120,
+    610
+   ],
+   "cap": "Nome, estilo e refrão"
+  },
+  {
+   "d": 1.8,
+   "imgs": [
+    "screenshot-1793441960678-6.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     260,
+     288,
+     612
+    ]
+   ],
+   "b0": [
+    400,
+    50,
+    1150,
+    320
+   ],
+   "b1": [
+    410,
+    60,
+    1140,
+    310
+   ],
+   "cap": "3. Envia e espera",
+   "sub": "menos de 1 minuto",
+   "hl": [
+    430,
+    258,
+    612,
+    292
+   ]
+  },
+  {
+   "d": 3.0,
+   "imgs": [
+    "screenshot-1793441997347-7.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     260,
+     288,
+     612
+    ]
+   ],
+   "b0": [
+    410,
+    240,
+    1150,
+    460
+   ],
+   "b1": [
+    410,
+    250,
+    1150,
+    330
+   ],
+   "cap": "Música de 1 minuto",
+   "sub": "com letra, voz e capa",
+   "hl": [
+    425,
+    262,
+    1140,
+    334
+   ]
+  },
+  {
+   "d": 3.0,
+   "imgs": [
+    "screenshot-1793442030817-12.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     260,
+     288,
+     612
+    ]
+   ],
+   "b0": [
+    400,
+    0,
+    880,
+    460
+   ],
+   "b1": [
+    560,
+    60,
+    860,
+    240
+   ],
+   "cap": "Baixa e usa",
+   "sub": "no Reels, anúncio e WhatsApp",
+   "hl": [
+    658,
+    82,
+    706,
+    128
+   ],
+   "ding": 0.9
+  },
+  {
+   "type": "compare",
+   "d": 2.6,
+   "a_label": "Jingle em estúdio:",
+   "a": "7 dias",
+   "b_label": "Com o Gemini:",
+   "b": "1 minuto"
+  },
+  {
+   "type": "cta",
+   "d": 3.6,
+   "flash": true
+  }
+ ]
+}
