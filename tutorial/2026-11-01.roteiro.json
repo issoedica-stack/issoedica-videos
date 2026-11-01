@@ -1,0 +1,17 @@
+{
+ "titulo": "Claude: gráfico animado de faturamento para Reels com 1 prompt",
+ "hook": [["Gráfico","animado","pro","Reels"],["com","1","prompt"]],
+ "hook_hl": ["1","prompt"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Pouca gente sabe",0.1,[245,246,250],90],["que o Claude anima",0.75,[245,246,250],90],["o gráfico da sua loja",1.45,[255,212,0],76]]},
+  {"d":2.0,"imgs":["screenshot-1793530255726-6.jpg"],"blur":[[20,470,625,518]],"b0":[790,45,1135,609],"b1":[805,90,1120,560],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.2,"imgs":["screenshot-1793530090471-0.jpg"],"blur":[[0,290,288,609]],"b0":[288,0,1280,609],"b1":[450,220,1120,450],"cap":"1. Abre o Claude","sub":"(claude.ai)","hl":[455,310,1113,413]},
+  {"type":"prompt","d":4.6,"app":"claude.ai","text":"Crie uma animação em HTML de um gráfico de barras mostrando o faturamento da minha loja subindo de R$ 8 mil em janeiro para R$ 32 mil em junho, barras crescendo uma por uma, contador de valores, fundo escuro, destaque amarelo, vertical 9:16.","tap":true,"cap":"2. Cola esse prompt","sub":"(te mando ele pronto)"},
+  {"d":2.2,"imgs":["screenshot-1793530107392-3.jpg","screenshot-1793530150226-4.jpg"],"blur":[[0,290,288,609]],"b0":[400,60,1180,460],"b1":[400,60,1180,300],"cap":"3. Envia e espera","sub":"(cerca de 1 minuto)"},
+  {"d":4.0,"imgs":["screenshot-1793530255726-6.jpg"],"blur":[[20,470,625,518]],"b0":[0,60,640,480],"b1":[790,45,1135,609],"cap":"Barras crescendo uma por uma","sub":"com contador e destaque","hl":[820,265,1105,520]},
+  {"d":3.2,"imgs":["screenshot-1793530255726-6.jpg"],"blur":[[20,470,625,518]],"b0":[790,60,1135,320],"b1":[805,90,1120,290],"cap":"Pronto pro Reels e Stories","sub":"é só gravar a tela","hl":[830,150,1095,258],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Editor de vídeo:","a":"2 dias","b_label":"Com IA:","b":"2 minutos"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
