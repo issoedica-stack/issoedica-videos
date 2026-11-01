@@ -1,0 +1,12 @@
+{
+ "data": "2026-11-01",
+ "video": "2026-11-01.mp4",
+ "titulo_youtube": "Google e OpenAI vão respeitar o bloqueio do seu site #shorts",
+ "legenda_post": "Seu site pode barrar IA com uma linha só 🛡️\nGoogle, Microsoft, OpenAI e Anthropic anunciaram apoio a um padrão único de recusa no robots.txt. Quem tem blog, loja ou portfólio avisa de uma vez que o conteúdo não deve entrar em treino de IA.\nA Anthropic já respeita a regra. Microsoft entra em fevereiro de 2027, o Google no começo de 2027 e a OpenAI nos próximos meses.\nComo usar: abra o robots.txt do seu site e confira com quem cuida dele se o novo aviso já pode ser adicionado.\n\n👇 Todo dia uma ferramenta nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\nComenta IA que eu te mando o link no direct\nSalva esse vídeo 🔖\n\n#issoedica #IA #InteligenciaArtificial #robotstxt #OpenAI #Anthropic #Google #Blog #CriadorDeConteudo #Privacidade",
+ "tema": "Bloqueio único de IA no robots.txt",
+ "fontes": [
+  "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/",
+  "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
+  "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic"
+ ]
+}
