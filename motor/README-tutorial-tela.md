@@ -25,3 +25,10 @@ o material (prompt, lista de códigos, kit) no direct. Música em alta é coloca
 - A palavra-chave do CTA sempre entrega algo concreto (prompt pronto, lista, kit). Os virais analisados
   têm mais comentários que curtidas justamente por causa disso.
 - Nunca mostrar nome de empresa ou pessoa real em contexto negativo; borrar.
+
+## Capa padrão (desde 02/11/2026)
+Todo vídeo publicado leva capa com a logo do Isso É Dica (identidade visual na grade do perfil).
+- Gerar: `python3 motor/capa_gen.py "<titulo da capa>" "<trecho em amarelo>" tutorial/<ID>.capa.jpg`
+- Título: a promessa do vídeo em até 7 palavras (não repetir a frase de abertura da narração).
+- No pacote `<ID>.json`, grave `"capa": "<ID>.capa.jpg"`. O n8n usa esse campo como capa do Reel no Instagram.
+- Sem o campo, o n8n usa `motor/capa_padrao.jpg`.
