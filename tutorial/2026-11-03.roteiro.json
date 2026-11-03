@@ -1,0 +1,17 @@
+{
+ "titulo": "ElevenLabs SFX v3: vinheta sonora da sua marca com 1 frase",
+ "hook": [["Vinheta","sonora","da","sua"],["loja","em","10","segundos"]],
+ "hook_hl": ["10","segundos"],
+ "cta": {"pre":"Comenta","kw":"LINK","pos":"que eu te mando o link\ne os comandos de som\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Pouca gente sabe",0.1,[245,246,250],90],["que a ElevenLabs cria",0.75,[245,246,250],78],["o som da sua marca",1.45,[255,212,0],74]]},
+  {"d":2.2,"imgs":["screenshot-1793698391658-5.jpg"],"blur":[[1230,44,1272,86]],"b0":[430,135,1105,340],"b1":[430,140,1105,250],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.2,"imgs":["screenshot-1793698360806-0.jpg"],"blur":[[1230,44,1272,86]],"b0":[0,0,1280,609],"b1":[300,340,1110,570],"cap":"1. Abre o Sound Effects","sub":"(ElevenLabs)","hl":[432,466,1104,518]},
+  {"type":"prompt","d":4.4,"app":"elevenlabs.io","text":"Fast whoosh transition, finger snap, then a bright cash register ding, energetic intro for a store video","tap":true,"cap":"2. Descreve o som","sub":"(te mando os comandos)"},
+  {"d":2.2,"imgs":["screenshot-1793698360811-1.jpg","screenshot-1793698360822-2.jpg"],"blur":[[1230,44,1272,86]],"b0":[430,345,1105,570],"b1":[430,440,1105,570],"cap":"Escreve em inglês","sub":"o modelo v3 entende melhor","hl":[440,450,1060,510]},
+  {"d":3.4,"imgs":["screenshot-1793698385930-3.jpg"],"blur":[[1230,44,1272,86]],"b0":[430,345,1105,570],"b1":[430,135,1105,340],"cap":"3. Clica em gerar","sub":"4 versões em segundos","hl":[432,176,1104,336]},
+  {"d":3.2,"imgs":["screenshot-1793698391658-5.jpg"],"blur":[[1230,44,1272,86]],"b0":[430,140,1105,340],"b1":[430,170,1080,260],"cap":"Ouve e baixa a melhor","sub":"vinheta pronta pro Reels","hl":[434,178,1100,214],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Caçar som pronto:","a":"30 min","b_label":"Com IA:","b":"10 seg"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
