@@ -1,0 +1,17 @@
+{
+ "titulo": "Gemini Canvas: página de vendas da sua loja com botão de WhatsApp em 1 prompt",
+ "hook": [["Site","da","sua","loja"],["em","1","minuto"]],
+ "hook_hl": ["1","minuto"],
+ "cta": {"pre":"Comenta","kw":"PROMPT","pos":"que eu te mando o prompt\npronto no direct\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type":"kinetic","d":2.7,"lines":[["Pouca gente sabe",0.1,[245,246,250],90],["que o Gemini cria",0.75,[245,246,250],86],["o site da sua loja",1.45,[255,212,0],80]]},
+  {"d":2.4,"imgs":["screenshot-1793787570808-3.jpg"],"b0":[90,60,1230,660],"b1":[300,60,1020,560],"stamp":"O RESULTADO:","flash":true},
+  {"d":2.6,"imgs":["screenshot-1793787385970-0.jpg"],"blur":[[0,262,288,612]],"b0":[0,0,1280,665],"b1":[450,300,1010,610],"cap":"1. Abre o Gemini","sub":"(Mais ferramentas > Canvas)","hl":[722,433,990,470]},
+  {"type":"prompt","d":4.6,"app":"gemini.google.com","text":"Crie uma página de vendas de uma tela para a minha hamburgueria em Fortaleza: título forte, 3 combos com preço, depoimento de cliente e botão grande de pedir no WhatsApp.","tap":true,"cap":"2. Cola esse prompt","sub":"(troca pelo seu negócio)"},
+  {"d":2.6,"imgs":["screenshot-1793787385971-1.jpg","screenshot-1793787385971-2.jpg"],"blur":[[0,262,288,612]],"b0":[455,290,1115,480],"b1":[455,300,1115,470],"cap":"3. Envia e espera","sub":"(menos de 1 minuto)","tap":[1080,443]},
+  {"d":3.0,"imgs":["screenshot-1793787570808-3.jpg"],"b0":[300,60,1020,560],"b1":[480,260,840,660],"cap":"3 combos com preço","sub":"texto escrito pela IA","hl":[508,595,800,650]},
+  {"d":3.0,"imgs":["screenshot-1793787613190-4.jpg"],"b0":[80,40,1230,660],"b1":[300,380,1240,660],"cap":"E botão de WhatsApp","sub":"pronto pra receber pedido","hl":[938,578,1232,648],"ding":0.9},
+  {"type":"compare","d":2.6,"a_label":"Página com agência:","a":"R$ 1.500","b_label":"Com IA:","b":"R$ 0"},
+  {"type":"cta","d":3.6,"flash":true}
+ ]
+}
