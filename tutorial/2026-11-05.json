@@ -1,0 +1,58 @@
+{
+ "data": "2026-11-05",
+ "video": "2026-11-05.mp4",
+ "capa": "2026-11-05.capa.jpg",
+ "ferramenta": "Claude",
+ "palavra_chave": "PROMPT",
+ "link": "https://claude.ai/new",
+ "botao": "Abrir o Claude",
+ "oferta": "Raio-X",
+ "pauta_origem": {
+  "autor": "@lucasacosta.ia",
+  "link": "https://www.instagram.com/reel/De-UEdwGqru/",
+  "views": 405629
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Pouca gente sabe que o Claude entrega a planilha pronta."
+  },
+  {
+   "inicio": 2.7,
+   "texto": "Olha o resultado: fluxo de caixa com gráfico."
+  },
+  {
+   "inicio": 5.1,
+   "texto": "Primeiro, confere as Skills nas configurações."
+  },
+  {
+   "inicio": 7.7,
+   "texto": "Depois, cola o comando que eu vou te passar."
+  },
+  {
+   "inicio": 12.1,
+   "texto": "Envia e pronto."
+  },
+  {
+   "inicio": 14.5,
+   "texto": "Ele monta tudo sozinho."
+  },
+  {
+   "inicio": 16.9,
+   "texto": "Entradas, saídas e saldo, com fórmulas."
+  },
+  {
+   "inicio": 19.9,
+   "texto": "E o gráfico do ano inteiro."
+  },
+  {
+   "inicio": 22.9,
+   "texto": "Quer o comando? Comenta PROMPT que eu te mando no direct. E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt da planilha de fluxo de caixa:\n\nCria uma planilha Excel de fluxo de caixa para o meu [TIPO DE NEGÓCIO]: aba de lançamentos com data, categoria (lista suspensa), descrição, forma de pagamento e valor; saídas separadas por categoria; painel com entradas, saídas, resultado, margem e saldo do mês; e um gráfico de entradas x saídas por mês. Já com fórmulas prontas.\n\nComo usar:\n1. Abra o Claude: https://claude.ai/new\n2. Cole o prompt trocando pelo seu negócio e envie\n3. Baixe o arquivo .xlsx pronto\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Seu controle de caixa ainda está no caderno? O Claude monta a planilha inteira pra você 📊\nVocê pede em português e recebe o Excel com fórmulas, categorias, saldo do mês e gráfico.\nServe para loja, salão, restaurante ou prestador de serviço que quer saber pra onde vai o dinheiro.\n💬 Comenta PROMPT que eu te mando o prompt pronto da planilha no direct\n\n#issoedica #claude #inteligenciaartificial #fluxodecaixa #empreendedorismo",
+ "titulo_youtube": "Planilha de fluxo de caixa pronta em 2 minutos com o Claude #shorts",
+ "descricao_youtube": "Aprenda a gerar uma planilha Excel de fluxo de caixa completa (lançamentos, categorias, saldo do mês, fórmulas e gráfico) com as Skills do Claude, sem saber Excel.\n\nPasso a passo:\n1. Confira as Skills em Configurações > Skills\n2. Cole o prompt abaixo trocando pelo seu negócio\n3. Envie e baixe o arquivo .xlsx pronto\n\nPrompt:\nCria uma planilha Excel de fluxo de caixa para o meu [TIPO DE NEGÓCIO]: aba de lançamentos com data, categoria (lista suspensa), descrição, forma de pagamento e valor; saídas separadas por categoria; painel com entradas, saídas, resultado, margem e saldo do mês; e um gráfico de entradas x saídas por mês. Já com fórmulas prontas.\n\n🔗 Claude: https://claude.ai/new\n\n👇 Grupo VIP gratuito com 1 ferramenta de IA por dia:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\n🚀 Quer aplicar IA no seu negócio? https://bit.ly/mentoria-issoedica\n\n#issoedica #claude #inteligenciaartificial #fluxodecaixa #shorts",
+ "legenda_facebook": "Planilha de fluxo de caixa com IA: veja como fazer no Claude 👇\nVocê pede em português e o Claude entrega o Excel pronto com lançamentos, categorias, saldo do mês, fórmulas e gráfico. Sem saber Excel.\n\nPrompt: Cria uma planilha Excel de fluxo de caixa para o meu [TIPO DE NEGÓCIO]: aba de lançamentos com data, categoria (lista suspensa), descrição, forma de pagamento e valor; saídas separadas por categoria; painel com entradas, saídas, resultado, margem e saldo do mês; e um gráfico de entradas x saídas por mês. Já com fórmulas prontas.\n\n👉 Siga a página Isso É Dica para mais dicas de IA\n🔁 Compartilhe com quem tem um negócio\n💬 Comente \"IA\" para receber mais dicas\n👇 Grupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4"
+}

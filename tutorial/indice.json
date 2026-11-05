@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-11-05",
+  "ferramenta": "Claude",
+  "palavra_chave": "PROMPT",
+  "link": "https://claude.ai/new",
+  "botao": "Abrir o Claude",
+  "mensagem_dm": "Aqui está o prompt da planilha de fluxo de caixa:\n\nCria uma planilha Excel de fluxo de caixa para o meu [TIPO DE NEGÓCIO]: aba de lançamentos com data, categoria (lista suspensa), descrição, forma de pagamento e valor; saídas separadas por categoria; painel com entradas, saídas, resultado, margem e saldo do mês; e um gráfico de entradas x saídas por mês. Já com fórmulas prontas.\n\nComo usar:\n1. Abra o Claude: https://claude.ai/new\n2. Cole o prompt trocando pelo seu negócio e envie\n3. Baixe o arquivo .xlsx pronto\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-11-04",
   "ferramenta": "Gemini",
   "palavra_chave": "PROMPT",
