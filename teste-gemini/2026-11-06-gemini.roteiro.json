@@ -1,0 +1,18 @@
+{
+ "titulo": "Gemini: foto de celular vira foto de catálogo e anúncio em vídeo",
+ "hook": [["Foto","de","celular"],["vira","anúncio"]],
+ "hook_hl": ["anúncio"],
+ "voz": "voz.wav",
+ "cta": {"pre":"Comenta","kw":"FOTO","pos":"que eu te mando os 2 prompts\nno direct\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type":"media","d":3.1,"video":"veo.mp4","vstart":6.0,"z0":1.0,"z1":1.06,"focus":[0.5,0.55],"stamp":"ANÚNCIO PRONTO","flash":true},
+  {"type":"media","d":3.6,"img":"antes.jpg","blur":[[0,460,170,1240]],"z0":1.0,"z1":1.14,"focus":[0.45,0.66],"cap":"Antes:","sub":"foto tirada no celular"},
+  {"d":2.0,"imgs":["s_menu.jpg"],"b0":[250,180,850,600],"b1":[330,300,730,590],"cap":"1. Criar imagem","sub":"(no Gemini)","hl":[366,462,592,496]},
+  {"d":2.2,"imgs":["s_prompt_img.jpg"],"b0":[320,400,1000,620],"b1":[560,420,1000,620],"cap":"Manda a sua foto","sub":"(modelo Pro)","hl":[812,520,890,553],"tap":[963,537]},
+  {"type":"prompt","d":4.2,"app":"gemini.google.com","text":"Transforma essa foto em foto profissional de catálogo: fundo de estúdio bege, luz suave, a vela reta e centralizada, sem mudar o pote nem o rótulo.","tap":true,"cap":"2. Pede foto de catálogo","sub":"(te mando o prompt)"},
+  {"type":"media","d":2.2,"img":"depois.jpg","z0":1.12,"z1":1.0,"focus":[0.5,0.62],"cap":"Foto profissional","sub":"em segundos","flash":true,"ding":0.5},
+  {"d":3.7,"imgs":["s_video_prompt.jpg"],"b0":[300,200,1020,580],"b1":[330,220,1000,500],"cap":"3. Criar vídeo","sub":"pede pra foto ganhar vida","hl":[393,455,493,492],"tap":[963,473]},
+  {"type":"media","d":2.7,"video":"veo.mp4","vstart":1.0,"z0":1.0,"z1":1.05,"cap":"Anúncio pronto","sub":"sem pagar estúdio"},
+  {"type":"cta","d":6.8,"flash":true}
+ ]
+}

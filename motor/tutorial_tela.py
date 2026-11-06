@@ -151,8 +151,41 @@ for s in SC:
 TOTAL = t
 
 # ---------- camada da tela ----------
+_media_cache = {}
+def media_frame(s, lt):
+    """Cena cheia (9:16) com imagem ou clipe gerado por IA (Gemini/Veo, Nano Banana)."""
+    if s.get("video"):
+        src = os.path.join(IMG_DIR, s["video"]); fdir = src + "_fr"
+        if not os.path.isdir(fdir):
+            os.makedirs(fdir)
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-vf",
+                            f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}",
+                            "-q:v", "2", f"{fdir}/%05d.jpg"], check=True)
+            _media_cache[fdir] = sorted(os.listdir(fdir))
+        lst = _media_cache.setdefault(fdir, sorted(os.listdir(fdir)))
+        i = min(int((lt + s.get("vstart", 0)) * FPS), len(lst) - 1)
+        img = Image.open(os.path.join(fdir, lst[i])).convert("RGB")
+    else:
+        img = load(s["img"], s.get("blur"))
+        k = max(W / img.width, H / img.height)
+        img = img.resize((int(img.width * k + 1), int(img.height * k + 1)), Image.BICUBIC)
+        x0 = (img.width - W) // 2; y0 = (img.height - H) // 2
+        img = img.crop((x0, y0, x0 + W, y0 + H))
+    p = min(max(lt / s["d"], 0), 1)
+    z = s.get("z0", 1.0) + (s.get("z1", 1.08) - s.get("z0", 1.0)) * ease(p)
+    if abs(z - 1) > 1e-3:
+        fx, fy = s.get("focus", [0.5, 0.5]); cw, ch = W / z, H / z
+        x0 = min(max(fx * W - cw / 2, 0), W - cw); y0 = min(max(fy * H - ch / 2, 0), H - ch)
+        img = img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize((W, H), Image.BICUBIC)
+    c = img.convert("RGBA")
+    if s.get("grad", True):
+        g = Image.new("L", (1, H)); g.putdata([int(150 * max(0, (y - H * 0.62) / (H * 0.38))) for y in range(H)])
+        sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); sh.putalpha(g.resize((W, H))); c.alpha_composite(sh)
+    return c
+
 def screen_layer(s, lt, gt):
     kind = s.get("type")
+    if kind == "media": return media_frame(s, lt)
     if kind == "kinetic": return motion_kinetic(s, lt)
     if kind == "prompt": return motion_prompt(s, lt)
     if kind == "compare": return motion_compare(s, lt)
@@ -388,9 +421,16 @@ with wave.open(wav, "wb") as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
     w.writeframes((np.clip(track, -1, 1) * 32767).astype(np.int16).tobytes())
 
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{FR_DIR}/%05d.jpg", "-i", wav,
-                "-filter_complex", "[0:v]noise=alls=5:allf=t,vignette=PI/6,format=yuv420p[v]",
-                "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-crf", "21", "-preset", "medium",
+VOZ = R.get("voz")
+if VOZ:
+    VOZ = VOZ if os.path.isabs(VOZ) else os.path.join(IMG_DIR, VOZ)
+    mix = ["-i", VOZ, "-filter_complex", "[0:v]noise=alls=5:allf=t,vignette=PI/6,format=yuv420p[v];"
+           "[1:a]volume=0.45[sf];[2:a]adelay=%d|%d[vz];[sf][vz]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.89[a]" % ((R.get("voz_delay", 0) * 1000,) * 2)]
+    amap = "[a]"
+else:
+    mix = ["-filter_complex", "[0:v]noise=alls=5:allf=t,vignette=PI/6,format=yuv420p[v]"]; amap = "1:a"
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{FR_DIR}/%05d.jpg", "-i", wav] + mix + [
+                "-map", "[v]", "-map", amap, "-c:v", "libx264", "-crf", "21", "-preset", "medium",
                 "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", OUT_MP4], check=True)
 shutil.rmtree(FR_DIR, ignore_errors=True); os.remove(wav)
 print("VIDEO_OK", OUT_MP4, round(TOTAL, 1), "s")

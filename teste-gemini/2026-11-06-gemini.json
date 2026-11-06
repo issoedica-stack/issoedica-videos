@@ -1,0 +1,63 @@
+{
+ "data": "2026-11-06",
+ "teste": true,
+ "video": "2026-11-06-gemini.mp4",
+ "capa": "2026-11-06-gemini.capa.jpg",
+ "ferramenta": "Gemini",
+ "palavra_chave": "FOTO",
+ "link": "https://gemini.google.com/app",
+ "botao": "Abrir o Gemini",
+ "oferta": "Raio-X",
+ "gancho": "Esse anúncio em vídeo? Era uma foto de celular.",
+ "gancho_formato": 1,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "ElevenLabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4",
+  "master": "highpass 75Hz, EQ presença +2,5dB 3,2kHz, de-ess 7kHz, compressor 3:1, loudnorm -14 LUFS"
+ },
+ "cenas_ia": {
+  "imagem": "Nano Banana (Gemini 3.1 Pro, Criar imagem)",
+  "video": "Gemini Omni / Veo (Criar vídeo, 9:16, 10s)"
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Esse anúncio em vídeo? Era uma foto de celular."
+  },
+  {
+   "inicio": 3.1,
+   "texto": "Olha o antes: bancada bagunçada, luz amarela."
+  },
+  {
+   "inicio": 6.7,
+   "texto": "Primeiro, no Gemini, escolhe Criar imagem e manda a sua foto."
+  },
+  {
+   "inicio": 10.9,
+   "texto": "Depois pede: transforma em foto de catálogo, com fundo de estúdio."
+  },
+  {
+   "inicio": 15.1,
+   "texto": "Em segundos, foto profissional."
+  },
+  {
+   "inicio": 17.3,
+   "texto": "Agora, em Criar vídeo, pede pra foto ganhar vida."
+  },
+  {
+   "inicio": 20.7,
+   "texto": "Pronto: anúncio pro Instagram, sem pagar estúdio."
+  },
+  {
+   "inicio": 23.7,
+   "texto": "Quer os dois prompts? Comenta FOTO que eu te mando no direct. E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui estão os 2 prompts para transformar foto de celular em anúncio:\n\n1) Foto de catálogo (Gemini > Criar imagem, envie a sua foto):\nTransforma essa foto em foto profissional de catálogo: fundo de estúdio bege, luz suave, sombra bonita, o produto reto e centralizado, sem mudar a embalagem nem o rótulo.\n\n2) Vídeo de anúncio (Gemini > Criar vídeo, cole a foto pronta e escolha Retrato 9:16):\nAnima essa foto como um anúncio de Instagram: [DESCREVA O MOVIMENTO, ex.: a vela acende sozinha, fumaça leve subindo], câmera aproxima devagar do rótulo, luz quente de fim de tarde. Sem texto na tela.\n\nComo usar:\n1. Abra o Gemini: https://gemini.google.com/app\n2. Escolha Criar imagem, envie a foto do produto e cole o prompt 1\n3. Copie a imagem pronta, vá em Criar vídeo, cole a imagem e o prompt 2\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Foto de produto tirada no celular, na bancada da cozinha? O Gemini transforma em foto de catálogo e ainda faz o vídeo de anúncio 🕯️\nSem estúdio, sem fotógrafo, sem editor. Serve para loja, artesanato, confeitaria, cosmético ou qualquer produto que você vende no Instagram.\n💬 Comenta FOTO que eu te mando os 2 prompts prontos no direct\n\n#issoedica #gemini #inteligenciaartificial #fotodeproduto #empreendedorismo",
+ "titulo_youtube": "Foto de celular vira anúncio em vídeo com o Gemini #shorts",
+ "descricao_youtube": "Aprenda a transformar a foto do seu produto tirada no celular em foto de catálogo e depois em vídeo de anúncio para o Instagram, tudo dentro do Gemini.\n\nPasso a passo:\n1. No Gemini, escolha Criar imagem e envie a foto\n2. Cole o prompt de foto de catálogo\n3. Em Criar vídeo, cole a foto pronta e peça para ela ganhar vida\n\nPrompt 1:\nTransforma essa foto em foto profissional de catálogo: fundo de estúdio bege, luz suave, sombra bonita, o produto reto e centralizado, sem mudar a embalagem nem o rótulo.\n\nPrompt 2:\nAnima essa foto como um anúncio de Instagram: [DESCREVA O MOVIMENTO, ex.: a vela acende sozinha, fumaça leve subindo], câmera aproxima devagar do rótulo, luz quente de fim de tarde. Sem texto na tela.\n\n🔗 Gemini: https://gemini.google.com/app\n\n👇 Grupo VIP gratuito com 1 ferramenta de IA por dia:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4\n\n🚀 Quer aplicar IA no seu negócio? https://bit.ly/mentoria-issoedica\n\n#issoedica #gemini #inteligenciaartificial #fotodeproduto #shorts",
+ "legenda_facebook": "Foto de celular vira anúncio em vídeo com IA 👇\nNo Gemini você transforma a foto do produto em foto de catálogo e depois em vídeo de anúncio, sem estúdio.\n\nPrompt da foto: Transforma essa foto em foto profissional de catálogo: fundo de estúdio bege, luz suave, sombra bonita, o produto reto e centralizado, sem mudar a embalagem nem o rótulo.\n\n👉 Siga a página Isso É Dica para mais dicas de IA\n🔁 Compartilhe com quem vende pelo Instagram\n💬 Comente \"IA\" para receber mais dicas\n👇 Grupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4"
+}
