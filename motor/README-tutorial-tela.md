@@ -19,6 +19,9 @@ o material (prompt, lista de códigos, kit) no direct. Música em alta é coloca
   x0,y0,x1,y1), `blur` (áreas a borrar), `cap`/`sub` (legenda), `hl` (retângulo de destaque), `tap` (toque),
   `stamp` (selo, usado no cold open com o resultado), `cta`, `dim`, `flash`.
 
+## Gancho (abertura)
+Nunca repetir a abertura: siga `motor/ganchos.md` e confira com `motor/gancho_check.py`.
+
 ## Regras do formato
 - Primeiro quadro mostra o RESULTADO (cold open), depois volta para o passo 1.
 - Máximo 3 passos. Entre 18 e 30 segundos.
