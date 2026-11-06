@@ -1,0 +1,14 @@
+{"titulo":"Submagic: gerador grátis de ganchos para vídeo",
+"hook":[["5","ganchos","prontos"],["em","segundos"]],
+"hook_hl":["segundos"],
+"cta":{"pre":"Comenta","kw":"SUBMAGIC","pos":"que eu te mando o link\ndo gerador grátis\nSegue o @issoedica"},
+"scenes":[
+{"type":"kinetic","d":2.7,"lines":[["Para de perder tempo",0.1,[245,246,250],90],["pensando no gancho",0.75,[245,246,250],90],["do seu vídeo",1.45,[255,212,0],96]]},
+{"d":2.4,"imgs":["screenshot-1793818049671-4.jpg"],"b0":[312,95,955,485],"b1":[330,105,940,330],"stamp":"O RESULTADO:","flash":true},
+{"d":2.8,"imgs":["screenshot-1793817973731-0.jpg"],"b0":[0,60,1280,665],"b1":[280,150,1000,340],"cap":"1. Abre o gerador grátis","sub":"site do Submagic","hl":[395,160,870,265]},
+{"d":2.6,"imgs":["screenshot-1793817973732-1.jpg"],"b0":[300,100,960,580],"b1":[320,190,940,300],"cap":"2. Descreve o vídeo","sub":"ex.: vender no Instagram","hl":[341,234,924,271]},
+{"d":2.6,"imgs":["screenshot-1793817973732-1.jpg"],"b0":[300,300,960,580],"b1":[320,470,720,570],"cap":"3. Clica em gerar","hl":[341,502,516,547]},
+{"d":2.6,"imgs":["screenshot-1793818049671-4.jpg"],"b0":[312,95,955,485],"b1":[312,330,955,485],"cap":"Escolhe o seu gancho","sub":"5 opções prontas","hl":[313,342,952,404],"ding":0.9},
+{"type":"compare","d":2.6,"a_label":"Pensando sozinho:","a":"30 minutos","b_label":"Com o Submagic:","b":"10 segundos"},
+{"type":"cta","d":3.6,"flash":true}
+]}
