@@ -13,6 +13,7 @@ hist = []
 for f in sorted(glob.glob("tutorial/*.json"), reverse=True):
     try: d = json.load(open(f))
     except Exception: continue
+    if not isinstance(d, dict): continue
     if f.endswith(".roteiro.json"):
         for s in d.get("scenes", []):
             if s.get("type") == "kinetic": hist.append((f, " ".join(l[0] for l in s["lines"]), None)); break
