@@ -499,14 +499,34 @@ with wave.open(wav, "wb") as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
     w.writeframes((np.clip(track, -1, 1) * 32767).astype(np.int16).tobytes())
 
-VOZ = R.get("voz")
-if VOZ:
-    VOZ = VOZ if os.path.isabs(VOZ) else os.path.join(IMG_DIR, VOZ)
-    mix = ["-i", VOZ, "-filter_complex", "[0:v]noise=alls=5:allf=t,vignette=PI/6,format=yuv420p[v];"
-           "[1:a]volume=0.45[sf];[2:a]adelay=%d|%d[vz];[sf][vz]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.89[a]" % ((R.get("voz_delay", 0) * 1000,) * 2)]
+VOZ = R.get("voz"); MUS = R.get("musica")
+def _abs(x): return x if os.path.isabs(x) else os.path.join(IMG_DIR, x)
+VF = "[0:v]noise=alls=5:allf=t,vignette=PI/6,format=yuv420p[v]"
+if VOZ or MUS:
+    mix = []; parts = ["[1:a]volume=0.45[sf]"]; ins = ["[sf]"]; k = 2
+    if VOZ:
+        mix += ["-i", _abs(VOZ)]
+        dl = int(R.get("voz_delay", 0) * 1000)
+        parts.append(f"[{k}:a]adelay={dl}|{dl},aresample=44100,asplit=2[vz][key]"); ins.append("[vz]"); vk = k; k += 1
+    if MUS:
+        # Música de fundo BEM baixa (regra do Bom, 06/11/2026): cerca de 17 dB abaixo da voz enquanto ela fala,
+        # e ainda abaixa sozinha (ducking) quando a voz fala. Volume ajustável por "musica_db".
+        mix += ["-stream_loop", "-1", "-i", _abs(MUS)]
+        mdb = R.get("musica_db", -23)
+        fo = max(TOTAL - 1.6, 0)
+        parts.append(f"[{k}:a]aresample=44100,atrim=0:{TOTAL + 0.5},loudnorm=I={mdb}:TP=-6:LRA=11,afade=t=in:d=0.6,afade=t=out:st={fo}:d=1.5[m0]")
+        if VOZ:
+            parts.append("[m0][key]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=350:makeup=1[mu]")
+        else:
+            parts.append("[m0]anull[mu]")
+        ins.append("[mu]"); k += 1
+    elif VOZ:
+        parts.append("[key]anullsink")
+    parts.append("".join(ins) + f"amix=inputs={len(ins)}:duration=first:normalize=0,alimiter=limit=0.89[a]")
+    mix += ["-filter_complex", VF + ";" + ";".join(parts)]
     amap = "[a]"
 else:
-    mix = ["-filter_complex", "[0:v]noise=alls=5:allf=t,vignette=PI/6,format=yuv420p[v]"]; amap = "1:a"
+    mix = ["-filter_complex", VF]; amap = "1:a"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{FR_DIR}/%05d.jpg", "-i", wav] + mix + [
                 "-map", "[v]", "-map", amap, "-c:v", "libx264", "-crf", "21", "-preset", "medium",
                 "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", OUT_MP4], check=True)

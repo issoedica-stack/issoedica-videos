@@ -50,3 +50,9 @@ Padrão do tutorial diário a partir de 07/11/2026. Exemplo completo: `teste-gem
 - **Tema visual rotativo**: `python3 motor/tema_pick.py` devolve o tema do dia (nunca repete os últimos 3).
   Grave `"tema"` no roteiro e no pacote. Temas: neon, oceano, brasa, lima, magenta, editorial (cor, fundo,
   estilo de legenda, gancho, transição e inclinação da tela mudam juntos).
+- **Música de fundo** (regra do Bom, 06/11/2026): todo vídeo leva música instrumental BAIXINHA por baixo da narração.
+  A API do Instagram não permite escolher as músicas em alta da biblioteca do app, e música comercial embutida no arquivo
+  gera bloqueio/mudo no YouTube e Facebook. Por isso a trilha é gerada no Gemini ("+" > "Mais ferramentas" > "Criar música",
+  Vocais = Instrumental, Comprimento = Padrão, prompt no estilo das trilhas em alta nos Reels), baixada como MP3 ("Baixar faixa" > "Somente áudio").
+  No roteiro: `"musica": "musica.mp3"`. O motor normaliza a trilha (padrão `musica_db` -23 LUFS), aplica ducking pela voz
+  (fica cerca de 18 dB abaixo da narração enquanto ela fala) e faz fade in/out. Reserva sem cota: `motor/trilhas/*.mp3`.
