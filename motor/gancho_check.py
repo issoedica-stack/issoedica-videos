@@ -1,16 +1,19 @@
 """Confere se uma abertura repete vídeos anteriores.
-Uso: python3 motor/gancho_check.py "<frase de abertura>" [formato]
+Uso: python3 motor/gancho_check.py "<frase de abertura>" [formato] [--ignore=<ID do vídeo de hoje>]
 Lê tutorial/*.json (narracao[0] e campo gancho) e os roteiros (1ª linha do kinetic)."""
 import glob, json, re, sys, unicodedata
 def norm(s):
     s = unicodedata.normalize("NFD", s.lower()); s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     return re.findall(r"[a-z0-9]+", s)
 BAN = ["pouca gente sabe", "voce sabia", "sabia que", "olha o que", "truque"]
-frase = sys.argv[1]; fmt = sys.argv[2] if len(sys.argv) > 2 else None
+args = [a for a in sys.argv[1:] if not a.startswith("--ignore=")]
+IGN = [a.split("=",1)[1] for a in sys.argv[1:] if a.startswith("--ignore=")]
+frase = args[0]; fmt = args[1] if len(args) > 1 else None
 w = norm(frase); erros = []
 if any(" ".join(w).startswith(b) or b in " ".join(w[:4]) for b in BAN): erros.append("abertura proibida")
 hist = []
 for f in sorted(glob.glob("tutorial/*.json"), reverse=True):
+    if any(f.split("/")[-1].startswith(i) for i in IGN): continue
     try: d = json.load(open(f))
     except Exception: continue
     if not isinstance(d, dict): continue

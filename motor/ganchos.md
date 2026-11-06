@@ -7,7 +7,8 @@ O início dos vídeos NUNCA se repete. A fórmula "Pouca gente sabe que..." est�
 ## Regras
 1. Cada vídeo usa um FORMATO diferente dos formatos dos últimos 10 vídeos (tutorial + afiliado + remix).
 2. As 3 primeiras palavras da abertura (narração e 1ª linha do kinetic) nunca podem ser iguais
-   às de nenhum vídeo anterior. Confira com: `python3 motor/gancho_check.py "<frase de abertura>"`.
+   às de nenhum vídeo anterior. Confira com: `python3 motor/gancho_check.py "<frase de abertura>" <formato>`
+   (depois de salvar o JSON do dia, rode de novo com `--ignore=<ID de hoje>` para não comparar consigo mesmo).
 3. Grave no JSON do vídeo os campos `gancho` (frase de abertura exata) e `gancho_formato` (número abaixo).
 4. A frase é sempre específica do vídeo do dia (ferramenta, resultado, público). Nada genérico.
 5. Mantém o tom de autoridade do Bom: ele domina o assunto e mostra o resultado.
