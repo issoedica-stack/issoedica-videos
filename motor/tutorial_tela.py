@@ -32,15 +32,51 @@ _font_cache = {}
 def font(s, mono=False):
     k = (s, mono)
     if k not in _font_cache:
-        _font_cache[k] = ImageFont.truetype(FM if mono else FB, s)
+        ft = ImageFont.truetype(FM if mono else (FB_TXT if mono is None else FB), s)
+        try:
+            if "Lora" in (FB_TXT if mono is None else FB) and not mono: ft.set_variation_by_name("Bold")
+        except Exception:
+            pass
+        _font_cache[k] = ft
     return _font_cache[k]
 
-# fundo dos blocos de motion graphics: grade sutil + brilho roxo
-MBG = Image.new("RGB", (W, H), (8, 9, 14)); _d = ImageDraw.Draw(MBG)
-for _x in range(0, W, 60): _d.line([(_x, 0), (_x, H)], fill=(16, 18, 26))
-for _y in range(0, H, 60): _d.line([(0, _y), (W, _y)], fill=(16, 18, 26))
-_g = Image.new("L", (W, H), 0); ImageDraw.Draw(_g).ellipse([W/2-520, 500, W/2+520, 1500], fill=70)
-MBG = Image.composite(Image.new("RGB", (W, H), (40, 30, 90)), MBG, _g.filter(ImageFilter.GaussianBlur(200))).convert("RGBA")
+# ---------- TEMAS VISUAIS (rodízio para o feed não cansar) ----------
+# Campo "tema" no roteiro. Sem o campo, o motor escolhe pelo dia do ano.
+_FD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+def _ff(n, fb):
+    p = os.path.join(_FD, n)
+    return p if os.path.exists(p) else fb
+TEMAS = {
+ "neon":    dict(accent=(255, 212, 0),  on=(10, 10, 10), bg="grid",   glow=(40, 30, 90),  cap="card",   hook="box",    trans="whip",  tilt=True,  font="Poppins-Bold.ttf"),
+ "oceano":  dict(accent=(0, 224, 198),  on=(4, 20, 24),  bg="dots",   glow=(0, 70, 90),   cap="pill",   hook="accent", trans="zoom",  tilt=False, font="InterDisplay-Black.otf"),
+ "brasa":   dict(accent=(255, 112, 67), on=(20, 8, 4),   bg="diag",   glow=(110, 35, 20), cap="stroke", hook="stroke", trans="slide", tilt=True,  font="InterDisplay-ExtraBold.otf"),
+ "lima":    dict(accent=(170, 255, 60), on=(10, 20, 0),  bg="grid",   glow=(30, 70, 20),  cap="pill",   hook="box",    trans="zoom",  tilt=False, font="Poppins-Bold.ttf"),
+ "magenta": dict(accent=(255, 70, 160), on=(25, 0, 15),  bg="dots",   glow=(90, 20, 80),  cap="card",   hook="accent", trans="slide", tilt=False, font="InterDisplay-Black.otf"),
+ "editorial": dict(accent=(255, 200, 120), on=(20, 14, 4), bg="plain", glow=(60, 45, 25), cap="stroke", hook="stroke", trans="whip", tilt=False, font="Lora-Variable.ttf"),
+}
+import datetime as _dt
+TEMA = R.get("tema") or list(TEMAS)[_dt.date.today().timetuple().tm_yday % len(TEMAS)]
+TM = TEMAS.get(TEMA, TEMAS["neon"])
+YEL = TM["accent"]; ON_ACC = TM["on"]
+FB = _ff(TM["font"], FB)
+if TM["font"].startswith("Lora"):
+    FB_TXT = _ff("InterDisplay-ExtraBold.otf", FB)   # serifa só em títulos; legendas em sem serifa
+else:
+    FB_TXT = FB
+
+def _make_bg():
+    bg = Image.new("RGB", (W, H), (8, 9, 14)); d = ImageDraw.Draw(bg)
+    if TM["bg"] == "grid":
+        for x in range(0, W, 60): d.line([(x, 0), (x, H)], fill=(16, 18, 26))
+        for y in range(0, H, 60): d.line([(0, y), (W, y)], fill=(16, 18, 26))
+    elif TM["bg"] == "dots":
+        for x in range(30, W, 54):
+            for y in range(30, H, 54): d.ellipse([x - 2, y - 2, x + 2, y + 2], fill=(26, 30, 40))
+    elif TM["bg"] == "diag":
+        for k in range(-H, W, 70): d.line([(k, H), (k + H, 0)], fill=(20, 16, 18), width=3)
+    g = Image.new("L", (W, H), 0); ImageDraw.Draw(g).ellipse([W/2-520, 500, W/2+520, 1500], fill=70)
+    return Image.composite(Image.new("RGB", (W, H), TM["glow"]), bg, g.filter(ImageFilter.GaussianBlur(200))).convert("RGBA")
+MBG = _make_bg()
 MUT = (120, 126, 150); CY = (0, 224, 198); RED = (255, 70, 70)
 
 def eout(p):
@@ -97,7 +133,7 @@ def motion_prompt(s, lt):
         q = seg(lt, s["d"] * 0.82, s["d"])
         bx, by = x1 - 120, y1 - 100
         d.rounded_rectangle([bx - 70, by - 40, bx + 70, by + 40], 40, fill=YEL + (int(255*A),))
-        d.text((bx - 40, by - 26), "OK", font=font(44), fill=(10, 10, 10, int(255*A)))
+        d.text((bx - 40, by - 26), "OK", font=font(44), fill=ON_ACC + (int(255*A),))
         r = 30 + 50 * q
         d.ellipse([bx - r, by - r, bx + r, by + r], outline=(255, 255, 255, int(255*(1-q))), width=7)
     return c
@@ -235,7 +271,7 @@ def screen_layer(s, lt, gt):
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(sh).rectangle([ox + 20, oy + 30, ox + fw + 20, oy + fh + 30], fill=(0, 0, 0, 150))
     canvas.alpha_composite(sh.filter(ImageFilter.GaussianBlur(30)))
-    ang = -0.9 + 0.3 * math.sin(gt * 1.6)
+    ang = (-0.9 + 0.3 * math.sin(gt * 1.6)) if TM["tilt"] else 0
     canvas.alpha_composite(layer.rotate(ang, resample=Image.BICUBIC, center=(W / 2, SCREEN_Y)))
     return canvas
 
@@ -245,47 +281,71 @@ def stamp(canvas, txt, lt):
     f = font(70); tmp = Image.new("RGBA", (700, 160), (0, 0, 0, 0)); d = ImageDraw.Draw(tmp)
     tw = d.textlength(txt, font=f)
     d.rounded_rectangle([(700 - tw) / 2 - 40, 20, (700 + tw) / 2 + 40, 140], 30, fill=YEL + (255,))
-    d.text(((700 - tw) / 2, 32), txt, font=f, fill=(10, 10, 10))
+    d.text(((700 - tw) / 2, 32), txt, font=f, fill=ON_ACC)
     tmp = tmp.rotate(-4, resample=Image.BICUBIC, expand=True)
     sz = (max(1, int(tmp.width * k)), max(1, int(tmp.height * k)))
     tmp = tmp.resize(sz)
     canvas.alpha_composite(tmp, (int(W / 2 - sz[0] / 2), int(1560 - sz[1] / 2)))
 
 def caption_words(canvas, s, lt):
-    """Legenda palavra por palavra (estilo karaoke) dentro de um cartao."""
+    """Legenda palavra por palavra (estilo karaoke). Estilo depende do tema: card, pill ou stroke."""
     words = s["cap"].split()
     sub = s.get("sub")
     per = min(0.16, max(0.08, (s["d"] - TR - 0.6) / max(len(words), 1)))
     shown = int(lt / per) + 1
-    f1, f2 = font(64), font(50)
+    st = TM["cap"]
     tmp = Image.new("RGBA", (W, 300), (0, 0, 0, 0)); d = ImageDraw.Draw(tmp)
     full = " ".join(words)
+    s1 = 64 if st != "stroke" else 78
+    while s1 > 40 and d.textlength(full, font=font(s1, None)) > W - 150: s1 -= 4
+    s2 = 50 if st != "stroke" else 52
+    while sub and s2 > 34 and d.textlength(sub, font=font(s2, None)) > W - 120: s2 -= 3
+    f1, f2 = font(s1, None), font(s2, None)
     w1 = d.textlength(full, font=f1); w2 = d.textlength(sub, font=f2) if sub else 0
     bw, bh = max(w1, w2) + 80, 110 + (70 if sub else 0)
     x0 = (W - bw) / 2
     a = min(lt / 0.2, 1); k = back(a) if a < 1 else 1
-    d.rounded_rectangle([x0, 10, x0 + bw, 10 + bh], 30, fill=(12, 12, 12, 228))
-    d.rounded_rectangle([x0, 10, x0 + 14, 10 + bh], 7, fill=YEL + (255,))
+    sw = 0
+    if st == "card":
+        d.rounded_rectangle([x0, 10, x0 + bw, 10 + bh], 30, fill=(12, 12, 12, 228))
+        d.rounded_rectangle([x0, 10, x0 + 14, 10 + bh], 7, fill=YEL + (255,))
+    elif st == "pill":
+        d.rounded_rectangle([(W - w1) / 2 - 44, 14, (W + w1) / 2 + 44, 104], 45, fill=YEL + (245,))
+        if sub:
+            d.rounded_rectangle([(W - w2) / 2 - 30, 116, (W + w2) / 2 + 30, 180], 32, fill=(12, 12, 12, 220))
+    else:
+        sw = 7
     x = (W - w1) / 2
     for i, w in enumerate(words):
         if i < shown:
-            col = YEL if i == shown - 1 and shown <= len(words) else (255, 255, 255)
-            d.text((x, 30), w, font=f1, fill=col)
+            if st == "pill":
+                col = ON_ACC
+            else:
+                col = YEL if i == shown - 1 and shown <= len(words) else (255, 255, 255)
+            d.text((x, 30 if st != "stroke" else 20), w, font=f1, fill=col, stroke_width=sw, stroke_fill=(0, 0, 0))
         x += d.textlength(w + " ", font=f1)
     if sub and shown > len(words):
-        d.text(((W - w2) / 2, 112), sub, font=f2, fill=YEL)
+        d.text(((W - w2) / 2, 112 if st != "stroke" else 118), sub, font=f2, fill=(255, 255, 255) if st == "pill" else YEL,
+               stroke_width=5 if st == "stroke" else 0, stroke_fill=(0, 0, 0))
     sz = (max(1, int(W * k)), max(1, int(300 * k)))
     tmp = tmp.resize(sz, Image.BICUBIC)
     canvas.alpha_composite(tmp, (int((W - sz[0]) / 2), int(1590 + (300 - sz[1]) / 2)))
 
 def hook(canvas, gt):
     lines = R["hook"]; hl = set(R.get("hook_hl", []))
-    f = font(70); lh = 90; y = 150
+    st = TM["hook"]
+    f = font(70 if st != "stroke" else 80); lh = 90 if st != "stroke" else 100; y = 150
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
     bw = max(d.textlength(" ".join(l), font=f) for l in lines)
     x0 = (W - bw - 80) / 2
-    d.rounded_rectangle([x0, y - 25, x0 + bw + 80, y - 25 + lh * len(lines) + 45], 32,
-                        fill=(0, 0, 0, int(215 * min(gt / 0.2, 1))))
+    A = min(gt / 0.2, 1)
+    if st == "box":
+        d.rounded_rectangle([x0, y - 25, x0 + bw + 80, y - 25 + lh * len(lines) + 45], 32, fill=(0, 0, 0, int(215 * A)))
+    elif st == "stroke":
+        g = Image.new("L", (1, 520)); g.putdata([int(170 * (1 - i / 520) ** 1.4 * A) for i in range(520)])
+        sh = Image.new("RGBA", (W, 520), (0, 0, 0, 0)); sh.putalpha(g.resize((W, 520))); ov.alpha_composite(sh)
+    elif st == "accent":
+        d.rounded_rectangle([x0, y - 25, x0 + bw + 80, y - 25 + lh * len(lines) + 45], 32, fill=(8, 8, 10, int(225 * A)), outline=YEL + (int(255 * A),), width=5)
     idx = 0
     for li, ln in enumerate(lines):
         x = (W - d.textlength(" ".join(ln), font=f)) / 2
@@ -293,7 +353,8 @@ def hook(canvas, gt):
             ap = min(max((gt - 0.1 * idx) / 0.22, 0), 1)
             if ap > 0:
                 col = YEL if w in hl else (255, 255, 255)
-                d.text((x, y + li * lh + int(22 * (1 - ease(ap)))), w, font=f, fill=col + (int(255 * ap),))
+                d.text((x, y + li * lh + int(22 * (1 - ease(ap)))), w, font=f, fill=col + (int(255 * ap),),
+                       stroke_width=6 if st == "stroke" else 0, stroke_fill=(0, 0, 0, int(255 * ap)))
             x += d.textlength(w + " ", font=f); idx += 1
     canvas.alpha_composite(ov)
 
@@ -305,7 +366,7 @@ def cta(canvas, lt):
     d.text(((W - d.textlength(c["pre"], font=f1)) / 2, 30), c["pre"], font=f1, fill="white")
     kw = c["kw"]; kwid = d.textlength(kw, font=f2)
     d.rounded_rectangle([(W - kwid) / 2 - 40, 120, (W + kwid) / 2 + 40, 290], 34, fill=YEL + (255,))
-    d.text(((W - kwid) / 2, 128), kw, font=f2, fill=(10, 10, 10))
+    d.text(((W - kwid) / 2, 128), kw, font=f2, fill=ON_ACC)
     yy = 330
     for ln in c["pos"].split("\n"):
         d.text(((W - d.textlength(ln, font=f3)) / 2, yy), ln, font=f3, fill="white"); yy += 72
@@ -334,6 +395,23 @@ def scene_frame(si, lt, gt):
     return c
 
 def whip(a, b, q):
+    tr = TM["trans"]
+    if tr == "zoom":
+        e = ease(q); k = 1 + 0.25 * e
+        za = a.resize((int(W * k), int(H * k)), Image.BILINEAR).crop((int((W * k - W) / 2), int((H * k - H) / 2), int((W * k + W) / 2), int((H * k + H) / 2)))
+        za = za.resize((W, H))
+        out = Image.blend(za.convert("RGBA"), b, e)
+        if 0.2 < q < 0.8: out = out.filter(ImageFilter.GaussianBlur(6 * math.sin(math.pi * q)))
+        return out
+    if tr == "slide":
+        off = int(H * ease(q))
+        out = Image.new("RGBA", (W, H)); out.paste(a, (0, -off)); out.paste(b, (0, H - off))
+        k = math.sin(math.pi * q)
+        if k > 0.05:
+            arr = np.asarray(out, np.float32); acc = np.zeros_like(arr)
+            for i in range(5): acc += np.roll(arr, int((i - 2) * 26 * k), axis=0)
+            out = Image.fromarray((acc / 5).astype(np.uint8), "RGBA")
+        return out
     off = int(W * ease(q))
     out = Image.new("RGBA", (W, H)); out.paste(a, (-off, 0)); out.paste(b, (W - off, 0))
     k = math.sin(math.pi * q)
@@ -433,4 +511,4 @@ subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-
                 "-map", "[v]", "-map", amap, "-c:v", "libx264", "-crf", "21", "-preset", "medium",
                 "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", OUT_MP4], check=True)
 shutil.rmtree(FR_DIR, ignore_errors=True); os.remove(wav)
-print("VIDEO_OK", OUT_MP4, round(TOTAL, 1), "s")
+print("VIDEO_OK", OUT_MP4, round(TOTAL, 1), "s", "tema=" + TEMA)
