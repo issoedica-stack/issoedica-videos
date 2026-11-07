@@ -1,0 +1,170 @@
+{
+ "titulo": "ChatGPT: foto de balcão vira pôster de combo com preço",
+ "tema": "oceano",
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "hook": [
+  [
+   "Foto",
+   "de",
+   "balcão"
+  ],
+  [
+   "vira",
+   "pôster",
+   "de",
+   "combo"
+  ]
+ ],
+ "hook_hl": [
+  "pôster"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "POSTER",
+  "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 2.8,
+   "img": "antes.jpg",
+   "z0": 1.0,
+   "z1": 1.12,
+   "focus": [
+    0.5,
+    0.62
+   ],
+   "cap": "Antes:",
+   "sub": "foto no balcão"
+  },
+  {
+   "type": "media",
+   "d": 3.1,
+   "img": "combo.png",
+   "z0": 1.12,
+   "z1": 1.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "stamp": "PÔSTER PRONTO",
+   "flash": true,
+   "ding": 0.3
+  },
+  {
+   "type": "media",
+   "d": 2.7,
+   "video": "veo.mp4",
+   "vstart": 4.5,
+   "z0": 1.0,
+   "z1": 1.06,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "cap": "Tudo no ChatGPT",
+   "sub": "versão gratuita"
+  },
+  {
+   "d": 2.4,
+   "imgs": [
+    "s_upload.jpg"
+   ],
+   "b0": [
+    380,
+    120,
+    1220,
+    480
+   ],
+   "b1": [
+    420,
+    190,
+    900,
+    420
+   ],
+   "cap": "1. Anexa a foto",
+   "sub": "do seu produto",
+   "hl": [
+    439,
+    209,
+    561,
+    331
+   ],
+   "tap": [
+    500,
+    270
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 5.3,
+   "app": "chatgpt.com",
+   "text": "Transforma essa foto em pôster de anúncio em estilo 3D cinematográfico, vertical 9:16: o mesmo lanche no centro, ingredientes voando em volta, fundo laranja vibrante, luz de estúdio. Sem texto.",
+   "tap": true,
+   "cap": "2. Cola o comando",
+   "sub": "(te mando o prompt)"
+  },
+  {
+   "type": "media",
+   "d": 1.2,
+   "img": "poster.png",
+   "z0": 1.1,
+   "z1": 1.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "cap": "Olha o resultado",
+   "flash": true,
+   "ding": 0.2
+  },
+  {
+   "d": 2.9,
+   "imgs": [
+    "s_prompt2.jpg"
+   ],
+   "b0": [
+    380,
+    300,
+    1220,
+    665
+   ],
+   "b1": [
+    420,
+    500,
+    1200,
+    640
+   ],
+   "cap": "3. Pede nome e preço",
+   "sub": "na mesma conversa",
+   "hl": [
+    436,
+    528,
+    1150,
+    582
+   ],
+   "tap": [
+    1167,
+    615
+   ]
+  },
+  {
+   "type": "media",
+   "d": 3.2,
+   "img": "combo.png",
+   "z0": 1.08,
+   "z1": 1.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "flash": true
+  },
+  {
+   "type": "cta",
+   "d": 7.0,
+   "flash": true
+  }
+ ]
+}

@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-11-07",
+  "ferramenta": "ChatGPT",
+  "palavra_chave": "POSTER",
+  "link": "https://chatgpt.com/",
+  "botao": "Abrir o ChatGPT",
+  "mensagem_dm": "Aqui estão os 2 prompts para transformar a foto do seu produto em pôster de promoção:\n\n1) Pôster 3D (anexe a foto do produto e cole):\nTransforma essa foto em pôster de anúncio em estilo 3D cinematográfico, formato vertical 9:16: o mesmo [PRODUTO] no centro, [INGREDIENTES OU DETALHES] voando em volta, fundo [COR DA SUA MARCA] vibrante com brilho, luz de estúdio e fumaça leve. Sem texto e sem logos.\n\n2) Nome e preço (na mesma conversa):\nAgora coloca no topo o texto \"[NOME DO PRODUTO]\" e embaixo \"[OFERTA E PREÇO]\" em letras grandes, modernas e bem legíveis, pronto para postar no Instagram.\n\nComo usar:\n1. Abra o ChatGPT: https://chatgpt.com/\n2. Anexe a foto do produto e cole o prompt 1\n3. Na mesma conversa, cole o prompt 2 e baixe a arte\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-11-05",
   "ferramenta": "Claude",
   "palavra_chave": "PROMPT",
