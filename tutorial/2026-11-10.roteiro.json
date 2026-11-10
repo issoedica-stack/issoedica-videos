@@ -1,0 +1,159 @@
+{
+ "titulo": "Gemini: 1 foto de celular vira 4 fotos de anúncio em cenários diferentes",
+ "tema": "brasa",
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "hook": [
+  [
+   "1",
+   "foto,",
+   "4",
+   "cenários"
+  ],
+  [
+   "de",
+   "anúncio"
+  ]
+ ],
+ "hook_hl": [
+  "4",
+  "cenários"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "CENARIO",
+  "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 3.4,
+   "video": "veo.mp4",
+   "vstart": 0.6,
+   "z0": 1.0,
+   "z1": 1.06,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "stamp": "4 POSTS PRONTOS",
+   "flash": true
+  },
+  {
+   "type": "media",
+   "d": 2.9,
+   "img": "antes.jpg",
+   "z0": 1.0,
+   "z1": 1.12,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "cap": "Antes:",
+   "sub": "pote na bancada"
+  },
+  {
+   "d": 2.3,
+   "imgs": [
+    "s_menu.jpg"
+   ],
+   "b0": [
+    250,
+    180,
+    850,
+    620
+   ],
+   "b1": [
+    330,
+    300,
+    730,
+    600
+   ],
+   "cap": "1. Criar imagem",
+   "sub": "(no Gemini)",
+   "hl": [
+    366,
+    492,
+    592,
+    522
+   ],
+   "tap": [
+    444,
+    506
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 3.4,
+   "app": "gemini.google.com",
+   "text": "Usa essa foto do produto e cria uma grade 2x2 com o MESMO pote e o MESMO rótulo em 4 cenários diferentes para posts.",
+   "tap": true,
+   "cap": "2. Pede 4 cenários",
+   "sub": "(te mando o prompt)"
+  },
+  {
+   "d": 3.6,
+   "imgs": [
+    "s_prompt.jpg"
+   ],
+   "b0": [
+    330,
+    370,
+    1000,
+    620
+   ],
+   "b1": [
+    340,
+    380,
+    1000,
+    525
+   ],
+   "cap": "Café, Natal,",
+   "sub": "estúdio e piquenique",
+   "hl": [
+    352,
+    386,
+    935,
+    508
+   ],
+   "tap": [
+    963,
+    536
+   ]
+  },
+  {
+   "type": "media",
+   "d": 4.3,
+   "img": "depois.jpg",
+   "z0": 1.12,
+   "z1": 1.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "cap": "Mesmo pote",
+   "sub": "em 4 cenas",
+   "flash": true,
+   "ding": 0.3
+  },
+  {
+   "type": "media",
+   "d": 3.0,
+   "video": "veo.mp4",
+   "vstart": 6.5,
+   "z0": 1.0,
+   "z1": 1.05,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "cap": "Posts da semana",
+   "sub": "sem fotógrafo"
+  },
+  {
+   "type": "cta",
+   "d": 6.5,
+   "flash": true
+  }
+ ]
+}

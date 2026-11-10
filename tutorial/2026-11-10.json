@@ -1,0 +1,72 @@
+{
+ "data": "2026-11-10",
+ "video": "2026-11-10.mp4",
+ "capa": "2026-11-10.capa.jpg",
+ "tema": "brasa",
+ "musica_estilo": "lo-fi house acolhedor, 116 bpm",
+ "ferramenta": "Gemini",
+ "palavra_chave": "CENARIO",
+ "link": "https://gemini.google.com/app",
+ "botao": "Abrir o Gemini",
+ "oferta": "Raio-X",
+ "gancho": "Uma foto de celular virou quatro fotos de anúncio.",
+ "gancho_formato": 4,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "ElevenLabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4",
+  "master": "motor/voz_master.sh"
+ },
+ "cenas_ia": {
+  "imagem": "Nano Banana (Gemini Pro, Criar imagem): foto antes + grade 2x2 de cenários",
+  "video": "VEO",
+  "musica": "Gemini Criar música (Three O'Clock Light, instrumental)"
+ },
+ "pauta_origem": {
+  "autor": "@geracaodeimagem",
+  "link": "https://www.instagram.com/reel/Da0RQkYxHkw/",
+  "views": 1010000
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Uma foto de celular virou quatro fotos de anúncio."
+  },
+  {
+   "inicio": 3.4,
+   "texto": "Antes: pote na bancada, luz amarela."
+  },
+  {
+   "inicio": 6.3,
+   "texto": "No Gemini, escolhe Criar imagem."
+  },
+  {
+   "inicio": 8.6,
+   "texto": "Manda a foto do produto e pede uma grade com quatro cenários."
+  },
+  {
+   "inicio": 12.0,
+   "texto": "Café da manhã, cesta de Natal, estúdio e piquenique."
+  },
+  {
+   "inicio": 15.6,
+   "texto": "Em segundos, o mesmo pote, o mesmo rótulo, em quatro cenas."
+  },
+  {
+   "inicio": 19.9,
+   "texto": "Conteúdo pra semana inteira, sem pagar fotógrafo."
+  },
+  {
+   "inicio": 22.9,
+   "texto": "Quer o prompt? Comenta CENARIO que eu te mando no direct. E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt para transformar 1 foto do seu produto em 4 fotos de anúncio:\n\nUsa essa foto do produto e cria uma grade 2x2 com o MESMO produto e o MESMO rótulo em 4 cenários diferentes para posts: 1) [CENÁRIO 1, ex.: mesa de café da manhã com pão quentinho], 2) [CENÁRIO 2, ex.: cesta de presente de Natal], 3) [CENÁRIO 3, ex.: estúdio minimalista com fundo verde-oliva], 4) [CENÁRIO 4, ex.: piquenique ao ar livre no fim de tarde]. Luz profissional, estilo foto de anúncio. Não muda a embalagem nem o texto do rótulo.\n\nComo usar:\n1. Abra o Gemini: https://gemini.google.com/app\n2. Clique no + e escolha Criar imagem (modelo Pro)\n3. Envie a foto do produto, cole o prompt e troque os cenários pelos do seu negócio\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Seu produto merece mais do que uma foto na bancada da cozinha 🍯\nCom uma foto só, o Gemini monta 4 cenários de anúncio com o mesmo produto e o mesmo rótulo.\nDá post pra semana inteira: café da manhã, data comemorativa, estúdio e ao ar livre.\n💬 Comenta CENARIO que eu te mando o prompt pronto no direct\n\n#issoedica #gemini #fotodeproduto #inteligenciaartificial #empreendedorismo",
+ "titulo_youtube": "1 foto do produto vira 4 fotos de anúncio no Gemini #shorts",
+ "descricao_youtube": "Aprenda a transformar uma única foto do seu produto, tirada no celular, em 4 fotos de anúncio em cenários diferentes, tudo dentro do Gemini.\n\nPasso a passo:\n1. No Gemini, clique no + e escolha Criar imagem\n2. Envie a foto do produto\n3. Cole o prompt e troque os cenários pelos do seu negócio\n\nPrompt:\nUsa essa foto do produto e cria uma grade 2x2 com o MESMO produto e o MESMO rótulo em 4 cenários diferentes para posts: 1) [CENÁRIO 1, ex.: mesa de café da manhã com pão quentinho], 2) [CENÁRIO 2, ex.: cesta de presente de Natal], 3) [CENÁRIO 3, ex.: estúdio minimalista com fundo verde-oliva], 4) [CENÁRIO 4, ex.: piquenique ao ar livre no fim de tarde]. Luz profissional, estilo foto de anúncio. Não muda a embalagem nem o texto do rótulo.\n\n🔗 Gemini: https://gemini.google.com/app",
+ "legenda_facebook": "Foto de produto com IA: 1 foto vira 4 cenários de anúncio 👇\nNo Gemini, envie a foto do seu produto em Criar imagem e cole este prompt:\n\nUsa essa foto do produto e cria uma grade 2x2 com o MESMO produto e o MESMO rótulo em 4 cenários diferentes para posts: 1) [CENÁRIO 1, ex.: mesa de café da manhã com pão quentinho], 2) [CENÁRIO 2, ex.: cesta de presente de Natal], 3) [CENÁRIO 3, ex.: estúdio minimalista com fundo verde-oliva], 4) [CENÁRIO 4, ex.: piquenique ao ar livre no fim de tarde]. Luz profissional, estilo foto de anúncio. Não muda a embalagem nem o texto do rótulo.\n\n👉 Siga a página Isso É Dica para mais dicas de IA\n🔁 Compartilhe com quem vende produto artesanal\n💬 Comente \"IA\" para receber mais dicas\n👇 Grupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "1 foto do produto vira 4 fotos de anúncio no Gemini. Prompt completo no meu perfil #fotodeproduto #gemini #empreendedorismo",
+ "texto_grupo_vip": "*1 foto do seu produto vira 4 fotos de anúncio* 🍯\n\nCom o Gemini você pega aquela foto da bancada e ganha 4 cenários diferentes, com o mesmo produto e o mesmo rótulo.\n\n*1.* Abra o Gemini e clique no + > *Criar imagem*\n*2.* Envie a foto do produto\n*3.* Cole o prompt abaixo e troque os cenários pelos do seu negócio\n\n*Prompt:*\nUsa essa foto do produto e cria uma grade 2x2 com o MESMO produto e o MESMO rótulo em 4 cenários diferentes para posts: 1) [CENÁRIO 1, ex.: mesa de café da manhã com pão quentinho], 2) [CENÁRIO 2, ex.: cesta de presente de Natal], 3) [CENÁRIO 3, ex.: estúdio minimalista com fundo verde-oliva], 4) [CENÁRIO 4, ex.: piquenique ao ar livre no fim de tarde]. Luz profissional, estilo foto de anúncio. Não muda a embalagem nem o texto do rótulo.\n\n🔗 https://gemini.google.com/app"
+}

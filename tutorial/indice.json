@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-11-10",
+  "ferramenta": "Gemini",
+  "palavra_chave": "CENARIO",
+  "link": "https://gemini.google.com/app",
+  "botao": "Abrir o Gemini",
+  "mensagem_dm": "Aqui está o prompt para transformar 1 foto do seu produto em 4 fotos de anúncio:\n\nUsa essa foto do produto e cria uma grade 2x2 com o MESMO produto e o MESMO rótulo em 4 cenários diferentes para posts: 1) [CENÁRIO 1, ex.: mesa de café da manhã com pão quentinho], 2) [CENÁRIO 2, ex.: cesta de presente de Natal], 3) [CENÁRIO 3, ex.: estúdio minimalista com fundo verde-oliva], 4) [CENÁRIO 4, ex.: piquenique ao ar livre no fim de tarde]. Luz profissional, estilo foto de anúncio. Não muda a embalagem nem o texto do rótulo.\n\nComo usar:\n1. Abra o Gemini: https://gemini.google.com/app\n2. Clique no + e escolha Criar imagem (modelo Pro)\n3. Envie a foto do produto, cole o prompt e troque os cenários pelos do seu negócio\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-11-07",
   "ferramenta": "ChatGPT",
   "palavra_chave": "POSTER",
