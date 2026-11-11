@@ -16,5 +16,11 @@
   "ferramenta": "ElevenLabs",
   "recurso": "Texto para fala: locução de anúncio",
   "palavra_chave": "VOZ"
+ },
+ {
+  "data": "2026-11-11",
+  "ferramenta": "Higgsfield",
+  "recurso": "Estúdio de Marketing: anúncio em vídeo do produto a partir de uma descrição",
+  "palavra_chave": "VIDEO"
  }
 ]
