@@ -1,0 +1,235 @@
+{
+ "titulo": "Gemini Habilidades: atendente de loja que responde preço e puxa a venda",
+ "tema": "lima",
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "hook": [
+  [
+   "Atendente",
+   "que",
+   "sabe"
+  ],
+  [
+   "seus",
+   "preços"
+  ]
+ ],
+ "hook_hl": [
+  "preços"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "ATENDENTE",
+  "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 4.34,
+   "video": "veo.mp4",
+   "vstart": 4.2,
+   "z0": 1.0,
+   "z1": 1.07,
+   "focus": [
+    0.55,
+    0.62
+   ],
+   "stamp": "ATENDENTE PRONTO",
+   "flash": true
+  },
+  {
+   "d": 1.9,
+   "imgs": [
+    "s_pergunta.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     555,
+     60,
+     600
+    ]
+   ],
+   "b0": [
+    340,
+    220,
+    1000,
+    390
+   ],
+   "b1": [
+    360,
+    262,
+    900,
+    345
+   ],
+   "cap": "O cliente pergunta",
+   "sub": "preço e prazo",
+   "hl": [
+    350,
+    282,
+    980,
+    320
+   ]
+  },
+  {
+   "d": 3.01,
+   "imgs": [
+    "s_resposta.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     555,
+     60,
+     600
+    ]
+   ],
+   "b0": [
+    300,
+    150,
+    1010,
+    290
+   ],
+   "b1": [
+    300,
+    180,
+    780,
+    272
+   ],
+   "cap": "Ele responde",
+   "sub": "e ainda oferece mais",
+   "hl": [
+    305,
+    188,
+    1008,
+    262
+   ],
+   "flash": true,
+   "ding": 0.4
+  },
+  {
+   "d": 2.35,
+   "imgs": [
+    "s_form.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     555,
+     60,
+     600
+    ]
+   ],
+   "b0": [
+    300,
+    0,
+    1030,
+    300
+   ],
+   "b1": [
+    640,
+    0,
+    1030,
+    170
+   ],
+   "cap": "1. Criar habilidade",
+   "sub": "(no Gemini)",
+   "hl": [
+    955,
+    8,
+    1015,
+    44
+   ],
+   "tap": [
+    984,
+    26
+   ]
+  },
+  {
+   "d": 2.6,
+   "imgs": [
+    "s_nome.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     555,
+     60,
+     600
+    ]
+   ],
+   "b0": [
+    320,
+    70,
+    1000,
+    290
+   ],
+   "b1": [
+    330,
+    95,
+    800,
+    275
+   ],
+   "cap": "Nome e quando usar",
+   "sub": "atendente da sua loja",
+   "hl": [
+    332,
+    104,
+    990,
+    266
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 3.75,
+   "app": "gemini.google.com",
+   "text": "Você é a atendente da Doce Ponto Confeitaria. Responda curto e simpático. Preços: bolo de pote R$ 12, cento de brigadeiro R$ 120. Encomendas com 48 horas. Sempre sugira um item a mais.",
+   "tap": true,
+   "cap": "2. Cola as instruções",
+   "sub": "(te mando o prompt)"
+  },
+  {
+   "d": 2.18,
+   "imgs": [
+    "s_lista.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     555,
+     60,
+     600
+    ]
+   ],
+   "b0": [
+    300,
+    100,
+    1010,
+    340
+   ],
+   "b1": [
+    310,
+    240,
+    680,
+    330
+   ],
+   "cap": "3. Criar e testar",
+   "sub": "já fica instalada",
+   "hl": [
+    322,
+    262,
+    640,
+    318
+   ],
+   "tap": [
+    456,
+    290
+   ]
+  },
+  {
+   "type": "cta",
+   "d": 7.17,
+   "flash": true
+  }
+ ]
+}

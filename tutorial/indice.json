@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-11-11",
+  "ferramenta": "Gemini",
+  "palavra_chave": "ATENDENTE",
+  "link": "https://gemini.google.com/app",
+  "botao": "Abrir o Gemini",
+  "mensagem_dm": "Aqui está o prompt do seu atendente no Gemini:\n\nVocê é a atendente da [NOME DA SUA LOJA]. Responda curto, simpático e com 1 emoji. Preços: [PRODUTO 1] R$ [X], [PRODUTO 2] R$ [Y], [PRODUTO 3] R$ [Z]. Encomendas com [PRAZO] de antecedência. Horário: [DIAS], das [HORA] às [HORA]. Nunca invente preço. Sempre sugira um item a mais e termine pedindo o nome e a data do pedido.\n\nComo usar:\n1. Abra o Gemini: https://gemini.google.com/app\n2. Vá em Personalizar > Habilidades > Criar. Dê um nome e diga quando usar (ex.: quando um cliente perguntar preço ou prazo)\n3. Cole o prompt em Instruções, troque os dados pelos da sua loja, clique em Criar e teste no chat\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-11-10",
   "ferramenta": "Gemini",
   "palavra_chave": "CENARIO",
