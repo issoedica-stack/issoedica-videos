@@ -1,0 +1,237 @@
+{
+ "titulo": "ChatGPT: 100 clientes simulados testam sua ideia de negócio",
+ "tema": "magenta",
+ "hook": [
+  [
+   "Pesquisa",
+   "de",
+   "mercado"
+  ],
+  [
+   "de",
+   "graça"
+  ]
+ ],
+ "hook_hl": [
+  "graça"
+ ],
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "cta": {
+  "pre": "Comenta",
+  "kw": "IDEIA",
+  "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 2.17,
+   "video": "veo.mp4",
+   "vstart": 4.6,
+   "z0": 1.0,
+   "z1": 1.06,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "stamp": "IDEIA VALIDADA",
+   "flash": true
+  },
+  {
+   "d": 2.23,
+   "imgs": [
+    "s_veredito.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    420,
+    330,
+    1200,
+    600
+   ],
+   "b1": [
+    430,
+    395,
+    930,
+    520
+   ],
+   "cap": "Veredito:",
+   "sub": "vale testar?",
+   "hl": [
+    436,
+    430,
+    784,
+    464
+   ]
+  },
+  {
+   "d": 2.86,
+   "imgs": [
+    "s_perfis.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    420,
+    50,
+    1200,
+    590
+   ],
+   "b1": [
+    450,
+    340,
+    980,
+    580
+   ],
+   "cap": "100 clientes",
+   "sub": "simulados em 5 perfis",
+   "hl": [
+    468,
+    500,
+    722,
+    528
+   ]
+  },
+  {
+   "d": 2.99,
+   "imgs": [
+    "s_inicio.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     300,
+     340,
+     665
+    ],
+    [
+     620,
+     236,
+     1000,
+     280
+    ]
+   ],
+   "b0": [
+    400,
+    180,
+    1210,
+    420
+   ],
+   "b1": [
+    420,
+    290,
+    1010,
+    380
+   ],
+   "cap": "1. Abre o ChatGPT",
+   "sub": "(funciona no grátis)",
+   "hl": [
+    428,
+    308,
+    1194,
+    358
+   ],
+   "tap": [
+    700,
+    333
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 3.32,
+   "app": "chatgpt.com",
+   "text": "Simule 100 clientes do meu bairro para testar minha ideia: marmita caseira por assinatura, R$ 189 por 10 refeições. 5 perfis: quem compra, quanto paga, objeção, preço ideal e veredito.",
+   "tap": true,
+   "cap": "2. Pede a simulação",
+   "sub": "(te mando o prompt)"
+  },
+  {
+   "d": 3.13,
+   "imgs": [
+    "s_resultado.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    420,
+    340,
+    1200,
+    530
+   ],
+   "b1": [
+    430,
+    392,
+    930,
+    520
+   ],
+   "cap": "29 de 100",
+   "sub": "comprariam",
+   "hl": [
+    436,
+    400,
+    492,
+    434
+   ],
+   "flash": true,
+   "ding": 0.4
+  },
+  {
+   "d": 2.43,
+   "imgs": [
+    "s_preco.jpg"
+   ],
+   "blur": [
+    [
+     0,
+     0,
+     340,
+     665
+    ]
+   ],
+   "b0": [
+    420,
+    340,
+    1200,
+    580
+   ],
+   "b1": [
+    430,
+    430,
+    850,
+    570
+   ],
+   "cap": "3. Preço ideal",
+   "sub": "e o veredito",
+   "hl": [
+    436,
+    460,
+    518,
+    494
+   ]
+  },
+  {
+   "type": "cta",
+   "d": 6.27,
+   "flash": true
+  }
+ ]
+}

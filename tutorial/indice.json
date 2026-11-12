@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-11-12",
+  "ferramenta": "ChatGPT",
+  "palavra_chave": "IDEIA",
+  "link": "https://chatgpt.com",
+  "botao": "Abrir o ChatGPT",
+  "mensagem_dm": "Aqui está o prompt para testar sua ideia de negócio com 100 clientes simulados 👇\n\nSimule 100 clientes reais do meu bairro para testar esta ideia antes de eu investir: [SUA IDEIA, com preço e forma de entrega]. Divida em 5 perfis (idade, renda, rotina). Para cada perfil diga quantos comprariam, quanto pagariam e a principal objeção. No fim me dê: % que compraria, preço ideal, 3 ajustes na oferta e o veredito: vale testar ou não.\n\nComo usar:\n1. Abra o ChatGPT (funciona no plano grátis)\n2. Troque o trecho entre colchetes pela sua ideia, com preço\n3. Use o veredito para montar um teste real pequeno antes de investir\n\nhttps://chatgpt.com\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-11-11",
   "ferramenta": "Gemini",
   "palavra_chave": "ATENDENTE",

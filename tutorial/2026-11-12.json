@@ -1,0 +1,73 @@
+{
+ "data": "2026-11-12",
+ "video": "2026-11-12.mp4",
+ "capa": "2026-11-12.capa.jpg",
+ "tema": "magenta",
+ "musica_estilo": "tech house leve, 122 bpm",
+ "ferramenta": "ChatGPT",
+ "recurso": "pesquisa de mercado simulada com 100 clientes (validar ideia de negócio)",
+ "palavra_chave": "IDEIA",
+ "link": "https://chatgpt.com",
+ "botao": "Abrir o ChatGPT",
+ "oferta": "Raio-X",
+ "gancho": "Pesquisa de mercado custa caro. Essa saiu de graça no ChatGPT.",
+ "gancho_formato": 7,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "ElevenLabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4",
+  "master": "motor/voz_master.sh"
+ },
+ "cenas_ia": {
+  "imagem": "não usada",
+  "video": "Veo (Gemini Criar vídeo, 9:16): cozinheira fictícia empilhando marmitas com gráfico subindo no tablet",
+  "musica": "Gemini Criar música (The First Move, instrumental)"
+ },
+ "pauta_origem": {
+  "autor": "@auraguy.ai",
+  "link": "https://www.instagram.com/reel/DfgZkOaNXiI/",
+  "views": 577559
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Pesquisa de mercado custa caro."
+  },
+  {
+   "inicio": 2.17,
+   "texto": "Essa saiu de graça no ChatGPT."
+  },
+  {
+   "inicio": 4.4,
+   "texto": "Cem clientes simulados avaliaram a minha ideia."
+  },
+  {
+   "inicio": 7.26,
+   "texto": "Abre o ChatGPT e descreve o negócio com o preço."
+  },
+  {
+   "inicio": 10.25,
+   "texto": "Pede para simular cem clientes do bairro, em cinco perfis."
+  },
+  {
+   "inicio": 13.57,
+   "texto": "Vem quem compra, quanto paga e a objeção de cada um."
+  },
+  {
+   "inicio": 16.7,
+   "texto": "No fim, o preço ideal e o veredito."
+  },
+  {
+   "inicio": 19.13,
+   "texto": "Quer o prompt? Comenta IDEIA que eu te mando no direct. E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt para testar sua ideia de negócio com 100 clientes simulados 👇\n\nSimule 100 clientes reais do meu bairro para testar esta ideia antes de eu investir: [SUA IDEIA, com preço e forma de entrega]. Divida em 5 perfis (idade, renda, rotina). Para cada perfil diga quantos comprariam, quanto pagariam e a principal objeção. No fim me dê: % que compraria, preço ideal, 3 ajustes na oferta e o veredito: vale testar ou não.\n\nComo usar:\n1. Abra o ChatGPT (funciona no plano grátis)\n2. Troque o trecho entre colchetes pela sua ideia, com preço\n3. Use o veredito para montar um teste real pequeno antes de investir\n\nhttps://chatgpt.com\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Antes de gastar um real na sua ideia, deixa 100 clientes dizerem se compram.\n\nO ChatGPT simula 5 perfis do seu bairro: quem compra, quanto paga e o que trava a venda.\nNo fim sai o preço ideal e o veredito: vale testar ou não.\n\n💬 Comenta IDEIA que eu te mando o prompt completo no direct\n\n#issoedica #chatgpt #empreendedorismo #ideiadenegocio #iaparanegocios",
+ "titulo_youtube": "Teste sua ideia de negócio com 100 clientes no ChatGPT #shorts",
+ "descricao_youtube": "Como validar uma ideia de negócio antes de investir: o ChatGPT simula 100 clientes em 5 perfis e mostra quem compraria, quanto pagaria, a principal objeção, o preço ideal e o veredito.\n\nPasso a passo:\n1. Abra o ChatGPT (funciona no plano grátis)\n2. Cole o prompt abaixo com a sua ideia e o preço\n3. Leia o resultado: % que compra, preço ideal e veredito\n\nPrompt:\nSimule 100 clientes reais do meu bairro para testar esta ideia antes de eu investir: [SUA IDEIA, com preço e forma de entrega]. Divida em 5 perfis (idade, renda, rotina). Para cada perfil diga quantos comprariam, quanto pagariam e a principal objeção. No fim me dê: % que compraria, preço ideal, 3 ajustes na oferta e o veredito: vale testar ou não.\n\n🔗 ChatGPT: https://chatgpt.com",
+ "legenda_facebook": "Como validar ideia de negócio com o ChatGPT 👇\n\nPrompt:\nSimule 100 clientes reais do meu bairro para testar esta ideia antes de eu investir: [SUA IDEIA, com preço e forma de entrega]. Divida em 5 perfis (idade, renda, rotina). Para cada perfil diga quantos comprariam, quanto pagariam e a principal objeção. No fim me dê: % que compraria, preço ideal, 3 ajustes na oferta e o veredito: vale testar ou não.\n\nSiga a página para mais dicas de IA. Compartilhe com quem quer abrir um negócio. Comente \"IA\" para receber mais prompts.\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "100 clientes simulados testam sua ideia no ChatGPT antes de você investir. Prompt completo no Instagram @issoedica #chatgpt #empreendedorismo #ia",
+ "texto_grupo_vip": "*Teste sua ideia de negócio com 100 clientes simulados* 💡\n\nAntes de investir, o ChatGPT simula 100 clientes do seu bairro e diz quem compraria, quanto pagaria e o que trava a venda.\n\n*1.* Abra o ChatGPT (funciona no grátis)\n*2.* Cole o prompt abaixo trocando o trecho entre colchetes pela sua ideia e o preço\n*3.* Leia o % que compraria, o preço ideal e o veredito, e faça um teste pequeno antes de gastar\n\n*Prompt:*\nSimule 100 clientes reais do meu bairro para testar esta ideia antes de eu investir: [SUA IDEIA, com preço e forma de entrega]. Divida em 5 perfis (idade, renda, rotina). Para cada perfil diga quantos comprariam, quanto pagariam e a principal objeção. No fim me dê: % que compraria, preço ideal, 3 ajustes na oferta e o veredito: vale testar ou não.\n\n🔗 https://chatgpt.com"
+}
