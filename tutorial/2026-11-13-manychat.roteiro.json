@@ -1,0 +1,13 @@
+{"titulo": "Manychat: IA que responde o direct com o que você vende", "tema": "editorial", "musica": "/tmp/repo/motor/trilhas/funk-instrumental-leve-2026-11-07.mp3", "musica_db": -26,
+"hook": [["Seu", "direct", "lota"], ["de", "pergunta?"]], "hook_hl": ["pergunta?"],
+"cta": {"pre": "Comenta", "kw": "AUTOMAÇÃO", "pos": "que eu te mando o link\ncom o 1º mês grátis\nSegue o @issoedica"},
+"scenes": [
+{"type": "kinetic", "d": 3.0, "lines": [["Seu direct lota", 0.1, [245, 246, 250], 88], ["de pergunta e você", 0.6, [245, 246, 250], 84], ["responde uma", 1.1, [245, 246, 250], 88], ["por uma?", 1.6, [255, 212, 0], 96]]},
+{"d": 2.4, "imgs": ["screenshot-1794577292784-0.jpg"], "blur": [[368, 250, 410, 292]], "b0": [330, 170, 630, 440], "b1": [350, 190, 610, 430], "stamp": "O RESULTADO:", "flash": true},
+{"d": 2.8, "imgs": ["screenshot-1794577292784-0.jpg"], "blur": [[0, 70, 215, 115], [368, 250, 410, 292], [650, 238, 676, 262], [690, 290, 714, 314], [898, 248, 926, 274]], "b0": [0, 0, 1280, 665], "b1": [0, 120, 640, 450], "cap": "1. Abre a IA Manychat", "sub": "no menu da esquerda", "hl": [8, 277, 207, 325], "tap": [97, 301]},
+{"d": 2.6, "imgs": ["screenshot-1794577292784-0.jpg"], "blur": [[0, 70, 215, 115], [368, 250, 410, 292], [650, 238, 676, 262], [690, 290, 714, 314], [898, 248, 926, 274]], "b0": [330, 170, 1150, 580], "b1": [340, 430, 640, 540], "cap": "2. Ensina o que vende", "sub": "em Respostas da IA", "hl": [350, 444, 600, 534]},
+{"d": 2.6, "imgs": ["screenshot-1794577330769-1.jpg"], "b0": [200, 150, 1080, 640], "b1": [270, 540, 1000, 630], "cap": "3. Testa no Laboratório", "sub": "antes de ligar", "hl": [281, 564, 985, 616]},
+{"d": 2.4, "imgs": ["screenshot-1794577330769-2.jpg"], "b0": [250, 60, 1030, 300], "b1": [290, 70, 990, 240], "cap": "A IA responde", "sub": "na hora, no direct", "hl": [345, 160, 868, 204], "ding": 0.9},
+{"type": "compare", "d": 2.6, "a_label": "Respondendo na mão:", "a": "horas", "b_label": "Com a IA:", "b": "segundos"},
+{"type": "cta", "d": 3.6, "flash": true}
+]}
