@@ -1,0 +1,19 @@
+{
+ "titulo": "ChatGPT: kit de venda completo (legenda, stories e WhatsApp) com um comando",
+ "tema": "neon",
+ "hook": [["Kit","de","venda"],["em","uma","mensagem"]],
+ "hook_hl": ["venda"],
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "cta": {"pre":"Comenta","kw":"VENDA","pos":"que eu te mando o comando\nno direct\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type":"media","d":3.98,"video":"veo.mp4","vstart":5.6,"z0":1.0,"z1":1.07,"focus":[0.5,0.6],"stamp":"KIT PRONTO","flash":true},
+  {"type":"media","d":3.45,"img":"cena.jpg","z0":1.12,"z1":1.0,"focus":[0.55,0.55],"cap":"Legenda, stories e WhatsApp","sub":"de uma mensagem só"},
+  {"d":2.31,"imgs":["s_home.jpg"],"blur":[[0,300,340,665],[430,390,1200,600]],"b0":[400,180,1210,420],"b1":[420,290,1010,380],"cap":"1. Abre o ChatGPT","sub":"(funciona no grátis)","hl":[428,308,1194,358],"tap":[700,333]},
+  {"type":"prompt","d":2.86,"app":"chatgpt.com","text":"Você é copywriter de vendas para pequenos negócios. Meu produto: pote de brigadeiro gourmet de 200 g, R$ 18, entrega no bairro. Crie 1 legenda que vende, 3 stories em sequência e 1 mensagem de WhatsApp para clientes antigos.","tap":true,"cap":"2. Cola o comando","sub":"(te mando no direct)"},
+  {"d":1.97,"imgs":["s_legenda.jpg"],"blur":[[0,0,340,665]],"b0":[420,180,1200,600],"b1":[430,250,1100,480],"cap":"Legenda que vende","sub":"pronta pra postar","hl":[426,252,642,280],"flash":true,"ding":0.3},
+  {"d":2.93,"imgs":["s_stories2.jpg"],"blur":[[0,0,340,665],[427,40,539,180],[427,241,539,390]],"b0":[420,40,1200,400],"b1":[420,230,1000,400],"cap":"3 stories","sub":"do desejo ao pedido","hl":[548,244,782,268]},
+  {"d":2.19,"imgs":["s_whats.jpg"],"blur":[[0,0,340,665]],"b0":[420,60,1200,480],"b1":[426,90,1000,240],"cap":"WhatsApp pronto","sub":"pra quem já comprou","hl":[444,154,682,180]},
+  {"type":"cta","d":6.61,"flash":true}
+ ]
+}

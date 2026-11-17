@@ -1,0 +1,76 @@
+{
+ "data": "2026-11-17",
+ "video": "2026-11-17.mp4",
+ "capa": "2026-11-17.capa.jpg",
+ "tema": "neon",
+ "musica_estilo": "nu-disco groovy, 118 bpm",
+ "ferramenta": "ChatGPT",
+ "recurso": "comando de kit de venda (legenda, 3 stories e WhatsApp)",
+ "palavra_chave": "VENDA",
+ "link": "https://chatgpt.com",
+ "botao": "Abrir o ChatGPT",
+ "oferta": "Raio-X",
+ "gancho": "Imagina postar o seu doce e o WhatsApp começar a apitar com pedido.",
+ "gancho_formato": 9,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "elevenlabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4"
+ },
+ "cenas_ia": {
+  "imagem": "Gemini Nano Banana (Pro): balcão de doceria fictícia com celular cheio de pedidos",
+  "video": "Gemini Veo (Criar vídeo 9:16) animando a imagem: colher puxando brigadeiro e celular com pedidos (cold open)",
+  "musica": "Gemini Criar música: nu-disco instrumental (Sunny Side Strategy)"
+ },
+ "pauta_origem": {
+  "autor": "@astrid.digitalcoach",
+  "link": "https://www.instagram.com/reel/DfQOPDiv7P8/",
+  "views": 106692
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Imagina postar o seu doce e o WhatsApp começar a apitar com pedido."
+  },
+  {
+   "inicio": 3.98,
+   "texto": "Esse kit de venda saiu de uma mensagem no ChatGPT."
+  },
+  {
+   "inicio": 7.43,
+   "texto": "Abre o ChatGPT, versão grátis."
+  },
+  {
+   "inicio": 9.74,
+   "texto": "Cola o comando com seu produto, preço e bairro."
+  },
+  {
+   "inicio": 12.61,
+   "texto": "Ele devolve a legenda que vende."
+  },
+  {
+   "inicio": 14.57,
+   "texto": "Três stories em sequência, do desejo ao pedido."
+  },
+  {
+   "inicio": 17.51,
+   "texto": "E a mensagem pra chamar quem já comprou."
+  },
+  {
+   "inicio": 19.69,
+   "texto": "Quer o comando? Comenta VENDA que eu te mando no direct."
+  },
+  {
+   "inicio": 22.77,
+   "texto": "E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o comando do kit de venda 👇\n\nVocê é copywriter de vendas para pequenos negócios brasileiros. Meu produto: [produto, tamanho], R$ [preço], [como entrega]. Crie: 1 legenda de Instagram que vende, 3 stories em sequência (desejo, oferta, pedido) e 1 mensagem curta de WhatsApp para clientes antigos. Tom próximo, sem exagero, com chamada para pedir hoje.\n\nComo usar:\n1. Abre o ChatGPT (funciona no grátis): https://chatgpt.com\n2. Troca o que está entre colchetes pelo seu produto\n3. Posta a legenda, os stories e manda o WhatsApp pra quem já comprou\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Legenda, stories e WhatsApp de venda prontos em 1 minuto 🍫\n\nUm comando no ChatGPT e você sai com o texto do post, 3 stories em sequência e a mensagem pra quem já comprou.\nServe pra doce, roupa, cosmético, marmita ou serviço: só trocar produto, preço e bairro.\n\n💬 Comenta VENDA que eu te mando o comando completo no direct\n\n#issoedica #chatgpt #vendasonline #pequenosnegocios #iaparanegocios",
+ "titulo_youtube": "Kit de venda completo com 1 comando no ChatGPT #shorts",
+ "descricao_youtube": "Como criar legenda de Instagram, 3 stories e mensagem de WhatsApp para vender seu produto com um único comando no ChatGPT (funciona na versão grátis).\n\nPasso a passo:\n1. Abra o ChatGPT\n2. Cole o comando trocando produto, preço e forma de entrega\n3. Use a legenda, os stories e a mensagem para clientes antigos\n\nComando:\nVocê é copywriter de vendas para pequenos negócios brasileiros. Meu produto: [produto, tamanho], R$ [preço], [como entrega]. Crie: 1 legenda de Instagram que vende, 3 stories em sequência (desejo, oferta, pedido) e 1 mensagem curta de WhatsApp para clientes antigos. Tom próximo, sem exagero, com chamada para pedir hoje.\n\n🔗 ChatGPT: https://chatgpt.com",
+ "legenda_facebook": "Como vender mais com ChatGPT: legenda, stories e WhatsApp prontos 👇\n\nCole este comando no ChatGPT:\nVocê é copywriter de vendas para pequenos negócios brasileiros. Meu produto: [produto, tamanho], R$ [preço], [como entrega]. Crie: 1 legenda de Instagram que vende, 3 stories em sequência (desejo, oferta, pedido) e 1 mensagem curta de WhatsApp para clientes antigos. Tom próximo, sem exagero, com chamada para pedir hoje.\n\nSiga a página para mais dicas de IA. Compartilhe com quem tem um pequeno negócio. Comente \"IA\" se quiser mais comandos assim.\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "Legenda, stories e WhatsApp de venda com 1 comando no ChatGPT. Comando completo no Instagram @issoedica #chatgpt #vendas #ia",
+ "texto_grupo_vip": "*🍫 Kit de venda pronto com 1 comando no ChatGPT*\n\nServe pra qualquer produto ou serviço:\n\n*1.* Abre o ChatGPT (grátis): https://chatgpt.com\n*2.* Cola o comando abaixo trocando o que está entre colchetes\n*3.* Posta a legenda, os 3 stories e manda a mensagem pra quem já comprou\n\n*Comando:*\nVocê é copywriter de vendas para pequenos negócios brasileiros. Meu produto: [produto, tamanho], R$ [preço], [como entrega]. Crie: 1 legenda de Instagram que vende, 3 stories em sequência (desejo, oferta, pedido) e 1 mensagem curta de WhatsApp para clientes antigos. Tom próximo, sem exagero, com chamada para pedir hoje."
+}
