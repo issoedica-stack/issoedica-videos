@@ -56,3 +56,12 @@ Padrão do tutorial diário a partir de 07/11/2026. Exemplo completo: `teste-gem
   Vocais = Instrumental, Comprimento = Padrão, prompt no estilo das trilhas em alta nos Reels), baixada como MP3 ("Baixar faixa" > "Somente áudio").
   No roteiro: `"musica": "musica.mp3"`. O motor normaliza a trilha (padrão `musica_db` -23 LUFS), aplica ducking pela voz
   (fica cerca de 18 dB abaixo da narração enquanto ela fala) e faz fade in/out. Reserva sem cota: `motor/trilhas/*.mp3`.
+
+## Miniatura do YouTube (regra do Bom, 18/11/2026)
+Todo vídeo que vai para o YouTube leva miniatura própria no padrão dos grandes canais de tecnologia
+(fundo cinematográfico escuro com glow neon, 1 elemento herói, 2 linhas de texto: contexto em branco + promessa GIGANTE em destaque, selo da ferramenta, logo no canto).
+1. Fundo: Gemini > Criar imagem (Pro), proporção 9:16, cena herói do vídeo, terço superior escuro e vazio, sem texto/logos/pessoas.
+2. Gerar: `python3 motor/miniatura_yt.py hero.jpg "<contexto 2-4 palavras>" "<promessa 1-3 palavras>" tutorial/<ID>.yt.jpg --selo "<Ferramenta>" [--cor amarelo|ciano|verde|rosa]`
+   (Shorts = 1080x1920, padrão; vídeo longo: `--formato longo` = 1280x720 com fundo 16:9).
+3. No pacote `<ID>.json`: `"miniatura_youtube": "<ID>.yt.jpg"`. O n8n aplica a miniatura logo depois de publicar o Short (YouTube thumbnails.set).
+Sem o campo, o n8n usa a `capa` do Instagram como miniatura de reserva.
