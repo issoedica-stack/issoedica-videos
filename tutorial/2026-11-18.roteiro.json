@@ -1,0 +1,212 @@
+{
+ "titulo": "Google Planilhas: foto do produto dentro da célula com =IMAGE",
+ "tema": "oceano",
+ "hook": [
+  [
+   "Catálogo",
+   "com",
+   "foto"
+  ],
+  [
+   "dentro",
+   "da",
+   "planilha"
+  ]
+ ],
+ "hook_hl": [
+  "foto"
+ ],
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "cta": {
+  "pre": "Comenta",
+  "kw": "PLANILHA",
+  "pos": "que eu te mando o passo a passo\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 2.84,
+   "video": "veo.mp4",
+   "vstart": 3.2,
+   "z0": 1.0,
+   "z1": 1.07,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "stamp": "O RESULTADO",
+   "flash": true
+  },
+  {
+   "d": 3.27,
+   "imgs": [
+    "s_final.jpg"
+   ],
+   "blur": [
+    [
+     1222,
+     8,
+     1268,
+     52
+    ]
+   ],
+   "b0": [
+    0,
+    140,
+    720,
+    615
+   ],
+   "b1": [
+    40,
+    160,
+    420,
+    560
+   ],
+   "cap": "A foto fica",
+   "sub": "dentro da célula",
+   "hl": [
+    298,
+    188,
+    414,
+    615
+   ]
+  },
+  {
+   "d": 2.19,
+   "imgs": [
+    "s_formula.jpg"
+   ],
+   "blur": [
+    [
+     1222,
+     8,
+     1268,
+     52
+    ]
+   ],
+   "b0": [
+    150,
+    140,
+    900,
+    520
+   ],
+   "b1": [
+    250,
+    150,
+    750,
+    420
+   ],
+   "cap": "1. Cola o link",
+   "sub": "da foto de cada produto",
+   "hl": [
+    350,
+    188,
+    982,
+    272
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 3.08,
+   "app": "docs.google.com/spreadsheets",
+   "text": "=IMAGE(D2)",
+   "tap": true,
+   "cap": "2. Digita =IMAGE",
+   "sub": "e clica no link"
+  },
+  {
+   "d": 2.48,
+   "imgs": [
+    "s_permitir.jpg"
+   ],
+   "blur": [
+    [
+     1222,
+     8,
+     1268,
+     52
+    ]
+   ],
+   "b0": [
+    640,
+    90,
+    1280,
+    450
+   ],
+   "b1": [
+    960,
+    100,
+    1280,
+    280
+   ],
+   "cap": "Apareceu o aviso?",
+   "sub": "Permitir acesso",
+   "hl": [
+    1118,
+    119,
+    1258,
+    147
+   ],
+   "tap": [
+    1187,
+    133
+   ]
+  },
+  {
+   "d": 3.14,
+   "imgs": [
+    "s_arrasta.jpg"
+   ],
+   "blur": [
+    [
+     1222,
+     8,
+     1268,
+     52
+    ]
+   ],
+   "b0": [
+    0,
+    140,
+    720,
+    615
+   ],
+   "b1": [
+    180,
+    180,
+    520,
+    615
+   ],
+   "cap": "3. Arrasta pra baixo",
+   "sub": "o catálogo inteiro ganha foto",
+   "hl": [
+    298,
+    188,
+    414,
+    615
+   ],
+   "flash": true,
+   "ding": 0.3
+  },
+  {
+   "type": "media",
+   "d": 3.32,
+   "video": "veo.mp4",
+   "vstart": 6.4,
+   "z0": 1.05,
+   "z1": 1.0,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "cap": "No Excel: =IMAGEM",
+   "sub": "fotos feitas no Gemini"
+  },
+  {
+   "type": "cta",
+   "d": 7.0,
+   "flash": true
+  }
+ ]
+}

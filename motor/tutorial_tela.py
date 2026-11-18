@@ -372,6 +372,7 @@ def cta(canvas, lt):
         d.text(((W - d.textlength(ln, font=f3)) / 2, yy), ln, font=f3, fill="white"); yy += 72
     ay = yy + 30 + 18 * abs(math.sin(lt * 5))
     d.polygon([(W / 2 - 45, ay), (W / 2 + 45, ay), (W / 2, ay + 60)], fill=YEL + (255,))
+    k = max(k, 0.05)
     sz = (int(W * k), int(640 * k))
     tmp = tmp.resize(sz, Image.BICUBIC)
     canvas.alpha_composite(tmp, (int((W - sz[0]) / 2), int(760 + (640 - sz[1]) / 2)))

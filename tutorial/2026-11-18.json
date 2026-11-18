@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-18",
+ "video": "2026-11-18.mp4",
+ "capa": "2026-11-18.capa.jpg",
+ "miniatura_youtube": "2026-11-18.yt.jpg",
+ "tema": "oceano",
+ "musica_estilo": "chill house melódico com piano elétrico, 120 bpm",
+ "ferramenta": "Google Planilhas",
+ "recurso": "função =IMAGE (foto dentro da célula) + fotos de produto no Gemini",
+ "palavra_chave": "PLANILHA",
+ "link": "https://sheets.new",
+ "botao": "Abrir o Planilhas",
+ "oferta": "Raio-X",
+ "gancho": "Ainda cola foto de produto na planilha na mão?",
+ "gancho_formato": 14,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "elevenlabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4"
+ },
+ "cenas_ia": {
+  "imagem": "Gemini Nano Banana (Pro): 4 fotos de catálogo de cosméticos artesanais fictícios (usadas na planilha)",
+  "video": "Gemini Veo (Criar vídeo 9:16): mãos arrumando os produtos na prateleira (cold open e cena final)",
+  "musica": "Gemini Criar música: chill house instrumental (Measured Steps)"
+ },
+ "pauta_origem": {
+  "autor": "@athernaqvi.in",
+  "link": "https://www.instagram.com/reel/DfrgGlgu2rG/",
+  "views": 3464000
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Ainda cola foto de produto na planilha na mão?"
+  },
+  {
+   "inicio": 2.84,
+   "texto": "Olha esse catálogo: a foto fica dentro da célula."
+  },
+  {
+   "inicio": 6.11,
+   "texto": "Cola o link da foto de cada produto."
+  },
+  {
+   "inicio": 8.3,
+   "texto": "Do lado, digita igual IMAGE e clica no link."
+  },
+  {
+   "inicio": 11.38,
+   "texto": "Apareceu o aviso? Permitir acesso."
+  },
+  {
+   "inicio": 13.86,
+   "texto": "Arrasta pra baixo e o catálogo inteiro ganha foto."
+  },
+  {
+   "inicio": 17.0,
+   "texto": "No Excel, é IMAGEM. E as fotos eu fiz no Gemini."
+  },
+  {
+   "inicio": 20.32,
+   "texto": "Quer o passo a passo? Comenta PLANILHA que eu te mando no direct."
+  },
+  {
+   "inicio": 23.62,
+   "texto": "E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o passo a passo do catálogo com foto na planilha 👇\n\n1. Abra o Google Planilhas (grátis): https://sheets.new\n2. Coluna A: nome do produto. Coluna B: preço. Coluna D: o link da foto de cada produto (link que termina em .jpg ou .png)\n3. Na coluna C, digite: =IMAGE(D2)\n4. Se aparecer o aviso amarelo, clique em Permitir acesso\n5. Arraste a célula para baixo e aumente a altura das linhas\n\nNo Excel em português a fórmula é =IMAGEM(D2)\n\nBônus: crie as fotos do produto no Gemini (Criar imagem) com este prompt:\nFoto profissional de catálogo do meu produto [DESCREVA], fundo de estúdio bege claro, luz suave, sombra leve, estilo e-commerce.\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Seu catálogo de produtos pode ter foto dentro da própria planilha 📸\n\nUma fórmula no Google Planilhas e cada linha mostra a foto do produto ao lado do preço.\nServe para lista de preços, controle de estoque, pedido de revenda e orçamento para cliente.\n\n💬 Comenta PLANILHA que eu te mando o passo a passo no direct\n\n#issoedica #googleplanilhas #excel #empreendedorismo #pequenosnegocios",
+ "titulo_youtube": "Foto do produto dentro da célula: fórmula IMAGE no Planilhas #shorts",
+ "descricao_youtube": "Como colocar a foto de cada produto dentro da célula do Google Planilhas com a função IMAGE e montar um catálogo com foto e preço (no Excel em português a função é IMAGEM).\n\nPasso a passo:\n1. Cole o link da foto de cada produto numa coluna\n2. Na coluna do lado digite =IMAGE(D2) e, se aparecer o aviso, clique em Permitir acesso\n3. Arraste a fórmula para baixo e aumente a altura das linhas\n\nFórmula:\n=IMAGE(D2)\n\nBônus: as fotos de produto foram criadas no Gemini com o prompt:\nFoto profissional de catálogo do meu produto [DESCREVA], fundo de estúdio bege claro, luz suave, sombra leve, estilo e-commerce.\n\n🔗 Google Planilhas: https://sheets.new",
+ "legenda_facebook": "Como colocar foto dentro da célula no Google Planilhas e no Excel 👇\n\n1. Cole o link da foto na coluna D\n2. Na coluna C digite =IMAGE(D2) (no Excel: =IMAGEM(D2))\n3. Clique em Permitir acesso e arraste a fórmula para baixo\n\nPronto: catálogo de produtos com foto e preço.\n\nSiga a página para mais dicas de IA. Compartilhe com quem tem loja ou revende produtos. Comente \"IA\" se quiser mais dicas assim.\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "Foto do produto dentro da célula com 1 fórmula. Passo a passo no Instagram @issoedica #planilha #excel #empreendedor",
+ "texto_grupo_vip": "*📸 Catálogo com foto dentro da planilha*\n\nServe para lista de preços, estoque e orçamento:\n\n*1.* Abra o Google Planilhas (grátis): https://sheets.new\n*2.* Cole o link da foto de cada produto na coluna D\n*3.* Na coluna C digite a fórmula abaixo, clique em *Permitir acesso* e arraste para baixo\n\n*Fórmula:*\n=IMAGE(D2)\n\nNo Excel em português: =IMAGEM(D2)\n\n*Bônus:* crie as fotos no Gemini (Criar imagem): Foto profissional de catálogo do meu produto [DESCREVA], fundo de estúdio bege claro, luz suave, estilo e-commerce."
+}

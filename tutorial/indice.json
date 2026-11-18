@@ -1,5 +1,14 @@
 [
  {
+  "data": "2026-11-18",
+  "ferramenta": "Google Planilhas",
+  "palavra_chave": "PLANILHA",
+  "link": "https://sheets.new",
+  "botao": "Abrir o Planilhas",
+  "mensagem_dm": "Aqui está o passo a passo do catálogo com foto na planilha 👇\n\n1. Abra o Google Planilhas (grátis): https://sheets.new\n2. Coluna A: nome do produto. Coluna B: preço. Coluna D: o link da foto de cada produto (link que termina em .jpg ou .png)\n3. Na coluna C, digite: =IMAGE(D2)\n4. Se aparecer o aviso amarelo, clique em Permitir acesso\n5. Arraste a célula para baixo e aumente a altura das linhas\n\nNo Excel em português a fórmula é =IMAGEM(D2)\n\nBônus: crie as fotos do produto no Gemini (Criar imagem) com este prompt:\nFoto profissional de catálogo do meu produto [DESCREVA], fundo de estúdio bege claro, luz suave, sombra leve, estilo e-commerce.\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+  "oferta": "Raio-X"
+ },
+ {
   "data": "2026-11-17",
   "ferramenta": "ChatGPT",
   "palavra_chave": "VENDA",
