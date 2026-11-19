@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-19",
+ "video": "2026-11-19.mp4",
+ "capa": "2026-11-19.capa.jpg",
+ "miniatura_youtube": "2026-11-19.yt.jpg",
+ "tema": "lima",
+ "musica_estilo": "deep house melódico com baixo groovy, 122 bpm",
+ "ferramenta": "Claude + Google Maps",
+ "recurso": "achar negócio sem site no Google Maps e gerar o site de uma página no Claude (publicação na Hostinger)",
+ "palavra_chave": "SITE",
+ "link": "https://www.hostinger.com/br?REFERRALCODE=8CZISSOEDPQM",
+ "botao": "Publicar o site",
+ "oferta": "Afiliado Hostinger",
+ "gancho": "Todo mundo procura cliente no Instagram. Eu procuro no Maps.",
+ "gancho_formato": 12,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "elevenlabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4"
+ },
+ "cenas_ia": {
+  "imagem": "Gemini Criar imagem (Neon, 9:16): fundo da miniatura do YouTube (celular com site de barbearia e pino de mapa)",
+  "video": "Gemini Veo (Criar vídeo 9:16): dono fictício de barbearia vendo o site novo no celular (cold open e cena final)",
+  "musica": "Gemini Criar música: deep house melódico instrumental (Capital Velocity)"
+ },
+ "pauta_origem": {
+  "autor": "@idanbuild",
+  "link": "https://www.instagram.com/reel/DfYsezvObrD/",
+  "views": 344580
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Todo mundo procura cliente no Instagram. Eu procuro no Maps."
+  },
+  {
+   "inicio": 3.98,
+   "texto": "Esse site saiu de um prompt no Claude."
+  },
+  {
+   "inicio": 6.49,
+   "texto": "No Maps, busca barbearia, salão ou pizzaria do bairro."
+  },
+  {
+   "inicio": 10.6,
+   "texto": "A ficha não tem botão de site? Achou o cliente."
+  },
+  {
+   "inicio": 13.38,
+   "texto": "Cola nome, serviços e horário no Claude com esse prompt."
+  },
+  {
+   "inicio": 17.03,
+   "texto": "O site sai pronto, com botão de WhatsApp."
+  },
+  {
+   "inicio": 19.6,
+   "texto": "Publica na Hostinger e mostra pro dono."
+  },
+  {
+   "inicio": 21.88,
+   "texto": "Quer o prompt? Comenta SITE que eu te mando no direct."
+  },
+  {
+   "inicio": 24.95,
+   "texto": "E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt do site pronto 👇\n\n1. No Google Maps, busque o tipo de negócio do seu bairro (barbearia, salão, pizzaria)\n2. Abra a ficha: sem o botão \"Site\", é um cliente em potencial\n3. Cole no Claude (claude.ai), trocando os colchetes:\n\nCrie um site de uma página para a [NOME DO NEGÓCIO], no bairro [BAIRRO], em [CIDADE]. Serviços e preços: [LISTA]. Horário: [DIAS E HORAS]. Botão grande de agendar pelo WhatsApp [NÚMERO]. Visual moderno, pronto para celular. Tudo em um único arquivo HTML.\n\n4. Publique o arquivo na Hostinger (link de parceiro): https://www.hostinger.com/br?REFERRALCODE=8CZISSOEDPQM\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Tem negócio no seu bairro sem site nenhum, e o Google Maps te mostra quem é 📍\n\nAbriu a ficha e não tem o botão Site? O Claude monta um site de uma página com preços, horário e botão de WhatsApp.\nVocê publica e leva pronto para o dono ver no celular.\n\n💬 Comenta SITE que eu te mando o prompt no direct\n\n#issoedica #claude #inteligenciaartificial #criacaodesites #renda",
+ "titulo_youtube": "Ache negócio sem site no Maps e crie o site com o Claude #shorts",
+ "descricao_youtube": "Como encontrar negócios do seu bairro que não têm site no Google Maps e criar um site de uma página para eles com o Claude, com preços, horário e botão de agendar no WhatsApp.\n\nPasso a passo:\n1. No Google Maps, busque barbearia, salão ou pizzaria do seu bairro\n2. Abra a ficha: se não tiver o botão Site, é um cliente em potencial\n3. Cole nome, serviços e horário no Claude com o prompt abaixo e publique o site\n\nPrompt:\nCrie um site de uma página para a [NOME DO NEGÓCIO], no bairro [BAIRRO], em [CIDADE]. Serviços e preços: [LISTA]. Horário: [DIAS E HORAS]. Botão grande de agendar pelo WhatsApp [NÚMERO]. Visual moderno, pronto para celular. Tudo em um único arquivo HTML.\n\n🔗 Hostinger: https://www.hostinger.com/br?REFERRALCODE=8CZISSOEDPQM (link de afiliado)",
+ "legenda_facebook": "Como criar site para negócio local com IA 👇\n\n1. No Google Maps, ache negócios do bairro sem o botão Site\n2. No Claude, cole o prompt:\nCrie um site de uma página para a [NOME DO NEGÓCIO], no bairro [BAIRRO], em [CIDADE]. Serviços e preços: [LISTA]. Horário: [DIAS E HORAS]. Botão grande de agendar pelo WhatsApp [NÚMERO]. Visual moderno, pronto para celular. Tudo em um único arquivo HTML.\n3. Publique e mostre pronto para o dono\n\nSiga a página para mais dicas de IA. Compartilhe com quem quer vender serviço de site. Comente \"IA\" se quiser mais dicas assim.\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "Negócio sem site no Maps + site pronto no Claude. Prompt no Instagram @issoedica #claude #site #empreendedor",
+ "texto_grupo_vip": "*📍 Ache cliente sem site no Google Maps*\n\nE monte o site dele com IA em minutos:\n\n*1.* No Google Maps, busque barbearia, salão ou pizzaria do seu bairro\n*2.* Abra a ficha: sem o botão *Site*, é cliente em potencial\n*3.* Cole no Claude (claude.ai) o prompt abaixo e publique o arquivo\n\n*Prompt:*\nCrie um site de uma página para a [NOME DO NEGÓCIO], no bairro [BAIRRO], em [CIDADE]. Serviços e preços: [LISTA]. Horário: [DIAS E HORAS]. Botão grande de agendar pelo WhatsApp [NÚMERO]. Visual moderno, pronto para celular. Tudo em um único arquivo HTML.\n\n*Publicar:* Hostinger (link de parceiro) https://www.hostinger.com/br?REFERRALCODE=8CZISSOEDPQM"
+}

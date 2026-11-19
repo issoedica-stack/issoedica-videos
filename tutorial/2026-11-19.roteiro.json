@@ -1,0 +1,19 @@
+{
+ "titulo": "Google Maps + Claude: achar negócio sem site e montar o site",
+ "tema": "lima",
+ "hook": [["Cliente", "novo", "escondido"], ["no", "Google", "Maps"]],
+ "hook_hl": ["Maps"],
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "cta": {"pre": "Comenta", "kw": "SITE", "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type": "media", "d": 3.98, "video": "veo.mp4", "vstart": 1.6, "z0": 1.0, "z1": 1.07, "focus": [0.5, 0.55], "stamp": "SITE PRONTO", "flash": true},
+  {"d": 2.51, "imgs": ["s_site.jpg"], "b0": [781, 45, 1280, 609], "b1": [800, 60, 1260, 520], "cap": "Saiu de 1 prompt", "sub": "no Claude"},
+  {"d": 4.11, "imgs": ["s_maps.jpg"], "blur": [[90, 160, 460, 250], [96, 262, 450, 345], [90, 385, 462, 485], [96, 497, 450, 570]], "b0": [75, 15, 480, 600], "b1": [75, 15, 480, 380], "cap": "1. Busca no Maps", "sub": "barbearia, salão, pizzaria", "hl": [90, 18, 465, 62]},
+  {"d": 2.78, "imgs": ["s_ficha.jpg"], "blur": [[560, 12, 860, 52], [555, 232, 890, 282], [555, 330, 720, 360], [555, 370, 820, 400]], "b0": [496, 8, 905, 600], "b1": [500, 60, 900, 480], "cap": "Sem botão de site?", "sub": "achou o cliente", "hl": [515, 100, 885, 205]},
+  {"type": "prompt", "d": 3.65, "app": "claude.ai", "text": "Crie um site de uma página para a [barbearia], no bairro [X]. Serviços: corte R$ 35, barba R$ 25. Horário: seg a sáb, 9h às 19h30. Botão de agendar pelo WhatsApp. Visual moderno, pronto para celular.", "tap": true, "cap": "2. Cola no Claude", "sub": "nome, serviços e horário"},
+  {"d": 2.57, "imgs": ["s_preco.jpg"], "b0": [790, 45, 1270, 609], "b1": [800, 300, 1260, 609], "cap": "3. Site pronto", "sub": "com botão de WhatsApp", "hl": [812, 540, 1240, 603], "flash": true, "ding": 0.3},
+  {"type": "media", "d": 2.28, "video": "veo.mp4", "vstart": 5.6, "z0": 1.05, "z1": 1.0, "focus": [0.5, 0.5], "cap": "Publica na Hostinger", "sub": "e mostra pro dono"},
+  {"type": "cta", "d": 6.7, "flash": true}
+ ]
+}
