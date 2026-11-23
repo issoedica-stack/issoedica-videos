@@ -1,0 +1,230 @@
+{
+ "titulo": "ChatGPT no modo crítico: as falhas do plano antes de gastar",
+ "tema": "magenta",
+ "hook": [
+  [
+   "ChatGPT",
+   "no"
+  ],
+  [
+   "modo",
+   "crítico"
+  ]
+ ],
+ "hook_hl": [
+  "crítico"
+ ],
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "cta": {
+  "pre": "Comenta",
+  "kw": "CRITICO",
+  "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 3.95,
+   "video": "veo.mp4",
+   "vstart": 5.4,
+   "z0": 1.0,
+   "z1": 1.07,
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "stamp": "PLANO AUDITADO",
+   "flash": true
+  },
+  {
+   "d": 3.96,
+   "imgs": [
+    "s_resp1.jpg"
+   ],
+   "b0": [
+    270,
+    140,
+    1060,
+    480
+   ],
+   "b1": [
+    276,
+    270,
+    720,
+    470
+   ],
+   "cap": "O resultado:",
+   "sub": "3 falhas e quanto custam",
+   "hl": [
+    276,
+    290,
+    560,
+    322
+   ]
+  },
+  {
+   "d": 3.62,
+   "imgs": [
+    "s_home.jpg"
+   ],
+   "b0": [
+    270,
+    180,
+    1060,
+    400
+   ],
+   "b1": [
+    284,
+    250,
+    760,
+    360
+   ],
+   "cap": "1. Abre o ChatGPT",
+   "sub": "versão grátis",
+   "hl": [
+    284,
+    280,
+    1050,
+    330
+   ],
+   "tap": [
+    600,
+    305
+   ],
+   "blur": [
+    [
+     290,
+     365,
+     1010,
+     400
+    ]
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 2.8,
+   "app": "chatgpt.com",
+   "text": "MODO CRÍTICO: não me elogie. Aponte as 3 maiores falhas deste plano, quanto cada uma custa e como corrigir.",
+   "cap": "2. O código antes",
+   "sub": "da pergunta"
+  },
+  {
+   "d": 3.64,
+   "imgs": [
+    "s_prompt.jpg"
+   ],
+   "b0": [
+    270,
+    180,
+    1060,
+    360
+   ],
+   "b1": [
+    292,
+    195,
+    800,
+    305
+   ],
+   "cap": "3. Cola o plano",
+   "sub": "e pede as falhas",
+   "hl": [
+    292,
+    205,
+    1040,
+    290
+   ],
+   "tap": [
+    1023,
+    321
+   ],
+   "blur": [
+    [
+     290,
+     372,
+     1010,
+     405
+    ]
+   ]
+  },
+  {
+   "d": 1.93,
+   "imgs": [
+    "s_resp2.jpg"
+   ],
+   "b0": [
+    270,
+    40,
+    1060,
+    420
+   ],
+   "b1": [
+    276,
+    160,
+    720,
+    350
+   ],
+   "cap": "Custo real",
+   "sub": "de cada pote",
+   "hl": [
+    276,
+    188,
+    1056,
+    214
+   ],
+   "flash": true,
+   "ding": 0.3
+  },
+  {
+   "d": 2.06,
+   "imgs": [
+    "s_resp3.jpg"
+   ],
+   "b0": [
+    270,
+    190,
+    1060,
+    430
+   ],
+   "b1": [
+    276,
+    280,
+    790,
+    425
+   ],
+   "cap": "Risco de sobra",
+   "sub": "R$ 600 expostos",
+   "hl": [
+    278,
+    330,
+    768,
+    358
+   ]
+  },
+  {
+   "type": "media",
+   "d": 1.89,
+   "img": "cena.jpg",
+   "blur": [
+    [
+     290,
+     1600,
+     770,
+     2020
+    ]
+   ],
+   "z0": 1.12,
+   "z1": 1.0,
+   "focus": [
+    0.62,
+    0.55
+   ],
+   "cap": "Consultoria",
+   "sub": "antes de gastar"
+  },
+  {
+   "type": "cta",
+   "d": 7.65,
+   "flash": true
+  }
+ ]
+}

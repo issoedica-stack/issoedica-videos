@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-23",
+ "video": "2026-11-23.mp4",
+ "capa": "2026-11-23.capa.jpg",
+ "miniatura_youtube": "2026-11-23.yt.jpg",
+ "tema": "magenta",
+ "musica_estilo": "phonk leve e melódico, 125 bpm",
+ "ferramenta": "ChatGPT",
+ "recurso": "código de instrução antes da pergunta (modo crítico)",
+ "palavra_chave": "CRITICO",
+ "link": "https://chatgpt.com",
+ "botao": "Abrir o ChatGPT",
+ "oferta": "Raio-X",
+ "gancho": "Você está usando o ChatGPT como torcida. Erro.",
+ "gancho_formato": 8,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "elevenlabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4"
+ },
+ "cenas_ia": {
+  "imagem": "Gemini Criar imagem (Neon, 9:16): confeitaria com notebook e painel holográfico de 3 alertas (cena final, rótulo de marca real borrado) + fundo da miniatura (pote com HUD de alertas)",
+  "video": "Gemini Veo (Criar vídeo 9:16): balcão de confeitaria, holograma sai do notebook e acende 3 alertas (cold open); 1ª tentativa falhou por pico de demanda",
+  "musica": "Gemini Criar música: phonk leve e melódico instrumental (Calculated Moves); 1ª geração não renderizou, 2ª ok"
+ },
+ "pauta_origem": {
+  "autor": "@rayosoress",
+  "link": "https://www.instagram.com/reel/DfzhmUzDCUX/",
+  "views": 3423882
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Você está usando o ChatGPT como torcida. Erro."
+  },
+  {
+   "inicio": 3.95,
+   "texto": "Duas palavras antes da pergunta e ele aponta as falhas do seu plano."
+  },
+  {
+   "inicio": 7.91,
+   "texto": "Abre o ChatGPT, versão grátis."
+  },
+  {
+   "inicio": 11.53,
+   "texto": "Escreve primeiro: modo crítico, não me elogie."
+  },
+  {
+   "inicio": 13.84,
+   "texto": "Depois cola o plano e pede as três maiores falhas e quanto custam."
+  },
+  {
+   "inicio": 17.97,
+   "texto": "Olha: custo real, margem e o risco de sobrar pote."
+  },
+  {
+   "inicio": 21.96,
+   "texto": "Consultoria antes de gastar um real."
+  },
+  {
+   "inicio": 23.85,
+   "texto": "Quer o prompt? Comenta CRITICO que eu te mando no direct."
+  },
+  {
+   "inicio": 27.9,
+   "texto": "E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt do modo crítico 👇\n\n1. Abra o ChatGPT (versão grátis): https://chatgpt.com\n2. Cole isto ANTES da sua pergunta:\n\nMODO CRÍTICO: não me elogie. Antes de qualquer sugestão, aponte as 3 maiores falhas deste plano, quanto cada uma pode me custar em reais e como corrigir.\nPlano: [produto, preço, onde vai vender e meta do mês]\n\n3. Bônus, mais 2 códigos:\nMODO LETRA MIÚDA: liste as cláusulas deste contrato que podem me prejudicar.\nMODO CLIENTE CHATO: faça as 5 objeções mais duras que um cliente faria a esta proposta.\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "O ChatGPT concorda com tudo que você manda? Dá pra desligar isso 🎯\n\nCom o modo crítico ele aponta onde o plano perde dinheiro: custo real, margem e risco de sobra.\nServe para plano de venda, proposta para cliente, preço novo ou contrato antes de assinar.\n\n💬 Comenta CRITICO que eu te mando o prompt completo no direct\n\n#issoedica #chatgpt #inteligenciaartificial #empreendedorismo #negocios",
+ "titulo_youtube": "ChatGPT no modo crítico: ache as falhas do seu plano #shorts",
+ "descricao_youtube": "Como fazer o ChatGPT parar de concordar com tudo e apontar as falhas do seu plano de negócio, com quanto cada uma custa e como corrigir.\n\nPasso a passo:\n1. Abra o ChatGPT (funciona na versão grátis)\n2. Escreva o código antes da pergunta: MODO CRÍTICO, não me elogie\n3. Cole o seu plano e peça as 3 maiores falhas, o custo de cada uma e a correção\n\nPrompt:\nMODO CRÍTICO: não me elogie. Antes de qualquer sugestão, aponte as 3 maiores falhas deste plano, quanto cada uma pode me custar em reais e como corrigir.\nPlano: [produto, preço, onde vai vender e meta do mês]\n\n🔗 ChatGPT: https://chatgpt.com",
+ "legenda_facebook": "Como usar o ChatGPT para analisar plano de negócio 👇\n\nMODO CRÍTICO: não me elogie. Antes de qualquer sugestão, aponte as 3 maiores falhas deste plano, quanto cada uma pode me custar em reais e como corrigir.\nPlano: [produto, preço, onde vai vender e meta do mês]\n\nCole antes da pergunta e o ChatGPT aponta custo real, margem e riscos em vez de só elogiar.\n\nSiga a página para mais dicas de IA. Compartilhe com quem está abrindo um negócio. Comente \"IA\" se quiser mais dicas assim.\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "ChatGPT no modo crítico: ele acha as falhas do seu plano antes de você gastar. Prompt completo no Instagram @issoedica #chatgpt #ia #empreendedorismo",
+ "texto_grupo_vip": "*🎯 ChatGPT no modo crítico*\n\nFaça a IA achar as falhas do seu plano antes de você gastar:\n\n*1.* Abra o ChatGPT (versão grátis): https://chatgpt.com\n*2.* Cole o código abaixo *antes* da sua pergunta\n*3.* Descreva o plano: produto, preço, onde vai vender e meta\n\n*Prompt:*\nMODO CRÍTICO: não me elogie. Antes de qualquer sugestão, aponte as 3 maiores falhas deste plano, quanto cada uma pode me custar em reais e como corrigir.\nPlano: [produto, preço, onde vai vender e meta do mês]\n\n*Bônus:* troque por *MODO LETRA MIÚDA* para revisar contrato ou *MODO CLIENTE CHATO* para testar uma proposta."
+}
