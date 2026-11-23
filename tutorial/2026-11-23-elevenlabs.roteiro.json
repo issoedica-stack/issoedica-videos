@@ -1,0 +1,12 @@
+{"titulo": "ElevenLabs Música: jingle da sua loja a partir de uma frase", "tema": "editorial", "musica": "/tmp/repo/motor/trilhas/nu-disco-2026-11-17.mp3", "musica_db": -26,
+"hook": [["Seu", "cliente", "vai", "cantar"], ["o", "nome", "da", "sua", "loja"]], "hook_hl": ["loja"],
+"cta": {"pre": "Comenta", "kw": "VOZ", "pos": "que eu te mando o link\ne o meu prompt de jingle\nSegue o @issoedica"},
+"scenes": [
+{"type": "kinetic", "d": 3.0, "lines": [["Seu cliente vai sair", 0.1, [245, 246, 250], 84], ["cantando o nome", 0.85, [245, 246, 250], 88], ["da sua loja", 1.6, [255, 212, 0], 92]]},
+{"d": 2.6, "imgs": ["s4_letra.jpg"], "blur": [[256, 0, 1280, 40]], "b0": [256, 40, 910, 665], "b1": [280, 180, 880, 640], "stamp": "O RESULTADO:", "flash": true},
+{"d": 3.0, "imgs": ["s1_prompt.jpg"], "blur": [[256, 0, 1280, 40], [1228, 44, 1276, 86]], "b0": [256, 90, 1120, 520], "b1": [410, 350, 1110, 460], "cap": "1. Abre Música", "sub": "e descreve o jingle", "hl": [425, 365, 1095, 452]},
+{"d": 2.6, "imgs": ["s1_prompt.jpg"], "blur": [[256, 0, 1280, 40], [1228, 44, 1276, 86]], "b0": [410, 340, 1110, 510], "b1": [540, 455, 1110, 510], "cap": "2. 30 segundos", "sub": "e clica em gerar", "hl": [548, 467, 612, 497], "tap": [1081, 482]},
+{"d": 2.6, "imgs": ["s2_pronto.jpg"], "blur": [[256, 0, 1280, 40], [1228, 44, 1276, 86], [688, 478, 1246, 566]], "b0": [276, 200, 1250, 600], "b1": [680, 330, 1250, 440], "cap": "3. Jingle pronto", "sub": "voz cantando em português", "hl": [688, 347, 1244, 431], "ding": 0.9},
+{"d": 2.6, "imgs": ["s3_editor.jpg"], "blur": [[256, 0, 1280, 40]], "b0": [256, 300, 1280, 665], "b1": [256, 470, 1280, 640], "cap": "Edita verso e refrão", "hl": [265, 560, 1220, 634]},
+{"type": "compare", "d": 2.4, "a_label": "Jingle em estúdio:", "a": "dias e cachê", "b_label": "No ElevenLabs:", "b": "menos de 1 minuto"},
+{"type": "cta", "d": 3.6, "flash": true}]}

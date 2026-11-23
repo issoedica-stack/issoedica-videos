@@ -34,5 +34,11 @@
   "ferramenta": "Submagic",
   "recurso": "gerador grátis de roteiro de vídeo",
   "palavra_chave": "SUBMAGIC"
+ },
+ {
+  "data": "2026-11-23",
+  "ferramenta": "ElevenLabs",
+  "recurso": "Música: jingle cantado em português a partir de uma descrição",
+  "palavra_chave": "VOZ"
  }
 ]
