@@ -1,0 +1,81 @@
+{
+ "data": "2026-11-24",
+ "video": "2026-11-24.mp4",
+ "capa": "2026-11-24.capa.jpg",
+ "miniatura_youtube": "2026-11-24.yt.jpg",
+ "miniatura_texto": {
+  "contexto": "Dashboard sem fórmula",
+  "promessa": "1 frase",
+  "cor": "ciano"
+ },
+ "tema": "neon",
+ "musica_estilo": "synthwave pop leve com baixo pulsante, 118 bpm",
+ "ferramenta": "Gemini no Google Planilhas",
+ "palavra_chave": "PAINEL",
+ "link": "https://sheets.new",
+ "botao": "Abrir o Planilhas",
+ "oferta": "Raio-X",
+ "gancho": "Chega de virar a noite montando gráfico de vendas.",
+ "gancho_formato": 3,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "elevenlabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4"
+ },
+ "cenas_ia": {
+  "imagem": "Gemini (miniatura do YouTube)",
+  "video": "Gemini Veo: notebook com painel de vendas no balcão da loja",
+  "musica": "Gemini Criar música: Glass Horizon"
+ },
+ "pauta_origem": {
+  "autor": "@sebaslopezinnova",
+  "link": "https://www.instagram.com/reel/DfrzB31mYnx/",
+  "views": null
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Chega de virar a noite montando gráfico de vendas."
+  },
+  {
+   "inicio": 2.89,
+   "texto": "Esse painel saiu de uma frase só."
+  },
+  {
+   "inicio": 5.29,
+   "texto": "Abre sua planilha de vendas no Google Planilhas."
+  },
+  {
+   "inicio": 8.07,
+   "texto": "Clica na estrela do Gemini, lá em cima."
+  },
+  {
+   "inicio": 10.5,
+   "texto": "Pede o dashboard: faturamento por mês, por canal e o campeão de vendas."
+  },
+  {
+   "inicio": 15.27,
+   "texto": "Aprova o plano e ele monta tudo numa aba nova."
+  },
+  {
+   "inicio": 18.25,
+   "texto": "Gráficos e totais prontos, sem escrever fórmula."
+  },
+  {
+   "inicio": 21.62,
+   "texto": "Quer o prompt? Comenta PAINEL que eu te mando no direct."
+  },
+  {
+   "inicio": 24.87,
+   "texto": "E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "Aqui está o prompt do dashboard 👇\n\n1. Abra sua planilha de vendas no Google Planilhas (colunas: mês, produto, canal, quantidade, faturamento)\n2. Clique na estrela do Gemini no canto de cima\n3. Cole e envie:\n\nCrie um dashboard numa nova aba com: faturamento total por mês em gráfico de colunas, faturamento por canal em gráfico de pizza e o produto que mais vendeu em destaque.\n\n4. Clique em Aprovar e espere ele montar a aba Dashboard\n\nO Gemini nas Planilhas aparece em contas com Google AI Pro ou Workspace com Gemini.\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Sua planilha de vendas já tem um dashboard escondido dentro dela.\nFaturamento por mês, por canal e o produto campeão, tudo em gráfico.\nSem fórmula, sem tabela dinâmica, só uma frase para o Gemini.\n💬 Comenta PAINEL que eu te mando o prompt no direct\n\n#issoedica #gemini #googleplanilhas #dashboard #ianegocios",
+ "titulo_youtube": "Gemini cria dashboard de vendas na sua planilha #shorts",
+ "descricao_youtube": "Como transformar uma planilha de vendas em dashboard com o Gemini no Google Planilhas, sem escrever fórmula.\n\nPasso a passo:\n1. Abra sua planilha de vendas no Google Planilhas\n2. Clique na estrela do Gemini no canto de cima\n3. Peça o dashboard com o prompt abaixo e clique em Aprovar\n\nPrompt:\nCrie um dashboard numa nova aba com: faturamento total por mês em gráfico de colunas, faturamento por canal em gráfico de pizza e o produto que mais vendeu em destaque.\n\nObs.: o Gemini nas Planilhas aparece em contas Google AI Pro ou Workspace com Gemini.\n\n🔗 Google Planilhas: https://sheets.new",
+ "legenda_facebook": "Dashboard de vendas no Google Planilhas com IA 👇\n\nAbra sua planilha, clique na estrela do Gemini e cole:\n\"Crie um dashboard numa nova aba com: faturamento total por mês em gráfico de colunas, faturamento por canal em gráfico de pizza e o produto que mais vendeu em destaque.\"\n\nClique em Aprovar e ele monta a aba Dashboard com gráficos e totais.\n\nSiga o Isso É Dica para mais dicas de IA\nCompartilhe com quem ainda faz gráfico na mão\nComente \"IA\" que eu te ajudo\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "Planilha de vendas vira dashboard com uma frase no Gemini. Prompt completo no Instagram @issoedica #gemini #planilha #ia",
+ "texto_grupo_vip": "*Dashboard de vendas com uma frase* 📊\n\nO Gemini agora monta painel direto no Google Planilhas.\n\n*1.* Abra sua planilha de vendas no Google Planilhas\n*2.* Clique na estrela do Gemini no canto de cima\n*3.* Cole o prompt e clique em *Aprovar*\n\n*Prompt:*\nCrie um dashboard numa nova aba com: faturamento total por mês em gráfico de colunas, faturamento por canal em gráfico de pizza e o produto que mais vendeu em destaque.\n\nEm segundos aparece a aba Dashboard com faturamento por mês, por canal e o produto campeão. Funciona em contas Google AI Pro ou Workspace com Gemini.\n\n🔗 https://sheets.new"
+}

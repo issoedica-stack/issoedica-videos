@@ -1,0 +1,19 @@
+{
+ "titulo": "Gemini no Google Planilhas: planilha de vendas vira dashboard com uma frase",
+ "tema": "neon",
+ "hook": [["Planilha","de","vendas"],["vira","painel"]],
+ "hook_hl": ["painel"],
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "cta": {"pre":"Comenta","kw":"PAINEL","pos":"que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"},
+ "scenes": [
+  {"type":"media","d":2.89,"video":"veo.mp4","vstart":6.6,"z0":1.0,"z1":1.07,"focus":[0.5,0.5],"stamp":"PAINEL PRONTO","flash":true},
+  {"d":2.40,"imgs":["s_dash.jpg"],"b0":[40,160,870,560],"b1":[465,222,860,330],"cap":"O resultado:","sub":"dashboard completo","hl":[470,226,854,325],"blur":[[1222,6,1268,54]]},
+  {"d":2.78,"imgs":["s_dados.jpg"],"b0":[0,140,640,380],"b1":[30,155,430,370],"cap":"1. Abre a planilha","sub":"de vendas","hl":[34,160,416,366],"blur":[[1222,6,1268,54]]},
+  {"d":2.43,"imgs":["s_dados.jpg"],"b0":[640,0,1280,260],"b1":[1000,0,1280,150],"cap":"2. Clica no Gemini","sub":"a estrela lá em cima","hl":[1176,10,1216,50],"tap":[1196,30],"blur":[[1222,6,1268,54]]},
+  {"type":"prompt","d":4.77,"app":"Google Planilhas","text":"Crie um dashboard numa nova aba com: faturamento total por mês em gráfico de colunas, faturamento por canal em gráfico de pizza e o produto que mais vendeu em destaque.","tap":true,"cap":"3. Pede o dashboard","sub":"(te mando o prompt)"},
+  {"d":2.98,"imgs":["s_aprovar.jpg"],"b0":[855,100,1265,560],"b1":[880,110,1260,360],"cap":"Aprova o plano","sub":"ele monta sozinho","hl":[1130,302,1232,338],"tap":[1180,320],"blur":[[1222,6,1268,54]]},
+  {"d":3.37,"imgs":["s_dash.jpg"],"b0":[50,350,860,560],"b1":[40,160,860,560],"cap":"Gráficos e totais","sub":"sem escrever fórmula","flash":true,"ding":0.3,"blur":[[1222,6,1268,54]]},
+  {"type":"cta","d":6.78,"flash":true}
+ ]
+}
