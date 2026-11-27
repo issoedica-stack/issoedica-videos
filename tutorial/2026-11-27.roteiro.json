@@ -1,0 +1,172 @@
+{
+ "titulo": "Gemini: mascote 3D animado para a sua padaria",
+ "tema": "oceano",
+ "voz": "voz.wav",
+ "musica": "musica.mp3",
+ "hook": [
+  [
+   "Sua",
+   "loja",
+   "com"
+  ],
+  [
+   "mascote",
+   "animado"
+  ]
+ ],
+ "hook_hl": [
+  "mascote"
+ ],
+ "cta": {
+  "pre": "Comenta",
+  "kw": "MASCOTE",
+  "pos": "que eu te mando o prompt\nno direct\nSegue o @issoedica para\nmais dicas de IA"
+ },
+ "scenes": [
+  {
+   "type": "media",
+   "d": 4.4,
+   "video": "veo.mp4",
+   "vstart": 3.5,
+   "z0": 1.0,
+   "z1": 1.06,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "stamp": "MASCOTE 3D",
+   "flash": true
+  },
+  {
+   "type": "media",
+   "d": 3.53,
+   "img": "mascote.jpg",
+   "z0": 1.0,
+   "z1": 1.12,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "cap": "Nasceu de 1 frase",
+   "sub": "no Gemini"
+  },
+  {
+   "d": 3.65,
+   "imgs": [
+    "s_criar.jpg"
+   ],
+   "b0": [
+    90,
+    240,
+    780,
+    657
+   ],
+   "b1": [
+    100,
+    280,
+    760,
+    657
+   ],
+   "cap": "1. Criar imagens",
+   "sub": "(formato 9:16)",
+   "hl": [
+    112,
+    608,
+    412,
+    646
+   ],
+   "tap": [
+    260,
+    626
+   ]
+  },
+  {
+   "type": "prompt",
+   "d": 3.23,
+   "app": "gemini.google.com",
+   "text": "Crie o mascote da minha padaria: um pãozinho simpático em 3D, estilo filme de animação, avental e chapéu de padeiro, acenando no balcão. Sem texto.",
+   "tap": true,
+   "cap": "2. Descreve o mascote",
+   "sub": "(te mando o prompt)"
+  },
+  {
+   "d": 2.79,
+   "imgs": [
+    "s_result.jpg"
+   ],
+   "b0": [
+    90,
+    90,
+    780,
+    530
+   ],
+   "b1": [
+    220,
+    170,
+    660,
+    530
+   ],
+   "cap": "Mascote pronto",
+   "sub": "em segundos",
+   "flash": true,
+   "ding": 0.4,
+   "blur": [
+    [
+     470,
+     20,
+     850,
+     90
+    ]
+   ]
+  },
+  {
+   "d": 2.01,
+   "imgs": [
+    "s_video.jpg"
+   ],
+   "b0": [
+    90,
+    420,
+    780,
+    620
+   ],
+   "b1": [
+    100,
+    430,
+    770,
+    615
+   ],
+   "cap": "3. Pede o vídeo",
+   "sub": "ele ganha vida",
+   "hl": [
+    118,
+    445,
+    700,
+    545
+   ],
+   "tap": [
+    728,
+    575
+   ]
+  },
+  {
+   "type": "media",
+   "d": 3.26,
+   "video": "veo.mp4",
+   "vstart": 6.2,
+   "z0": 1.04,
+   "z1": 1.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "cap": "Acena e faz joinha",
+   "sub": "anúncio pro Stories"
+  },
+  {
+   "type": "cta",
+   "d": 6.83,
+   "flash": true
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "data": "2026-11-27",
+ "video": "2026-11-27.mp4",
+ "capa": "2026-11-27.capa.jpg",
+ "miniatura_youtube": "2026-11-27.yt.jpg",
+ "miniatura_texto": {
+  "contexto": "Mascote 3D",
+  "promessa": "em 1 frase",
+  "cor": "amarelo"
+ },
+ "tema": "oceano",
+ "musica_estilo": "reggaeton pop leve e ensolarado, 96 bpm",
+ "ferramenta": "Gemini",
+ "recurso": "Nano Banana (Criar imagens) + vídeo Veo a partir da imagem: mascote 3D animado",
+ "palavra_chave": "MASCOTE",
+ "link": "https://gemini.google.com",
+ "botao": "Abrir o Gemini",
+ "oferta": "Raio-X",
+ "gancho": "Me dá trinta segundos que a sua padaria ganha um mascote que se mexe.",
+ "gancho_formato": 5,
+ "narracao_embutida": true,
+ "voz": {
+  "provedor": "elevenlabs",
+  "voice_id": "uWkCxjyU0RSbwgIGZ1dy",
+  "modelo": "eleven_v4"
+ },
+ "cenas_ia": {
+  "imagem": "Gemini Nano Banana (mascote + 2 fundos de miniatura)",
+  "video": "Gemini Veo (mascote animado 9:16)",
+  "musica": "Gemini Criar música (Glazed Morning Light)"
+ },
+ "pauta_origem": {
+  "autor": "@kelidoesugc",
+  "link": "https://www.instagram.com/reel/Df7-nHOABZ-/",
+  "views": 5673263
+ },
+ "narracao": [
+  {
+   "inicio": 0.0,
+   "texto": "Me dá trinta segundos que a sua padaria ganha um mascote que se mexe."
+  },
+  {
+   "inicio": 4.4,
+   "texto": "Esse pãozinho acenando? Nasceu de uma frase no Gemini."
+  },
+  {
+   "inicio": 7.93,
+   "texto": "Primeiro, abre Criar imagens e escolhe o formato vertical."
+  },
+  {
+   "inicio": 11.58,
+   "texto": "Descreve o mascote: roupa, cenário e luz."
+  },
+  {
+   "inicio": 14.81,
+   "texto": "Pronto, o personagem 3D da sua marca."
+  },
+  {
+   "inicio": 17.6,
+   "texto": "Depois, pede pra ele virar vídeo."
+  },
+  {
+   "inicio": 19.61,
+   "texto": "Ele acena, pisca e vira anúncio pro seu Stories."
+  },
+  {
+   "inicio": 22.87,
+   "texto": "Quer o prompt? Comenta MASCOTE que eu te mando no direct."
+  },
+  {
+   "inicio": 26.04,
+   "texto": "E segue o Isso É Dica para mais dicas de IA como essa."
+  }
+ ],
+ "mensagem_dm": "🍞 Seu mascote 3D animado em 2 passos no Gemini:\n\n1) Menu > Imagens, proporção 9:16, e cola:\n\"Crie o mascote da minha [TIPO DE NEGÓCIO]: um [PRODUTO] simpático em 3D, estilo filme de animação, com olhos grandes, sorriso e [ROUPA/ACESSÓRIO], acenando no [CENÁRIO DA LOJA] com luz quente. Corpo inteiro, cores vivas, fundo desfocado. Sem texto.\"\n\n2) Na mesma conversa, pede o vídeo:\n\"Agora transforma esse mascote num vídeo vertical 9:16: ele acena para a câmera, dá uma piscadinha e faz sinal de joinha, enquanto a câmera se aproxima devagar. Sem texto na tela, sem música.\"\n\nTroca o que está entre colchetes pelo seu negócio (ex.: pastel de chef, cupcake com laço, frasco de perfume de óculos).\n🔗 Gemini: https://gemini.google.com\n\n👇 Todo dia 1 ferramenta de IA nova no grupo VIP gratuito:\nhttps://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_instagram": "Sua padaria, loja ou delivery pode ter um personagem próprio que acena pro cliente 🍞\n\nO mascote nasce de uma frase no Gemini e vira vídeo vertical pronto pro Stories.\nServe pra anúncio, cardápio, embalagem e boas-vindas no WhatsApp.\n\n💬 Comenta MASCOTE que eu te mando os 2 prompts no direct\n\n#issoedica #inteligenciaartificial #gemini #marketingdigital #empreendedorismo",
+ "titulo_youtube": "Mascote 3D animado para sua loja com 1 frase no Gemini #shorts",
+ "descricao_youtube": "Como criar o mascote 3D da sua marca e transformar em vídeo animado usando só o Gemini.\n\nPasso a passo:\n1. Menu > Imagens, proporção 9:16\n2. Descreva o mascote (produto, roupa, cenário e luz)\n3. Na mesma conversa, peça para transformar o mascote em vídeo\n\nPrompt do mascote:\nCrie o mascote da minha [TIPO DE NEGÓCIO]: um [PRODUTO] simpático em 3D, estilo filme de animação, com olhos grandes, sorriso e [ROUPA/ACESSÓRIO], acenando no [CENÁRIO DA LOJA] com luz quente. Corpo inteiro, cores vivas, fundo desfocado. Sem texto.\n\nPrompt do vídeo:\nAgora transforma esse mascote num vídeo vertical 9:16: ele acena para a câmera, dá uma piscadinha e faz sinal de joinha, enquanto a câmera se aproxima devagar. Sem texto na tela, sem música.\n\n🔗 Gemini: https://gemini.google.com",
+ "legenda_facebook": "Mascote 3D animado com IA para pequenos negócios 👇\n\nNo Gemini, crie o personagem da sua marca e transforme em vídeo:\n\n1) Crie o mascote da minha [TIPO DE NEGÓCIO]: um [PRODUTO] simpático em 3D, estilo filme de animação, com olhos grandes, sorriso e [ROUPA/ACESSÓRIO], acenando no [CENÁRIO DA LOJA] com luz quente. Corpo inteiro, cores vivas, fundo desfocado. Sem texto.\n2) Agora transforma esse mascote num vídeo vertical 9:16: ele acena para a câmera, dá uma piscadinha e faz sinal de joinha, enquanto a câmera se aproxima devagar. Sem texto na tela, sem música.\n\nSiga o Isso É Dica para mais dicas de IA. Compartilhe com quem tem loja. Comente \"IA\" que eu te ajudo.\nGrupo VIP gratuito: https://chat.whatsapp.com/FFo2sGke1MsEAz6sqhnvC4",
+ "legenda_tiktok": "Mascote 3D animado da sua loja com 1 frase no Gemini 🍞 Prompt completo no Instagram @issoedica #ia #gemini #empreendedor",
+ "texto_grupo_vip": "*🍞 Mascote 3D animado pra sua loja, feito no Gemini*\n\n*1.* Abra o Gemini > Menu > *Imagens* e escolha a proporção *9:16*\n*2.* Cole o prompt (troque os colchetes pelo seu negócio):\n_Crie o mascote da minha [TIPO DE NEGÓCIO]: um [PRODUTO] simpático em 3D, estilo filme de animação, com olhos grandes, sorriso e [ROUPA/ACESSÓRIO], acenando no [CENÁRIO DA LOJA] com luz quente. Corpo inteiro, cores vivas, fundo desfocado. Sem texto._\n*3.* Na mesma conversa, peça o vídeo:\n_Agora transforma esse mascote num vídeo vertical 9:16: ele acena para a câmera, dá uma piscadinha e faz sinal de joinha, enquanto a câmera se aproxima devagar. Sem texto na tela, sem música._\n\nPronto: personagem próprio pra anúncio, Stories e boas-vindas no WhatsApp.\n🔗 https://gemini.google.com"
+}
