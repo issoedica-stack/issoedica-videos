@@ -1,0 +1,16 @@
+{"titulo": "Higgsfield: vídeo do produto girando em 360 graus a partir de uma foto",
+"tema": "brasa",
+"musica": "/tmp/repo/motor/trilhas/lo-fi-house-2026-11-10.mp3",
+"musica_db": -26,
+"hook": [["Foto", "vira", "vídeo"], ["girando", "em", "360°"]],
+"hook_hl": ["360°"],
+"cta": {"pre": "Comenta", "kw": "VIDEO", "pos": "que eu te mando o link\npra testar no seu produto\nSegue o @issoedica"},
+"scenes": [
+{"type": "kinetic", "d": 3.0, "lines": [["Antes: foto parada", 0.1, [245, 246, 250], 84], ["Depois: vídeo", 0.8, [245, 246, 250], 88], ["girando em 360°", 1.5, [255, 112, 67], 94]]},
+{"d": 2.4, "imgs": ["screenshot-1795787002293-2.jpg", "screenshot-1795787002294-3.jpg"], "b0": [427, 117, 830, 519], "b1": [460, 140, 800, 500], "stamp": "O RESULTADO:", "flash": true},
+{"d": 2.6, "imgs": ["screenshot-1795787033111-8.jpg"], "blur": [[33, 403, 247, 611], [297, 403, 511, 611], [561, 403, 775, 611]], "b0": [0, 290, 870, 657], "b1": [0, 300, 560, 500], "cap": "1. Abre Aplicativos", "sub": "Anúncios e Produtos", "hl": [12, 312, 330, 372]},
+{"d": 2.6, "imgs": ["screenshot-1795787002293-2.jpg"], "b0": [0, 60, 870, 600], "b1": [20, 420, 380, 590], "cap": "2. Sobe a foto", "sub": "do seu produto", "hl": [41, 445, 359, 571], "tap": [200, 505]},
+{"d": 2.6, "imgs": ["screenshot-1795787013466-6.jpg"], "b0": [0, 40, 870, 420], "b1": [20, 270, 380, 400], "cap": "3. Marca Vídeo e gera", "sub": "giro de 360 graus", "hl": [41, 341, 359, 387], "tap": [200, 364]},
+{"d": 2.6, "imgs": ["screenshot-1795787002294-3.jpg", "screenshot-1795787002296-4.jpg", "screenshot-1795787002298-5.jpg"], "b0": [427, 117, 830, 519], "b1": [470, 160, 790, 480], "cap": "Pronto pra vitrine", "sub": "catálogo, Reels e anúncio", "ding": 0.9},
+{"type": "cta", "d": 3.6, "flash": true}
+]}
